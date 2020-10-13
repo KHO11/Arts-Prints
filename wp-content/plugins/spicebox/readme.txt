@@ -3,7 +3,7 @@ Contributors: spicethemes
 Tags: widget, admin, widgets
 Requires at least: 3.3+
 Tested up to: 5.5.1
-Stable tag: 1.3
+Stable tag: 1.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -201,8 +201,12 @@ Fixed jQuery compatibiltiy issue coming with latest release on WP 5.5
 = 1.2.9 =
 Added variations for HoneyPress child themes.
 
-=1.3=
+=1.3.0=
 Fixed minor issues of HoneyPress child themes.
+
+=1.3.1=
+1. Added variations ( testimonial & service ) for Stacy Child theme.
+2. Dummy content updated for spicepress theme.
 
 =======External resources=======
 

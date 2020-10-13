@@ -1,3 +1,4 @@
+
 <?php
 /**
  * The Template for displaying all single products
@@ -18,6 +19,7 @@
 if ( ! defined( 'ABSPATH' ) ) {
 	exit; // Exit if accessed directly
 }
+
 
 get_header( 'shop' ); ?>
 

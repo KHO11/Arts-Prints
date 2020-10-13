@@ -6,17 +6,17 @@ if ( ! function_exists( 'spiceb_spicepress_portfolio' ) ) :
 
 	function spiceb_spicepress_portfolio() {
 		
-		$home_portfolio_section_title = get_theme_mod('home_portfolio_section_title',__('Our Portfolio','spicebox'));
+		$home_portfolio_section_title = get_theme_mod('home_portfolio_section_title',__('Eros Lacinia','spicebox'));
 		$home_portfolio_section_discription = get_theme_mod('home_portfolio_section_discription',__('Sea summo mazim ex, ea errem eleifend definitionem vim. Ut nec hinc dolor possim mei ludus efficiendi ei sea summo mazim ex.','spicebox'));
-		$portfolio_one_title = get_theme_mod('portfolio_one_title',__('Art Office Design','spicebox'));
+		$portfolio_one_title = get_theme_mod('portfolio_one_title',__('Quisque facilisis','spicebox'));
 		$portfolio_one_desc = get_theme_mod('portfolio_one_desc',__('Lorem ipsum dolor sit amet, consectetur adipisicing elit..','spicebox'));
 		$portfolio_one_thumb = get_theme_mod('portfolio_one_thumb',SPICEB_PLUGIN_URL .'inc/spicepress/images/portfolio/item1.jpg');
 		
-		$portfolio_two_title = get_theme_mod('portfolio_two_title',__('Art Office Design','spicebox'));
+		$portfolio_two_title = get_theme_mod('portfolio_two_title',__('Quisque facilisis','spicebox'));
 		$portfolio_two_desc = get_theme_mod('portfolio_two_desc',__('Lorem ipsum dolor sit amet, consectetur adipisicing elit..','spicebox'));
 		$portfolio_two_thumb = get_theme_mod('portfolio_two_thumb',SPICEB_PLUGIN_URL .'inc/spicepress/images/portfolio/item2.jpg');
 		
-		$portfolio_three_title = get_theme_mod('portfolio_three_title',__('Art Office Design','spicebox'));
+		$portfolio_three_title = get_theme_mod('portfolio_three_title',__('Quisque facilisis','spicebox'));
 		$portfolio_three_desc = get_theme_mod('portfolio_three_desc',__('Lorem ipsum dolor sit amet, consectetur adipisicing elit..','spicebox'));
 		$portfolio_three_thumb = get_theme_mod('portfolio_three_thumb',SPICEB_PLUGIN_URL .'inc/spicepress/images/portfolio/item3.jpg');
 		$portfolio_section_enable = get_theme_mod('portfolio_section_enable','on');

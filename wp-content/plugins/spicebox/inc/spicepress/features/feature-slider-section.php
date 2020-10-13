@@ -68,7 +68,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// Slider title
 		$wp_customize->add_setting( 'home_slider_title',array(
-		'default' => __('Welcome to SpicePress Theme','spicebox'),
+		'default' => __('Lorem Ipsum Dolor Sit Amet','spicebox'),
 		'sanitize_callback' => 'spiceb_spicepress_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
@@ -93,7 +93,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		// Slider button text
 		$wp_customize->add_setting( 'home_slider_btn_txt',array(
-		'default' => __('Read more','spicebox'),
+		'default' => __('Urna Nec','spicebox'),
 		'sanitize_callback' => 'spiceb_spicepress_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	

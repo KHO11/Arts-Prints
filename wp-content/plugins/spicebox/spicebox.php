@@ -3,7 +3,7 @@
 Plugin Name: SpiceBox
 Plugin URI:
 Description: Enhances SpiceThemes with extra functionality.
-Version: 1.3
+Version: 1.3.1
 Author: Spicethemes
 Author URI: https://spicethemes.com
 Text Domain: spicebox
@@ -17,6 +17,7 @@ function spiceb_activate() {
 
 		//Alpha Color Control
 		require_once('inc/controls/customizer-alpha-color-picker/class-spicepress-customize-alpha-color-control.php');
+                require_once('inc/controls/customizer-image-radio-button/image_radio_button.php');
 		require_once('inc/spicepress/features/feature-slider-section.php');
 		require_once('inc/spicepress/features/feature-service-section.php');
 		require_once('inc/spicepress/features/feature-portfolio-section.php');

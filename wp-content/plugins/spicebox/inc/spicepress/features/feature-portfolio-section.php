@@ -24,7 +24,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		$wp_customize->add_setting( 'home_portfolio_section_title',array(
 		'capability'     => 'edit_theme_options',
 		'sanitize_callback' => 'spiceb_spicepress_home_page_sanitize_text',
-		'default' => __('Our Portfolio','spicebox'),
+		'default' => __('Eros Lacinia','spicebox'),
 		'transport'         => $selective_refresh,
 		));	
 		$wp_customize->add_control( 'home_portfolio_section_title',array(
@@ -69,7 +69,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		//Portfolio one Title
 		$wp_customize->add_setting(
 		'portfolio_one_title', array(
-			'default'        => __('Art Office Design','spicebox'),
+			'default'        => __('Quisque facilisis','spicebox'),
 			'capability'     => 'edit_theme_options',
 			'sanitize_callback' => 'sanitize_text_field',
 			'transport'         => $selective_refresh,
@@ -118,7 +118,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		//Portfolio two Title
 		$wp_customize->add_setting(
 		'portfolio_two_title', array(
-			'default'        => __('Graphics Design','spicebox'),
+			'default'        => __('Quisque facilisis','spicebox'),
 			'capability'     => 'edit_theme_options',
 			'sanitize_callback' => 'sanitize_text_field',
 			'transport'         => $selective_refresh,
@@ -166,7 +166,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		//Portfolio three Title
 		$wp_customize->add_setting(
 		'portfolio_three_title', array(
-			'default'        => __('WordPress Themes','spicebox'),
+			'default'        => __('Quisque sodales','spicebox'),
 			'capability'     => 'edit_theme_options',
 			'sanitize_callback' => 'sanitize_text_field',
 			'transport'         => $selective_refresh,

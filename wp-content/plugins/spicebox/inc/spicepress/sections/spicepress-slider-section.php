@@ -7,10 +7,10 @@ if ( ! function_exists( 'spiceb_spicepress_slider' ) ) :
 	function spiceb_spicepress_slider() {
 		
 		$home_slider_image = get_theme_mod('home_slider_image',SPICEB_PLUGIN_URL .'inc/spicepress/images/slider/slider.jpg');
-		$home_slider_title = get_theme_mod('home_slider_title',__('Welcome to SpicePress Theme','spicebox'));
+		$home_slider_title = get_theme_mod('home_slider_title',__('Lorem Ipsum Dolor Sit Amet','spicebox'));
 		
 		$home_slider_discription = get_theme_mod('home_slider_discription',__('Sea summo mazim ex, ea errem eleifend definitionem vim. Ut nec hinc dolor possim mei ludus efficiendi ei sea summo mazim ex.','spicebox'));
-		$home_slider_btn_txt = get_theme_mod('home_slider_btn_txt',__('Read More','spicebox'));
+		$home_slider_btn_txt = get_theme_mod('home_slider_btn_txt',__('Urna Nec','spicebox'));
 		$home_slider_btn_link = get_theme_mod('home_slider_btn_link',esc_url('#'));
 		$home_slider_btn_target = get_theme_mod('home_slider_btn_target',false);
 		

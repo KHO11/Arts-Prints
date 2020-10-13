@@ -62,7 +62,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		// testimonial section title
 		$wp_customize->add_setting( 'home_testimonial_section_title',array(
 		'capability'     => 'edit_theme_options',
-		'default' => __('What People Say','spicebox'),
+		'default' => __('Lorem ipsum dolor','spicebox'),
 		'sanitize_callback' => 'spiceb_spicepress_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
@@ -120,7 +120,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		// testimonial section title
 		$wp_customize->add_setting( 'home_testimonial_title',array(
 		'capability'     => 'edit_theme_options',
-		'default' => __('Alice Culan','spicebox'),
+		'default' => __('Ipsum dolor','spicebox'),
 		'sanitize_callback' => 'spiceb_spicepress_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
@@ -133,7 +133,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		
 		$wp_customize->add_setting( 'home_testimonial_designation',array(
 		'capability'     => 'edit_theme_options',
-		'default' => __('UI Developer','spicebox'),
+		'default' => __('Ligula Eget','spicebox'),
 		'sanitize_callback' => 'spiceb_spicepress_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
@@ -142,6 +142,43 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		'section' => 'testimonial_section',
 		'type' => 'text',
 		));
+                
+                 $theme = wp_get_theme(); // gets the current theme
+if ($theme->name == 'Stacy' && version_compare(wp_get_theme()->get('Version'), '1.3.3') > 0):
+    
+    // Service Layout settings
+    if(get_option('stacy_user', 'new')=='old') {
+        $wp_customize->add_setting('testimonial_design', array(
+            'default' => 'default',
+            'sanitize_callback' => 'stacy_image_radio_button_sanitization',
+        ));
+        
+    } else {
+        $wp_customize->add_setting('testimonial_design', array(
+            'default' => 'center-effect',
+            'sanitize_callback' => 'stacy_image_radio_button_sanitization',
+        ));
+        
+    }
+    
+        $wp_customize->add_control(new Spicebox_Image_Radio_Button_Custom_Control($wp_customize, 'testimonial_design',
+            array(
+                'label' => esc_html__('Testimonial Design', 'stacy'),
+                'section' => 'testimonial_section',
+                'choices' => array(
+                    'default' => array(
+                        'image' => SPICEB_PLUGIN_URL . '/inc/spicepress/images/stacy/stacy-testimonial-default.png',
+                        'name' => esc_html__('Standard', 'stacy')
+                    ),
+                    'center-effect' => array(
+                        'image' => SPICEB_PLUGIN_URL . '/inc/spicepress/images/stacy/stacy-testimonial-center.png',
+                        'name' => esc_html__('Center-effect', 'stacy')
+                    )
+                )
+            )
+    ));
+    
+    endif;
 		
 		
 }
@@ -173,7 +210,7 @@ function spiceb_spicepress_register_home_testimonial_section_partials( $wp_custo
 	) );
 	
 	$wp_customize->selective_refresh->add_partial( 'home_testimonial_desc', array(
-		'selector'            => '.author-description p',
+		'selector'            => '.author-description p, .home .testmonial-block p',
 		'settings'            => 'home_testimonial_desc',
 		'render_callback'  => 'spiceb_spicepress_testimonial_desc_render_callback',
 	
@@ -181,14 +218,14 @@ function spiceb_spicepress_register_home_testimonial_section_partials( $wp_custo
 	
 	
 	$wp_customize->selective_refresh->add_partial( 'home_testimonial_title', array(
-		'selector'            => '.testmonial-area h4',
+		'selector'            => '.testmonial-area h4, .home , .home .testmonial-block h4',
 		'settings'            => 'home_testimonial_title',
 		'render_callback'  => 'spiceb_spicepress_testimonial_title_render_callback',
 	
 	) );
 	
 	$wp_customize->selective_refresh->add_partial( 'home_testimonial_designation', array(
-		'selector'            => '.testmonial-area span.designation',
+		'selector'            => '.testmonial-area span.designation, .home .testmonial-block span.designation',
 		'settings'            => 'home_testimonial_designation',
 		'render_callback'  => 'spiceb_spicepress_testimonial_designation_render_callback',
 	
@@ -201,7 +238,7 @@ function spiceb_spicepress_register_home_testimonial_section_partials( $wp_custo
 	) );
 	
 	$wp_customize->selective_refresh->add_partial( 'home_testimonial_thumb', array(
-		'selector'            => '.testmonial-area .author-box',
+		'selector'            => '.testmonial-area .author-box, .home .testmonial-block .avatar',
 		'settings'            => 'home_testimonial_thumb',
 	
 	) );
@@ -231,4 +268,3 @@ function spiceb_spicepress_testimonial_title_render_callback() {
 function spiceb_spicepress_testimonial_designation_render_callback() {
 	return get_theme_mod( 'home_testimonial_designation' );
 }
-?>

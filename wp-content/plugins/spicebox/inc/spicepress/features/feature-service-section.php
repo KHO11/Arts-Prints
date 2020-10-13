@@ -32,7 +32,7 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 		// Service section title
 		$wp_customize->add_setting( 'home_service_section_title',array(
 		'capability'     => 'edit_theme_options',
-		'default' => __('What we Offer?','spicebox'),
+		'default' => __('Nisl At Est?','spicebox'),
 		'sanitize_callback' => 'spiceb_spicepress_home_page_sanitize_text',
 		'transport'         => $selective_refresh,
 		));	
@@ -73,6 +73,42 @@ $selective_refresh = isset( $wp_customize->selective_refresh ) ? 'postMessage' :
 				'customizer_repeater_image_control' => true,
 				) ) );
 		}	
+                
+if (wp_get_theme()->name == 'Stacy' && version_compare(wp_get_theme()->get('Version'), '1.3.3') > 0):
+        //    set value for old & new user after this version
+    // Service Layout settings
+    if(get_option('stacy_user', 'new')=='old') {
+        $wp_customize->add_setting('service_design', array(
+            'default' => 'default',
+            'sanitize_callback' => 'stacy_image_radio_button_sanitization',
+        ));
+        
+    } else {
+        $wp_customize->add_setting('service_design', array(
+            'default' => 'slide-effect',
+            'sanitize_callback' => 'stacy_image_radio_button_sanitization',
+        ));
+        
+    }
+    
+        $wp_customize->add_control(new Spicebox_Image_Radio_Button_Custom_Control($wp_customize, 'service_design',
+            array(
+                'label' => esc_html__('Service Design', 'stacy'),
+                'section' => 'services_section',
+                'choices' => array(
+                    'default' => array(
+                        'image' => SPICEB_PLUGIN_URL . '/inc/spicepress/images/stacy/stacy-service-default.png',
+                        'name' => esc_html__('Standard', 'stacy')
+                    ),
+                    'slide-effect' => array(
+                        'image' => SPICEB_PLUGIN_URL . '/inc/spicepress/images/stacy/stacy-service-slide-type.png',
+                        'name' => esc_html__('Slide-effect', 'stacy')
+                    )
+                )
+            )
+    ));
+    
+    endif;
 	
 }
 
@@ -87,7 +123,7 @@ function spiceb_spicepress_register_home_service_section_partials( $wp_customize
 
 	//Slider section
 	$wp_customize->selective_refresh->add_partial( 'spicepress_service_content', array(
-		'selector'            => '.service-section #service_content_section',
+		'selector'            => '.service-section #service_content_section, .section-module.services2.service_wrapper #service_content_section',
 		'settings'            => 'spicepress_service_content',
 	
 	) );
@@ -95,14 +131,14 @@ function spiceb_spicepress_register_home_service_section_partials( $wp_customize
 	
 	//Slider section
 	$wp_customize->selective_refresh->add_partial( 'home_service_section_title', array(
-		'selector'            => '.service-section .section-header .widget-title',
+		'selector'            => '.service-section .section-header .widget-title, .section-module.services2.service_wrapper .section-header h1',
 		'settings'            => 'home_service_section_title',
 		'render_callback'  => 'spiceb_spicepress_service_section_title_render_callback',
 	
 	) );
 	
 	$wp_customize->selective_refresh->add_partial( 'home_service_section_discription', array(
-		'selector'            => '.service-section .section-header p',
+		'selector'            => '.service-section .section-header p, .section-module.services2.service_wrapper .section-header p',
 		'settings'            => 'home_service_section_discription',
 		'render_callback'  => 'spiceb_spicepress_service_section_discription_render_callback',
 	
@@ -120,4 +156,3 @@ function spiceb_spicepress_service_section_title_render_callback() {
 function spiceb_spicepress_service_section_discription_render_callback() {
 	return get_theme_mod( 'home_service_section_discription' );
 }
-?>

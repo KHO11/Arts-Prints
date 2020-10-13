@@ -7,15 +7,30 @@ if ( ! function_exists( 'spiceb_spicepress_service' ) ) :
 	function spiceb_spicepress_service() {
 
 		$home_service_section_enabled = get_theme_mod('home_service_section_enabled','on');
-		$home_service_section_title = get_theme_mod('home_service_section_title',__('What we Offer?','spicebox'));
+		$home_service_section_title = get_theme_mod('home_service_section_title',__('Nisl At Est?','spicebox'));
 		$home_service_section_discription = get_theme_mod('home_service_section_discription',__('Sea summo mazim ex, ea errem eleifend definitionem vim. Ut nec hinc dolor possim mei ludus efficiendi ei sea summo mazim ex.','spicebox'));
 		$spicepress_service_content  = get_theme_mod( 'spicepress_service_content', spiceb_spicepress_get_service_default() );
 		$section_is_empty = empty( $spicepress_service_content ) && empty( $home_service_section_discription ) && empty( $home_service_section_title );
 		if($home_service_section_enabled !='off')
 		{	
+                    
+                    $section_class= 'service-section';
+                if (wp_get_theme()->name == 'Stacy' && version_compare(wp_get_theme()->get('Version'), '1.3.3') > 0){
+                    if (get_theme_mod('service_design', false)) {
+                        if (get_theme_mod('service_design', 'slide-effect') == 'slide-effect') {
+                            $section_class= 'section-module services2 service_wrapper';
+                        }
+                    } else {
+                        if (get_option('stacy_user', false) == 'new') {
+                            $section_class= 'section-module services2 service_wrapper';
+                        }
+                    }
+            }
+                    
+                    
 		?>
 	    <!-- Section Title -->
-<section class="service-section">
+<section class="<?php echo ($section_class) ? $section_class : 'service-section'; ?>">
 	<div class="container">		
 		<?php if( ($home_service_section_title) || ($home_service_section_discription)!='' ) { ?>
 		<div class="row">
@@ -172,7 +187,7 @@ function spiceb_spicepress_get_service_default() {
 			array(
 				array(
 				'icon_value' => 'fa-laptop',
-				'title'      => esc_html__( 'Easy to Use', 'spicebox' ),
+				'title'      => esc_html__( 'In Felis Ut', 'spicebox' ),
 				'text'       => esc_html__('Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi maecans et turpis vitae velit.volutpat porttitor a sit amet est. In eu rutrum ante. Nullam id lorem fermentum, accumsan enim non auctor neque.', 'spicebox'),
 				'choice'	=> 'customizer_repeater_icon',
 				'link'       => '#',
@@ -180,7 +195,7 @@ function spiceb_spicepress_get_service_default() {
 				),
 				array(
 				'icon_value' => 'fa fa-cogs',
-				'title'      => esc_html__( 'Multi-Purpose', 'spicebox' ),
+				'title'      => esc_html__( 'Risus Vitae', 'spicebox' ),
 				'text'       => esc_html__('Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi maecans et turpis vitae velit.volutpat porttitor a sit amet est. In eu rutrum ante. Nullam id lorem fermentum, accumsan enim non auctor neque.', 'spicebox'),
 				'choice'	=> 'customizer_repeater_icon',
 				'link'       => '#',
@@ -188,7 +203,7 @@ function spiceb_spicepress_get_service_default() {
 				),
 				array(
 				'icon_value' => 'fa fa-mobile',
-				'title'      => esc_html__( 'Responsive Design', 'spicebox' ),
+				'title'      => esc_html__( 'Quis hendrerit purus', 'spicebox' ),
 				'text'       => esc_html__('Phasellus facilisis, nunc in lacinia auctor, eros lacus aliquet velit, quis lobortis risus nunc nec nisi maecans et turpis vitae velit.volutpat porttitor a sit amet est. In eu rutrum ante. Nullam id lorem fermentum, accumsan enim non auctor neque.','spicebox'),
 				'choice'	=> 'customizer_repeater_icon',
 				'link'       => '#',

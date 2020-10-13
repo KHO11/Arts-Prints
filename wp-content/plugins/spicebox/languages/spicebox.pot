@@ -4,7 +4,7 @@ msgstr ""
 "Project-Id-Version: "
 "Spiceboxv1.0.0\n"
 "POT-Creation-Date: "
-"2020-09-04 19:14+0530\n"
+"2020-10-12 11:57+0530\n"
 "PO-Revision-Date: \n"
 "Last-Translator: Your "
 "Name <you@example.com>\n"
@@ -43,7 +43,7 @@ msgstr ""
 "X-Poedit-Basepath: ..\n"
 "Language: en_US\n"
 "X-Generator: Poedit "
-"2.2.4\n"
+"2.4.1\n"
 "X-Poedit-"
 "SearchPath-0: .\n"
 
@@ -256,8 +256,6 @@ msgstr ""
 
 #: inc/cloudpress/features/feature-service-section.php:28
 #: inc/cloudpress/sections/cloudpress-service-section.php:10
-#: inc/spicepress/features/feature-service-section.php:35
-#: inc/spicepress/sections/spicepress-features-section.php:10
 msgid "What we Offer?"
 msgstr ""
 
@@ -387,7 +385,6 @@ msgstr ""
 #: inc/cloudpress/features/feature-slider-section.php:97
 #: inc/cloudpress/sections/cloudpress-slider-section.php:13
 #: inc/innofit/sections/innofit-news-section.php:97
-#: inc/spicepress/sections/spicepress-slider-section.php:13
 msgid "Read More"
 msgstr ""
 
@@ -456,12 +453,10 @@ msgid "Clients Review"
 msgstr ""
 
 #: inc/cloudpress/sections/cloudpress-service-section.php:161
-#: inc/spicepress/sections/spicepress-features-section.php:191
 msgid "Responsive Design"
 msgstr ""
 
 #: inc/cloudpress/sections/cloudpress-service-section.php:169
-#: inc/spicepress/sections/spicepress-features-section.php:183
 msgid "Multi-Purpose"
 msgstr ""
 
@@ -563,6 +558,8 @@ msgid "Slide Format"
 msgstr ""
 
 #: inc/controls/customizer-repeater/class/customizer-repeater-control.php:570
+#: inc/spicepress/features/feature-service-section.php:101
+#: inc/spicepress/features/feature-testimonial-section.php:171
 msgid "Standard"
 msgstr ""
 
@@ -733,7 +730,8 @@ msgstr ""
 #: inc/honeypress/sections/honeypress-testimonail-section.php:34
 #: inc/honeypress/sections/honeypress-testimonail-section.php:76
 #: inc/spicepress/features/feature-testimonial-section.php:109
-#: inc/spicepress/sections/spicepress-testimonail-section.php:29
+#: inc/spicepress/sections/spicepress-testimonail-section.php:46
+#: inc/spicepress/sections/spicepress-testimonail-section.php:123
 msgid ""
 "Sed ut Perspiciatis Unde "
 "Omnis Iste Sed ut "
@@ -814,8 +812,6 @@ msgstr ""
 
 #: inc/innofit/customizer.php:203
 #: inc/innofit/sections/innofit-team-section.php:183
-#: inc/spicepress/features/feature-testimonial-section.php:136
-#: inc/spicepress/sections/spicepress-testimonail-section.php:27
 msgid "UI Developer"
 msgstr ""
 
@@ -1078,7 +1074,6 @@ msgid "Welcome to Innofit"
 msgstr ""
 
 #: inc/innofit/customizer/slider-section.php:93
-#: inc/spicepress/features/feature-slider-section.php:96
 msgid "Read more"
 msgstr ""
 
@@ -1287,7 +1282,7 @@ msgstr ""
 
 #: inc/spicepress/features/feature-portfolio-section.php:27
 #: inc/spicepress/sections/spicepress-portfolio-section.php:9
-msgid "Our Portfolio"
+msgid "Eros Lacinia"
 msgstr ""
 
 #: inc/spicepress/features/feature-portfolio-section.php:40
@@ -1297,7 +1292,8 @@ msgstr ""
 #: inc/spicepress/sections/spicepress-features-section.php:11
 #: inc/spicepress/sections/spicepress-portfolio-section.php:10
 #: inc/spicepress/sections/spicepress-slider-section.php:12
-#: inc/spicepress/sections/spicepress-testimonail-section.php:25
+#: inc/spicepress/sections/spicepress-testimonail-section.php:42
+#: inc/spicepress/sections/spicepress-testimonail-section.php:119
 msgid ""
 "Sea summo mazim ex, ea "
 "errem eleifend "
@@ -1308,10 +1304,11 @@ msgid ""
 msgstr ""
 
 #: inc/spicepress/features/feature-portfolio-section.php:72
+#: inc/spicepress/features/feature-portfolio-section.php:121
 #: inc/spicepress/sections/spicepress-portfolio-section.php:11
 #: inc/spicepress/sections/spicepress-portfolio-section.php:15
 #: inc/spicepress/sections/spicepress-portfolio-section.php:19
-msgid "Art Office Design"
+msgid "Quisque facilisis"
 msgstr ""
 
 #: inc/spicepress/features/feature-portfolio-section.php:86
@@ -1326,38 +1323,68 @@ msgid ""
 "adipisicing elit.."
 msgstr ""
 
-#: inc/spicepress/features/feature-portfolio-section.php:121
-msgid "Graphics Design"
+#: inc/spicepress/features/feature-portfolio-section.php:169
+msgid "Quisque sodales"
 msgstr ""
 
-#: inc/spicepress/features/feature-portfolio-section.php:169
-msgid "WordPress Themes"
+#: inc/spicepress/features/feature-service-section.php:35
+#: inc/spicepress/sections/spicepress-features-section.php:10
+msgid "Nisl At Est?"
+msgstr ""
+
+#: inc/spicepress/features/feature-service-section.php:96
+msgid "Service Design"
+msgstr ""
+
+#: inc/spicepress/features/feature-service-section.php:105
+msgid "Slide-effect"
 msgstr ""
 
 #: inc/spicepress/features/feature-slider-section.php:71
 #: inc/spicepress/sections/spicepress-slider-section.php:10
 msgid ""
-"Welcome to SpicePress "
-"Theme"
+"Lorem Ipsum Dolor Sit "
+"Amet"
+msgstr ""
+
+#: inc/spicepress/features/feature-slider-section.php:96
+#: inc/spicepress/sections/spicepress-slider-section.php:13
+msgid "Urna Nec"
 msgstr ""
 
 #: inc/spicepress/features/feature-testimonial-section.php:65
-#: inc/spicepress/sections/spicepress-testimonail-section.php:24
-msgid "What People Say"
+#: inc/spicepress/sections/spicepress-testimonail-section.php:41
+#: inc/spicepress/sections/spicepress-testimonail-section.php:118
+msgid "Lorem ipsum dolor"
 msgstr ""
 
 #: inc/spicepress/features/feature-testimonial-section.php:123
-#: inc/spicepress/sections/spicepress-testimonail-section.php:26
-msgid "Alice Culan"
+#: inc/spicepress/sections/spicepress-testimonail-section.php:43
+#: inc/spicepress/sections/spicepress-testimonail-section.php:120
+msgid "Ipsum dolor"
 msgstr ""
 
-#: inc/spicepress/sections/spicepress-features-section.php:175
-msgid "Easy to Use"
+#: inc/spicepress/features/feature-testimonial-section.php:136
+#: inc/spicepress/sections/spicepress-testimonail-section.php:44
+#: inc/spicepress/sections/spicepress-testimonail-section.php:121
+msgid "Ligula Eget"
 msgstr ""
 
-#: inc/spicepress/sections/spicepress-features-section.php:176
-#: inc/spicepress/sections/spicepress-features-section.php:184
-#: inc/spicepress/sections/spicepress-features-section.php:192
+#: inc/spicepress/features/feature-testimonial-section.php:166
+msgid "Testimonial Design"
+msgstr ""
+
+#: inc/spicepress/features/feature-testimonial-section.php:175
+msgid "Center-effect"
+msgstr ""
+
+#: inc/spicepress/sections/spicepress-features-section.php:190
+msgid "In Felis Ut"
+msgstr ""
+
+#: inc/spicepress/sections/spicepress-features-section.php:191
+#: inc/spicepress/sections/spicepress-features-section.php:199
+#: inc/spicepress/sections/spicepress-features-section.php:207
 msgid ""
 "Phasellus facilisis, "
 "nunc in lacinia auctor, "
@@ -1371,4 +1398,13 @@ msgid ""
 "lorem fermentum, "
 "accumsan enim non auctor "
 "neque."
+msgstr ""
+
+#: inc/spicepress/sections/spicepress-features-section.php:198
+msgid "Risus Vitae"
+msgstr ""
+
+#: inc/spicepress/sections/spicepress-features-section.php:206
+msgid ""
+"Quis hendrerit purus"
 msgstr ""

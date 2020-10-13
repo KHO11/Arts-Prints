@@ -30,11 +30,252 @@ do_action( 'woocommerce_before_main_content' );
 
 ?>
 <header class="woocommerce-products-header test2">
+<div class="mainInfo">
+<div class="dropdown">
+  <input onclick="myFunction()" class="dropbtn" value="Sort By: Recommended">
+  <div id="myDropdown" class="dropdown-content">
+    <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<div class="dropdown2">
+  <input onclick="myFunction2()" class="dropbtn2" value="	Category   |">
+  <div id="myDropdown2" class="dropdown-content2">
+    <input type="text" placeholder="Search.." id="myInput2" onkeyup="filterFunction2()">
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<div class="dropdown3">
+  <input onclick="myFunction3()" class="dropbtn3" value="	  Style	     |">
+  <div id="myDropdown3" class="dropdown-content3">
+    <input type="text" placeholder="Search.." id="myInput3" onkeyup="filterFunction3()">
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<div class="dropdown4">
+  <input onclick="myFunction4()" class="dropbtn4" value="	  Colour     |">
+  <div id="myDropdown4" class="dropdown-content4">
+    <input type="text" placeholder="Search.." id="myInput4" onkeyup="filterFunction4()">
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<div class="dropdown5">
+  <input onclick="myFunction5()" class="dropbtn5" value="   Collection     |">
+  <div id="myDropdown5" class="dropdown-content5">
+    <input type="text" placeholder="Search.." id="myInput5" onkeyup="filterFunction5()">
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<div class="dropdown6">
+  <input onclick="myFunction6()" class="dropbtn6" value="   Size	         |">
+  <div id="myDropdown6" class="dropdown-content6">
+    <input type="text" placeholder="Search.." id="myInput6" onkeyup="filterFunction6()">
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<div class="dropdown7">
+  <input onclick="myFunction7()" class="dropbtn7" value="Medium	     |">
+  <div id="myDropdown7" class="dropdown-content7">
+    <input type="text" placeholder="Search.." id="myInput7" onkeyup="filterFunction7()">
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<div class="dropdown8">
+  <input onclick="myFunction8()" class="dropbtn8" value="     Price	          ">
+  <div id="myDropdown8" class="dropdown-content8">
+    <input type="text" placeholder="Search.." id="myInput8" onkeyup="filterFunction8()">
+    <a href="#about">About</a>
+  </div>
+</div>
+
+<div class="small-description">
+	<p class="par1">Perfect for every room our range of wall art options </p>
+	<p class="par2">were made right to fit any budget or space.</p>
+</div>
+
+<input class="newPrints" value="See all new prints">
+<div class="wallPrint">
+
+
+</div>
+
+</div>
+
+
+
+<script>
+	function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+function filterFunction() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+
+function myFunction2() {
+  document.getElementById("myDropdown2").classList.toggle("show2");
+}
+
+function filterFunction2() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput2");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown2");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+function myFunction3() {
+  document.getElementById("myDropdown3").classList.toggle("show3");
+}
+
+function filterFunction3() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput3");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown3");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+function myFunction4() {
+  document.getElementById("myDropdown4").classList.toggle("show4");
+}
+
+function filterFunction4() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput4");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown4");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+function myFunction5() {
+  document.getElementById("myDropdown5").classList.toggle("show5");
+}
+
+function filterFunction5() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput5");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown5");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+function myFunction6() {
+  document.getElementById("myDropdown6").classList.toggle("show6");
+}
+
+function filterFunction6() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput6");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown6");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+function myFunction7() {
+  document.getElementById("myDropdown7").classList.toggle("show7");
+}
+
+function filterFunction7() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput7");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown7");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+function myFunction8() {
+  document.getElementById("myDropdown8").classList.toggle("show8");
+}
+
+function filterFunction8() {
+  var input, filter, ul, li, a, i;
+  input = document.getElementById("myInput8");
+  filter = input.value.toUpperCase();
+  div = document.getElementById("myDropdown8");
+  a = div.getElementsByTagName("a");
+  for (i = 0; i < a.length; i++) {
+    txtValue = a[i].textContent || a[i].innerText;
+    if (txtValue.toUpperCase().indexOf(filter) > -1) {
+      a[i].style.display = "";
+    } else {
+      a[i].style.display = "none";
+    }
+  }
+}
+
+</script>
 	<?php if ( apply_filters( 'woocommerce_show_page_title', true ) ) : ?>
 		<h1 class="woocommerce-products-header__title page-title"><?php woocommerce_page_title(); ?></h1>
 	<?php endif; ?>
-
-	<a>Everybody yeah</a>
 
 	<?php
 	/**

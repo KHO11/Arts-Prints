@@ -16,34 +16,9 @@
 
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="col-full">
-
-			<?php
-			/**
-			 * Functions hooked in to storefront_footer action
-			 *
-			 * @hooked storefront_footer_widgets - 10
-			 * @hooked storefront_credit         - 20
-			 */			
-			?>
-
-		<span class="company">OUR COMPANY</span>
-		
-		<span class="shop">SHOP</span>
-
-		<span class="contact">CONTACT</span>
-
-		<span class="sellers">SELLERS</span>
-
-		<span class="newsletter">NEWSLETTER</span>
-
-		<br><br>
-		<hr class="lineCompany" style="width:15%">
-
-		<hr class="lineShop" style="width:15%">
-
-		<hr class="lineContact" style="width:15%">
-
-		<hr class="lineSellers" style="width:15%">
+			<span class="company">OUR COMPANY</span>
+			<br><br>
+			<hr class="lineCompany" style="width:15%">
 
 			<ul class ="one" style="list-style-type:none">
 				<li>ABOUT US</li>
@@ -52,12 +27,21 @@
 				<li>DISCOUNT</li>
 			</ul>
 
+
+			<span class="shop">SHOP</span>
+			<br><br>
+			<hr class="lineShop" style="width:15%">
+			
 			<ul class="two" style="list-style-type:none">
 				<li>WALL ART</li>
-				<li>ART PRINTS & FRAMED <br>PRINTS</li>
+				<li>ART PRINTS & FRAMED<br> PRINTS</li>
 				<li>FRAMES</li>
 				<li>SALE</li>
 			</ul>
+
+			<span class="contact">CONTACT</span>
+			<br><br>
+			<hr class="lineContact" style="width:15%">
 
 			<ul class="three" style="list-style-type:none">
 				<li>CONTACT US</li>
@@ -67,21 +51,36 @@
 				<li>TERMS OF USE</li>
 			</ul>
 
+			<span class="sellers">SELLERS</span>
+			<br><br>
+			<hr class="lineSellers" style="width:15%">
+
 			<ul class="four" style="list-style-type:none">
 				<li>SELL YOUR ART</li>
 				<li>MEMBERSHIP PLAN</li>
 				<li>MOBILE APP</li>
 			</ul>
 
+			<span class="newsletter">NEWS LETTER</span>
+			<br><br>
+			<hr class="lineNewsletter" style="width:15%">
+
 			<input type="search" id="woocommerce-product-search-field-0" 
 			class="search-field" placeholder="Email address" value="" name="s">
 
 			<span class="facebook">FACEBOOK TWITTER INSTAGRAM PINTEREST</span>
 
-			
+			<span class="copyrights">COPYRIGHTS 2020 ARTS & PINTS ONLINE.COM - ALL RIGHTS RESERVED</span>
 
-
-
+			<?php
+			/**
+			 * Functions hooked in to storefront_footer action
+			 *
+			 * @hooked storefront_footer_widgets - 10
+			 * @hooked storefront_credit         - 20
+			 */
+			do_action( 'storefront_footer' );
+			?>
 
 		</div><!-- .col-full -->
 	</footer><!-- #colophon -->
