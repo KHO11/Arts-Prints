@@ -40,7 +40,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown2">
-  <input onclick="myFunction2()" class="dropbtn2" value="	Category   |">
+  <input onclick="myFunction2()" class="dropbtn2" value="   Category       |">
   <div id="myDropdown2" class="dropdown-content2">
     <input type="text" placeholder="Search.." id="myInput2" onkeyup="filterFunction2()">
     <a href="#about">About</a>
@@ -48,7 +48,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown3">
-  <input onclick="myFunction3()" class="dropbtn3" value="	  Style	     |">
+  <input onclick="myFunction3()" class="dropbtn3" value="	Style	    |">
   <div id="myDropdown3" class="dropdown-content3">
     <input type="text" placeholder="Search.." id="myInput3" onkeyup="filterFunction3()">
     <a href="#about">About</a>
@@ -56,7 +56,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown4">
-  <input onclick="myFunction4()" class="dropbtn4" value="	  Colour     |">
+  <input onclick="myFunction4()" class="dropbtn4" value="    Colour           |">
   <div id="myDropdown4" class="dropdown-content4">
     <input type="text" placeholder="Search.." id="myInput4" onkeyup="filterFunction4()">
     <a href="#about">About</a>
@@ -64,7 +64,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown5">
-  <input onclick="myFunction5()" class="dropbtn5" value="   Collection     |">
+  <input onclick="myFunction5()" class="dropbtn5" value="  Collection     |">
   <div id="myDropdown5" class="dropdown-content5">
     <input type="text" placeholder="Search.." id="myInput5" onkeyup="filterFunction5()">
     <a href="#about">About</a>
@@ -80,7 +80,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown7">
-  <input onclick="myFunction7()" class="dropbtn7" value="Medium	     |">
+  <input onclick="myFunction7()" class="dropbtn7" value="Medium	    |">
   <div id="myDropdown7" class="dropdown-content7">
     <input type="text" placeholder="Search.." id="myInput7" onkeyup="filterFunction7()">
     <a href="#about">About</a>
@@ -100,7 +100,7 @@ do_action( 'woocommerce_before_main_content' );
 	<p class="par2">were made right to fit any budget or space.</p>
 </div>
 
-<input class="newPrints" value="See all new prints">
+
 <div class="wallPrint">
 
 

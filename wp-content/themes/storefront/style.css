@@ -149,7 +149,10 @@ dfn {
  */
 h1 {
   font-size: 2em;
-  margin: 0.67em 0; }
+  margin: 0.67em 0; 
+  position: relative;
+  right: 505px;
+  bottom: 100px;}
 
 /**
  * Address styling not present in IE 8/9.
@@ -662,7 +665,8 @@ body {
   .site-header .widget {
     margin-bottom: 0; 
     position: relative;
-    right:950px;}
+    right:960px;
+    bottom: 50px;}
 
 .home.blog .site-header,
 .home.page:not(.page-template-template-homepage) .site-header,
@@ -1294,7 +1298,8 @@ label {
   font-weight: 400; }
 
 label.inline input {
-  width: auto; }
+  width: auto;
+   }
 
 fieldset {
   padding: 1.618em;
@@ -1655,7 +1660,8 @@ button.menu-toggle {
 
 .widget_search form,
 .widget_product_search form {
-  position: relative; }
+  position: relative; 
+  }
   .widget_search form input[type=text],
   .widget_search form input[type=search],
   .widget_product_search form input[type=text],
@@ -2215,6 +2221,7 @@ button.menu-toggle {
     .site-search 
     .widget_product_search form input[type=text] {
       background-color: transparent;
+    
     }
 
     .site-search 
@@ -2227,6 +2234,7 @@ button.menu-toggle {
     .site-search .widget_product_search form::before {
       color: white;
     }
+
 
     .woocommerce-breadcrumb {
       display: none;
@@ -2374,7 +2382,7 @@ button.menu-toggle {
     .dropdown {
       position: relative;
       display: inline-block;
-      right:100px;
+      right:90px;
       bottom:50px;
     }
     
@@ -2430,7 +2438,7 @@ button.menu-toggle {
       position: relative;
       display: inline-block;
       bottom: 50px;
-      right:50px;
+      right:20px;
     }
     
     .dropdown-content2 {
@@ -2484,7 +2492,7 @@ button.menu-toggle {
       position: relative;
       display: inline-block;
       bottom: 50px;
-      right: 53px;
+      right: 23px;
     }
     
     .dropdown-content3 {
@@ -2540,7 +2548,7 @@ button.menu-toggle {
       position: relative;
       display: inline-block;
       bottom: 50px;
-      right:57px;
+      right:27px;
     }
     
     .dropdown-content4 {
@@ -2595,7 +2603,7 @@ button.menu-toggle {
       position: relative;
       display: inline-block;
       bottom: 50px;
-      right:60px;
+      right:30px;
     }
     
     .dropdown-content5 {
@@ -2649,7 +2657,7 @@ button.menu-toggle {
       position: relative;
       display: inline-block;
       bottom: 50px;
-      right: 63px;
+      right: 33px;
     }
     
     .dropdown-content6 {
@@ -2703,7 +2711,7 @@ button.menu-toggle {
       position: relative;
       display: inline-block;
       bottom: 50px;
-      right: 66px;
+      right: 36px;
     }
     
     .dropdown-content7 {
@@ -2756,7 +2764,8 @@ button.menu-toggle {
     .dropdown8 {
       position: relative;
       display: inline-block;
-      bottom: 60px;
+      bottom: 98px;
+      left:528px;
     }
     
     .dropdown-content8 {
@@ -2782,5 +2791,28 @@ button.menu-toggle {
 
     hr.searchLine {
       position: relative;
-      top:100px;
+      top:20px;
+      left:50px;
     }
+
+    .term-description {
+      display: none;
+    }
+
+    .small-description p {
+      color: black;
+      position: relative;
+      top:0px;
+      right:170px;
+    }
+
+    .small-description p.par2 {
+      position: relative;
+      right:198px;
+    }
+
+    .site-search form {
+      position: relative;
+    }
+
+    

@@ -29,6 +29,7 @@
 
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
 		<hr class="searchLine" style="width:15%">
+		<img src="<?php echo get_template_directory_uri(); ?>/Images/heart.png">
 		<?php
 		/**
 		 * Functions hooked into storefront_header action
