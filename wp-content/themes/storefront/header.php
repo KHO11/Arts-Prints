@@ -29,7 +29,9 @@
 
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
 		<hr class="searchLine" style="width:324px">
-		<img src="<?php echo get_template_directory_uri(); ?>/heart.png" style="position:relative;left:1220px; bottom:35px">
+		<img src="<?php echo get_template_directory_uri(); ?>/heart.png" style="position:relative;left:1220px; bottom:18px">
+		<img src="<?php echo get_template_directory_uri(); ?>/person.png" style="position:relative;left:1140px;bottom:38px">
+		<input type="search" placeholder="SEARCH" class="searchHeader">
 		<?php
 		/**
 		 * Functions hooked into storefront_header action

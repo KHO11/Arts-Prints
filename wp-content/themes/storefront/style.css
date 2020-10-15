@@ -1784,7 +1784,7 @@ button.menu-toggle {
     margin-bottom: 0;
     position: relative;
     left:100px;
-    bottom:150px; }
+    bottom:145px; }
   .storefront-secondary-navigation .site-header .site-branding {
     width: 39.1304347826%;
     float: left;
@@ -2221,7 +2221,7 @@ button.menu-toggle {
     .site-search 
     .widget_product_search form input[type=text] {
       background-color: transparent;
-    
+      display: none;
     }
 
     .site-search 
@@ -2243,90 +2243,90 @@ button.menu-toggle {
 
     .site-footer span.company {
       position: absolute;
-      right:1208px;
+      right:1215px;
+      top:100px;
     }
 
     .site-footer hr.lineCompany {
       position: relative;
-      right: 100px;
+      right: 108px;
+      top: 47px;
     }
 
     .site-footer ul.one {
       position: relative;
       right: 150px;
-      top:20px;
+      top:70px;
     }
 
     .site-footer span.shop {
       position: absolute;
       left:230px;
-      bottom:431px;
+      bottom:375px;
     }
 
     .site-footer hr.lineShop {
       position: absolute;
       left:230px;
-      bottom: 383px;
+      bottom: 329px;
     }
 
     .site-footer ul.two {
       position: absolute;
-      bottom:217px;
+      bottom:165px;
       left:185px;
     }
 
     .site-footer span.contact {
       position: absolute;
-      left: 470px;
-      bottom: 431px;
+      left: 465px;
+      bottom: 375px;
     }
 
     .site-footer hr.lineContact {
       position: absolute;
-      left:470px;
-      bottom:383px;
+      left:465px;
+      bottom:329px;
     }
 
     .site-footer ul.three {
       position: absolute;
-      left:430px;
-      bottom:217px;
+      left:420px;
+      bottom:165px;
     }
 
     .site-footer span.sellers {
       position: absolute;
-      left:720px;
-      bottom:431px;
+      left:695px;
+      bottom:375px;
     }
 
     .site-footer hr.lineSellers {
       position: absolute;
-      left:720px;
-      bottom: 383px;
+      left:695px;
+      bottom: 329px;
     }
 
   .site-footer ul.four {
     position: absolute;
-    left:680px;
-    bottom:264px;
+    left:650px;
+    bottom:213px;
   }
 
   .site-footer span.newsletter {
     position: absolute;
-    left:1000px;
-    bottom: 452px;
+    left:930px;
+    bottom: 375px;
   }
 
-  .site-footer hr.lineNewsletter {
-    position: absolute;
-    left:1000px;
-    bottom: 387px;
-  }
+
 
   .site-footer input {
     position: absolute;
-    left:1000px;
-    bottom: 330px;
+    left:930px;
+    bottom: 300px;
+    width: 388.82px;
+    height: 53.68px;
   }
 
   .site-footer span.facebook {
@@ -2353,6 +2353,27 @@ button.menu-toggle {
       display: none;
     }
 
+    div.greyBox {
+      border: 1px solid #D6D6D6;
+      background-color: #D6D6D6;
+      width: 59.48px;
+      height: 54px;
+      position: absolute;
+      left: 1270px;
+      bottom: 300px;
+    }
+
+    .site-footer ul{
+      font-size: 15px;
+    }
+
+    .site-footer span.facebook {
+      font-size: 15px;
+    }
+
+    .site-footer span.copyrights {
+      font-size: 15px;
+    }
 
 
 
@@ -2792,7 +2813,7 @@ button.menu-toggle {
 
     hr.searchLine {
       position: relative;
-      top:20px;
+      top:40px;
       left:50px;
     }
 
@@ -2839,5 +2860,27 @@ button.menu-toggle {
       padding-top: 18px;
       padding-bottom: 10px;
     }
+
+    .site-header input {
+      background-color: transparent;
+      position: absolute;
+      bottom:165px;
+      left:42px;
+      font-size: 13px;
+      width: 340px;
+    }
+
+    .site-header input::placeholder {
+      color: white;
+    }
+
+    .site-header input[type=search]:focus {
+      background-color: transparent;
+      outline: 5px solid #06022A;
+      color: white;
+    }
+
+
+
 
     

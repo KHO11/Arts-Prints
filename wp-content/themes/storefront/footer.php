@@ -63,10 +63,13 @@
 
 			<span class="newsletter">NEWS LETTER</span>
 			<br><br>
-			<hr class="lineNewsletter" style="width:15%">
+
 
 			<input type="search" id="woocommerce-product-search-field-0" 
 			class="search-field" placeholder="Email address" value="" name="s">
+
+			<div class="greyBox">
+			</div>
 
 			<span class="facebook">FACEBOOK TWITTER INSTAGRAM PINTEREST</span>
 

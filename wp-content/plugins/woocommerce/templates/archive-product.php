@@ -32,7 +32,10 @@ do_action( 'woocommerce_before_main_content' );
 <header class="woocommerce-products-header test2">
 <div class="mainInfo">
 <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Sort By: Recommended</button>
+  <button onclick="myFunction()" class="dropbtn">
+  <span style="font-size:12px;margin-right:25px">Sort By:</span> 
+  <span style="color:#5D5D5D;margin-right:25px">Recommended 
+  <img class="downArrow" src="<?php echo get_template_directory_uri(); ?>/downArrow.png"></span></button>
   <div id="myDropdown" class="dropdown-content">
     <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
     <a href="#about">About</a>
@@ -100,9 +103,10 @@ do_action( 'woocommerce_before_main_content' );
 	<p class="par2">were made right to fit any budget or space.</p>
 </div>
 
+</div>
+
+<div class="buttonColour">
 <button class="newPrints">See all new prints</button>
-
-
 </div>
 
 
