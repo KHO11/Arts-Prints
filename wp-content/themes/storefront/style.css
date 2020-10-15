@@ -666,7 +666,7 @@ body {
     margin-bottom: 0; 
     position: relative;
     right:960px;
-    bottom: 50px;}
+    bottom: 70px;}
 
 .home.blog .site-header,
 .home.page:not(.page-template-template-homepage) .site-header,
@@ -1784,7 +1784,7 @@ button.menu-toggle {
     margin-bottom: 0;
     position: relative;
     left:100px;
-    bottom:100px; }
+    bottom:150px; }
   .storefront-secondary-navigation .site-header .site-branding {
     width: 39.1304347826%;
     float: left;
@@ -2233,6 +2233,7 @@ button.menu-toggle {
 
     .site-search .widget_product_search form::before {
       color: white;
+      margin-left: 325px;
     }
 
 
@@ -2319,7 +2320,7 @@ button.menu-toggle {
   .site-footer hr.lineNewsletter {
     position: absolute;
     left:1000px;
-    bottom: 407px;
+    bottom: 387px;
   }
 
   .site-footer input {
@@ -2438,7 +2439,7 @@ button.menu-toggle {
       position: relative;
       display: inline-block;
       bottom: 50px;
-      right:20px;
+      right:18px;
     }
     
     .dropdown-content2 {
@@ -2765,7 +2766,7 @@ button.menu-toggle {
       position: relative;
       display: inline-block;
       bottom: 98px;
-      left:528px;
+      left:540px;
     }
     
     .dropdown-content8 {
@@ -2813,6 +2814,30 @@ button.menu-toggle {
 
     .site-search form {
       position: relative;
+    }
+
+    ul.products {
+      background-color: #F8F9FA;
+      width: 100%;
+      position: relative;
+      bottom: 50px;
+    }
+
+    .newPrints {
+      border-radius: 8px;
+      background: #06022A;
+      color: white;
+      width: 256px;
+      height: 63px;
+      position: absolute;
+      top:2350px;
+      right:550px;
+    }
+
+    .mainInfo span {
+      background-color: #F8F9FA;
+      padding-top: 18px;
+      padding-bottom: 10px;
     }
 
     

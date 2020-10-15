@@ -32,7 +32,7 @@ do_action( 'woocommerce_before_main_content' );
 <header class="woocommerce-products-header test2">
 <div class="mainInfo">
 <div class="dropdown">
-  <input onclick="myFunction()" class="dropbtn" value="Sort By: Recommended">
+  <button onclick="myFunction()" class="dropbtn">Sort By: Recommended</button>
   <div id="myDropdown" class="dropdown-content">
     <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
     <a href="#about">About</a>
@@ -40,7 +40,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown2">
-  <input onclick="myFunction2()" class="dropbtn2" value="   Category       |">
+  <button onclick="myFunction2()" class="dropbtn2">Category</button><span>|</span>
   <div id="myDropdown2" class="dropdown-content2">
     <input type="text" placeholder="Search.." id="myInput2" onkeyup="filterFunction2()">
     <a href="#about">About</a>
@@ -48,7 +48,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown3">
-  <input onclick="myFunction3()" class="dropbtn3" value="	Style	    |">
+  <button onclick="myFunction3()" class="dropbtn3">Style</button><span>|</span>
   <div id="myDropdown3" class="dropdown-content3">
     <input type="text" placeholder="Search.." id="myInput3" onkeyup="filterFunction3()">
     <a href="#about">About</a>
@@ -56,7 +56,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown4">
-  <input onclick="myFunction4()" class="dropbtn4" value="    Colour           |">
+  <button onclick="myFunction4()" class="dropbtn4">Colour</button><span>|</span>
   <div id="myDropdown4" class="dropdown-content4">
     <input type="text" placeholder="Search.." id="myInput4" onkeyup="filterFunction4()">
     <a href="#about">About</a>
@@ -64,7 +64,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown5">
-  <input onclick="myFunction5()" class="dropbtn5" value="  Collection     |">
+  <button onclick="myFunction5()" class="dropbtn5">Collection</button><span>|</span>
   <div id="myDropdown5" class="dropdown-content5">
     <input type="text" placeholder="Search.." id="myInput5" onkeyup="filterFunction5()">
     <a href="#about">About</a>
@@ -72,7 +72,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown6">
-  <input onclick="myFunction6()" class="dropbtn6" value="   Size	         |">
+  <button onclick="myFunction6()" class="dropbtn6">Size</button><span>|</span>
   <div id="myDropdown6" class="dropdown-content6">
     <input type="text" placeholder="Search.." id="myInput6" onkeyup="filterFunction6()">
     <a href="#about">About</a>
@@ -80,7 +80,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown7">
-  <input onclick="myFunction7()" class="dropbtn7" value="Medium	    |">
+  <button onclick="myFunction7()" class="dropbtn7">Medium</button><span>|</span>
   <div id="myDropdown7" class="dropdown-content7">
     <input type="text" placeholder="Search.." id="myInput7" onkeyup="filterFunction7()">
     <a href="#about">About</a>
@@ -88,7 +88,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown8">
-  <input onclick="myFunction8()" class="dropbtn8" value="     Price	          ">
+  <button onclick="myFunction8()" class="dropbtn8">Price</button>
   <div id="myDropdown8" class="dropdown-content8">
     <input type="text" placeholder="Search.." id="myInput8" onkeyup="filterFunction8()">
     <a href="#about">About</a>
@@ -100,11 +100,8 @@ do_action( 'woocommerce_before_main_content' );
 	<p class="par2">were made right to fit any budget or space.</p>
 </div>
 
+<button class="newPrints">See all new prints</button>
 
-<div class="wallPrint">
-
-
-</div>
 
 </div>
 

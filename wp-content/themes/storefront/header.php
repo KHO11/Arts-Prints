@@ -28,8 +28,8 @@
 	<?php do_action( 'storefront_before_header' ); ?>
 
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
-		<hr class="searchLine" style="width:15%">
-		<img src="<?php echo get_template_directory_uri(); ?>/Images/heart.png">
+		<hr class="searchLine" style="width:324px">
+		<img src="<?php echo get_template_directory_uri(); ?>/heart.png" style="position:relative;left:1220px; bottom:35px">
 		<?php
 		/**
 		 * Functions hooked into storefront_header action
