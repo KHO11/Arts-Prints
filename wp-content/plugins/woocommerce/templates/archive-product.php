@@ -32,10 +32,11 @@ do_action( 'woocommerce_before_main_content' );
 <header class="woocommerce-products-header test2">
 <div class="mainInfo">
 <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">
-  <span style="font-size:12px;margin-right:25px">Sort By:</span> 
-  <span style="color:#5D5D5D;margin-right:25px">Recommended 
-  <img class="downArrow" src="<?php echo get_template_directory_uri(); ?>/downArrow.png"></span></button>
+  <button onclick="myFunction()" class="dropbtn"  style="margin-left:20px">
+  <span style="font-size:12px;position:relative;margin-right:35px;bottom:7px;background:transparent">Sort By:</span> 
+  <span style="color:#5D5D5D;position:relative;right:25px;bottom:5px;background:transparent">Recommended 
+  <img class="downArrow" src="<?php echo get_template_directory_uri(); ?>/downArrow.png"
+  style="position:relative;left:200px;bottom:16px" ></span></button>
   <div id="myDropdown" class="dropdown-content">
     <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
     <a href="#about">About</a>
@@ -43,7 +44,12 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown2">
-  <button onclick="myFunction2()" class="dropbtn2">Category</button><span>|</span>
+  <button onclick="myFunction2()" class="dropbtn2" style="margin-right:20px;width:127px">
+  <span style="position:relative;bottom:5px;background:transparent;right:10px">CATEGORY</span>
+  <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png"
+  style="position:absolute;margin-left:80px;bottom:20px">
+  <div 
+  style="position:absolute;border-left:1px solid #D6D6D6;bottom:10px;margin-left:109px;height:28px"></div></button>
   <div id="myDropdown2" class="dropdown-content2">
     <input type="text" placeholder="Search.." id="myInput2" onkeyup="filterFunction2()">
     <a href="#about">About</a>
@@ -51,7 +57,12 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown3">
-  <button onclick="myFunction3()" class="dropbtn3">Style</button><span>|</span>
+  <button onclick="myFunction3()" class="dropbtn3">
+  <span style="position:relative;bottom:5px;right:10px;background:transparent">STYLE</span>
+  <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
+  style="position:absolute;margin-left:75px;bottom:20px">
+  <div 
+    style="position:absolute;border-left:1px solid #D6D6D6;height:28px;margin-left:109px;bottom:10px"></div></button>
   <div id="myDropdown3" class="dropdown-content3">
     <input type="text" placeholder="Search.." id="myInput3" onkeyup="filterFunction3()">
     <a href="#about">About</a>
@@ -59,7 +70,11 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown4">
-  <button onclick="myFunction4()" class="dropbtn4">Colour</button><span>|</span>
+  <button onclick="myFunction4()" class="dropbtn4">
+  <span style="position:relative;bottom:5px;right:10px;background:transparent">COLOUR</span>
+  <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png"
+  style="position:absolute;margin-left:75px;bottom:20px"> 
+  <div style="position:absolute;border-left:1px solid #D6D6D6;height:28px;margin-left:110px;bottom:10px"></div></button>
   <div id="myDropdown4" class="dropdown-content4">
     <input type="text" placeholder="Search.." id="myInput4" onkeyup="filterFunction4()">
     <a href="#about">About</a>
@@ -67,7 +82,11 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown5">
-  <button onclick="myFunction5()" class="dropbtn5">Collection</button><span>|</span>
+  <button onclick="myFunction5()" class="dropbtn5">
+  <span style="position:relative;bottom:5px;right:10px;background:transparent">COLLECTION</span>
+  <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
+  style="position:absolute;margin-left:80px;bottom:20px">
+  <div style="position:absolute;border-left:1px solid #D6D6D6;height:28px;margin-left:110px;bottom:10px"></div></button>
   <div id="myDropdown5" class="dropdown-content5">
     <input type="text" placeholder="Search.." id="myInput5" onkeyup="filterFunction5()">
     <a href="#about">About</a>
@@ -75,7 +94,11 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown6">
-  <button onclick="myFunction6()" class="dropbtn6">Size</button><span>|</span>
+  <button onclick="myFunction6()" class="dropbtn6">
+  <span style="position:relative;bottom:5px;right:10px;background:transparent">SIZE</span>
+  <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
+  style="position:absolute;margin-left:75px;bottom:20px">
+  <div style="position:absolute;border-left:1px solid #D6D6D6;height:28px;margin-left:110px;bottom:10px"></div></button>
   <div id="myDropdown6" class="dropdown-content6">
     <input type="text" placeholder="Search.." id="myInput6" onkeyup="filterFunction6()">
     <a href="#about">About</a>
@@ -83,7 +106,11 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown7">
-  <button onclick="myFunction7()" class="dropbtn7">Medium</button><span>|</span>
+  <button onclick="myFunction7()" class="dropbtn7">
+  <span style="position:relative;bottom:5px;right:10px;background:transparent">MEDIUM</span>
+  <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
+  style="position:absolute;margin-left:75px;bottom:20px">
+  <div style="position:absolute;border-left:1px solid #D6D6D6;height:28px;margin-left:110px;bottom:10px"></div></button>
   <div id="myDropdown7" class="dropdown-content7">
     <input type="text" placeholder="Search.." id="myInput7" onkeyup="filterFunction7()">
     <a href="#about">About</a>
@@ -91,7 +118,11 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="dropdown8">
-  <button onclick="myFunction8()" class="dropbtn8">Price</button>
+  <button onclick="myFunction8()" class="dropbtn8">
+  <span style="position:relative;bottom:5px;right:10px;background:transparent">PRICE</span>
+  <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
+  style="position:absolute;margin-left:75px;bottom:20px">
+  </button>
   <div id="myDropdown8" class="dropdown-content8">
     <input type="text" placeholder="Search.." id="myInput8" onkeyup="filterFunction8()">
     <a href="#about">About</a>

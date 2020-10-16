@@ -1784,7 +1784,8 @@ button.menu-toggle {
     margin-bottom: 0;
     position: relative;
     left:100px;
-    bottom:145px; }
+    bottom:145px; 
+    display: none;}
   .storefront-secondary-navigation .site-header .site-branding {
     width: 39.1304347826%;
     float: left;
@@ -2460,7 +2461,7 @@ button.menu-toggle {
       position: relative;
       display: inline-block;
       bottom: 50px;
-      right:18px;
+      left:1px;
     }
     
     .dropdown-content2 {
@@ -2483,7 +2484,6 @@ button.menu-toggle {
     .dropdown2 a:hover {background-color: #ddd;}
 
     .show2 {display: block;}
-
 
 
     .dropbtn3 {
@@ -2787,7 +2787,7 @@ button.menu-toggle {
       position: relative;
       display: inline-block;
       bottom: 98px;
-      left:540px;
+      left:549px;
     }
     
     .dropdown-content8 {
@@ -2879,6 +2879,10 @@ button.menu-toggle {
       outline: 5px solid #06022A;
       color: white;
     }
+
+    
+
+
 
 
 
