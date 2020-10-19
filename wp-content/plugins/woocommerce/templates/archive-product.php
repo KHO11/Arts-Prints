@@ -136,11 +136,13 @@ do_action( 'woocommerce_before_main_content' );
     <a class="par2" style="color:black;margin-right:95px">were made to fit any budget or space</a> </p>
 </div>
 
+<div class="buttonColour" style="background-color:red">
+<button class="newPrints" style="position:absolute;top:2320px;right:550px">See all new prints</button>
 </div>
 
-<div class="buttonColour">
-<button class="newPrints" style="position:absolute;top:2250px">See all new prints</button>
 </div>
+
+
 
 
 
