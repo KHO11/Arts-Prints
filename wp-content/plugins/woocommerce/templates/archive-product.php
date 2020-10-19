@@ -33,8 +33,8 @@ do_action( 'woocommerce_before_main_content' );
 <div class="mainInfo">
 <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn"  style="margin-left:20px">
-  <span style="font-size:12px;position:relative;margin-right:35px;bottom:7px;background:transparent">Sort By:</span> 
-  <span style="color:#5D5D5D;position:relative;right:25px;bottom:5px;background:transparent">Recommended 
+  <span class="sortBy" style="font-weight:normal;font-size:12px;position:relative;margin-right:35px;bottom:7px;background:transparent">Sort By:</span> 
+  <span style="font-weight:normal;color:#5D5D5D;position:relative;right:25px;bottom:5px;background:transparent">Recommended 
   <img class="downArrow" src="<?php echo get_template_directory_uri(); ?>/downArrow.png"
   style="position:relative;left:200px;bottom:16px" ></span></button>
   <div id="myDropdown" class="dropdown-content">
@@ -45,7 +45,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="dropdown2">
   <button onclick="myFunction2()" class="dropbtn2" style="margin-right:20px;width:127px">
-  <span style="position:relative;bottom:5px;background:transparent;right:10px">CATEGORY</span>
+  <span style="font-weight:normal;font-size:12px;position:relative;bottom:5px;background:transparent;right:10px">CATEGORY</span>
   <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png"
   style="position:absolute;margin-left:80px;bottom:20px">
   <div 
@@ -58,7 +58,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="dropdown3">
   <button onclick="myFunction3()" class="dropbtn3">
-  <span style="position:relative;bottom:5px;right:10px;background:transparent">STYLE</span>
+  <span style="font-weight:normal;font-size:12px;position:relative;bottom:5px;right:10px;background:transparent">STYLE</span>
   <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
   style="position:absolute;margin-left:75px;bottom:20px">
   <div 
@@ -71,7 +71,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="dropdown4">
   <button onclick="myFunction4()" class="dropbtn4">
-  <span style="position:relative;bottom:5px;right:10px;background:transparent">COLOUR</span>
+  <span style="font-weight:normal;font-size:12px;position:relative;bottom:5px;right:10px;background:transparent">COLOUR</span>
   <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png"
   style="position:absolute;margin-left:75px;bottom:20px"> 
   <div style="position:absolute;border-left:1px solid #D6D6D6;height:28px;margin-left:110px;bottom:10px"></div></button>
@@ -83,7 +83,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="dropdown5">
   <button onclick="myFunction5()" class="dropbtn5">
-  <span style="position:relative;bottom:5px;right:10px;background:transparent">COLLECTION</span>
+  <span style="font-weight:normal;font-size:12px;position:relative;bottom:5px;right:10px;background:transparent">COLLECTION</span>
   <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
   style="position:absolute;margin-left:80px;bottom:20px">
   <div style="position:absolute;border-left:1px solid #D6D6D6;height:28px;margin-left:110px;bottom:10px"></div></button>
@@ -95,7 +95,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="dropdown6">
   <button onclick="myFunction6()" class="dropbtn6">
-  <span style="position:relative;bottom:5px;right:10px;background:transparent">SIZE</span>
+  <span style="font-weight:normal;font-size:12px;position:relative;bottom:5px;right:10px;background:transparent">SIZE</span>
   <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
   style="position:absolute;margin-left:75px;bottom:20px">
   <div style="position:absolute;border-left:1px solid #D6D6D6;height:28px;margin-left:110px;bottom:10px"></div></button>
@@ -107,7 +107,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="dropdown7">
   <button onclick="myFunction7()" class="dropbtn7">
-  <span style="position:relative;bottom:5px;right:10px;background:transparent">MEDIUM</span>
+  <span style="font-weight:normal;font-size:12px;position:relative;bottom:5px;right:10px;background:transparent">MEDIUM</span>
   <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
   style="position:absolute;margin-left:75px;bottom:20px">
   <div style="position:absolute;border-left:1px solid #D6D6D6;height:28px;margin-left:110px;bottom:10px"></div></button>
@@ -119,7 +119,7 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="dropdown8">
   <button onclick="myFunction8()" class="dropbtn8">
-  <span style="position:relative;bottom:5px;right:10px;background:transparent">PRICE</span>
+  <span style="font-weight:normal;font-size:12px;position:relative;bottom:5px;right:10px;background:transparent">PRICE</span>
   <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
   style="position:absolute;margin-left:75px;bottom:20px">
   </button>
@@ -129,15 +129,17 @@ do_action( 'woocommerce_before_main_content' );
   </div>
 </div>
 
-<div class="small-description">
-	<p class="par1">Perfect for every room our range of wall art options </p>
-	<p class="par2">were made right to fit any budget or space.</p>
+<h9 style="position:absolute;right:1080px;top:430px">New Prints.</h9>
+
+<div class="small-description" style="line-height:26px;position:relative;bottom:30px">
+  <p>Perfect for every room our range of wall art options <br>
+    <a class="par2" style="color:black;margin-right:95px">were made to fit any budget or space</a> </p>
 </div>
 
 </div>
 
 <div class="buttonColour">
-<button class="newPrints">See all new prints</button>
+<button class="newPrints" style="position:absolute;top:2250px">See all new prints</button>
 </div>
 
 

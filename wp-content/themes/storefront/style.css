@@ -147,12 +147,15 @@ dfn {
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
  */
-h1 {
+ h1 {
   font-size: 2em;
-  margin: 0.67em 0; 
+  margin: 0.67em 0;
   position: relative;
   right: 505px;
-  bottom: 100px;}
+  bottom: 100px;
+  display: none;
+  }
+
 
 /**
  * Address styling not present in IE 8/9.
@@ -2824,13 +2827,7 @@ button.menu-toggle {
     .small-description p {
       color: black;
       position: relative;
-      top:0px;
       right:170px;
-    }
-
-    .small-description p.par2 {
-      position: relative;
-      right:198px;
     }
 
     .site-search form {
@@ -2842,6 +2839,7 @@ button.menu-toggle {
       width: 100%;
       position: relative;
       bottom: 50px;
+      padding-top: 50px;
     }
 
     .newPrints {
@@ -2851,7 +2849,6 @@ button.menu-toggle {
       width: 256px;
       height: 63px;
       position: absolute;
-      top:2350px;
       right:550px;
     }
 
@@ -2879,6 +2876,15 @@ button.menu-toggle {
       outline: 5px solid #06022A;
       color: white;
     }
+
+    h9 {
+      color: black;
+      font-weight: normal;
+      line-height: 56px;
+      font-size: 38px;
+    }
+
+
 
     
 

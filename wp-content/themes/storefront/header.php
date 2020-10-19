@@ -31,7 +31,7 @@
 		<hr class="searchLine" style="width:324px">
 		<img src="<?php echo get_template_directory_uri(); ?>/heart.png" style="position:relative;left:1205px; bottom:18px">
 		<img src="<?php echo get_template_directory_uri(); ?>/person.png" style="position:relative;left:1130px;bottom:38px">
-		<input type="search" placeholder="SEARCH" class="searchHeader">
+		<input type="search" placeholder="SEARCH" class="searchHeader" >
 
 		<img src="<?php echo get_template_directory_uri(); ?>/kart.png" 
 		style="position:absolute;margin-left:1275px;bottom:172px">
