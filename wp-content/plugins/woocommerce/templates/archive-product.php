@@ -137,7 +137,7 @@ do_action( 'woocommerce_before_main_content' );
 </div>
 
 <div class="colourStuff" 
-style="position:absolute;background-color:#F8F9FA;width:1550px;height:130px;display:none">
+style="position:absolute;background-color:#F8F9FA;width:1550px;height:130px;top:2025px;left:0px">
 <button class="newPrints" style="margin-right:250px">See all new prints</button>
 </div>
 
