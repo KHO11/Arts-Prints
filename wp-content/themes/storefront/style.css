@@ -2846,13 +2846,12 @@ button.menu-toggle {
 
     ul.products {
       background-color: #F8F9FA;
-      width: 100%;
       position: relative;
       bottom: 70px;
       right: 140px;
       padding-top: 80px;
-      width: 1380px;
-           
+      width: 1380px; 
+      height: 1500px;    
     }
 
     .newPrints {
@@ -2887,6 +2886,202 @@ button.menu-toggle {
       outline: 5px solid #06022A;
       color: white;
     }
+
+    li.product.type-product.post-165.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple{
+      right: 10px;
+    }
+
+
+    li.product.type-product.post-165.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
+      position: absolute;
+      top: 275px;
+      left: 90px;
+    }
+
+    li.product.type-product.post-165.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price {
+      position: absolute;
+      top:303px;
+      left: 90px;
+    }
+
+    li.product.type-product.post-170.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      left: 290px;
+      top: 60px;
+    }
+
+    li.product.type-product.post-170.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
+      position: absolute;
+      top: 298px;
+      left:100px;
+    }
+
+    li.product.type-product.post-170.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price {
+      position: absolute;
+      top: 325px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      left: 600px;
+    }
+
+    li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      top: 45px;
+    }
+
+    li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
+      position: absolute;
+      top: 315px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price {
+      position: absolute;
+      top: 340px;
+      left: 100px;
+    }
+
+
+    li.product.type-product.post-181.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      left:910px;
+      top: 60px;
+    }
+
+    li.product.type-product.post-181.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
+      position: absolute;
+      top: 300px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-181.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
+      position: absolute;
+      top: 325px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-183.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      top: 500px;
+      right: 920px;
+    }
+
+    li.product.type-product.post-183.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
+      position: absolute;
+      top: 350px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-183.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price {
+      position: absolute;
+      top: 380px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-187.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      top: 520px;
+      left: 300px;
+    }
+
+    li.product.type-product.post-187.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
+      position: absolute;
+      top: 332px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-187.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
+      position: absolute;
+      top: 360px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-196.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      top: 520px;
+      left: 610px;
+    }
+
+    li.product.type-product.post-196.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
+      position: absolute;
+      top: 333px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-196.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
+      position: absolute;
+      top: 360px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-198.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      top: 500px;
+      left: 910px;
+    }
+
+    li.product.type-product.post-198.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
+      position: absolute;
+      top: 352px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-198.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price {
+      position: absolute;
+      top: 380px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-200.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      top: 1050px;
+      right: 970px;
+    }
+
+    li.product.type-product.post-200.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
+      position: absolute;
+      top: 300px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-200.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
+      position: absolute;
+      top: 333px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-202.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      top: 1000px;
+      left: 300px;
+    }
+
+    li.product.type-product.post-202.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
+      position: absolute;
+      top: 352px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-202.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
+      position: absolute;
+      top: 385px;
+      left: 100px;
+    }
+
+    li.product.type-product.post-204.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      display: none;
+    }
+
+    li.product.type-product.post-206.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+      position: absolute;
+      display: none;
+    }
+
+
 
 
 
