@@ -1004,6 +1004,7 @@ table {
   clear: both;
   padding: 1.618em;
   background-color: rgba(0, 0, 0, 0.0125);
+  background-color: transparent;
   position: relative; }
   #respond .comment-form-author input,
   #respond .comment-form-email input,
@@ -2023,7 +2024,8 @@ button.menu-toggle {
       float: right;
       margin-right: 0; }
     #respond .comment-form-comment {
-      clear: both; }
+      clear: both; 
+      display: none;}
   /**
 	 * Content
 	 */
@@ -3181,7 +3183,227 @@ button.menu-toggle {
       font-size: 16px;
     }
 
+    .single-product div.product .product_meta {
+      display: none;
+    }
 
+    .single-product div.product .edit-link {
+      display: none;
+    }
+
+    #reviews #comments {
+      display: none;
+    }
+
+    .storefront-full-width-content .woocommerce-tabs ul.tabs {
+      display: none;
+    }
+
+    .singleList li {
+      float: left;
+      padding-left: 20px;
+      font-size: 12px;
+      color: black;
+      font-family: Helvetica;
+    }
+
+    .storefront-product-pagination a[rel='prev'] {
+      display: none;
+    }
+
+    .storefront-product-pagination a[rel='next'] {
+      display: none;
+    }
+
+    .quantity .qty {
+      display: none;
+    }
+
+    input#submit {
+      display: none;
+  }
+
+  input#quantity_5f91563f6b88c {
+    display: none;
+  }
+
+
+  .dropbtn9 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn9:hover, .dropbtn9:focus {
+    background-color: #3e8e41;
+  }
+  
+  #myInput9 {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput9:focus {outline: 3px solid #ddd;}
+  
+  .dropdown9 {
+    display: inline-block;
+  }
+  
+  .dropdown-content9 {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content9 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown9 a:hover {background-color: #ddd;}
+  
+  .show9 {display: block;}
+
+
+  img.wp-post-image {
+    width: 532px;
+    height: 389px;
+  }
+
+  #reviews .comment-form-rating label {
+    display: none;
+  }
+
+  #reviews .comment-form-rating {
+    position: relative;
+    left: 450px;
+    bottom: 50px;
+  }
+
+
+
+  .dropbtn10 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn10:hover, .dropbtn10:focus {
+    background-color: #3e8e41;
+  }
+  
+  #myInput10 {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput10:focus {outline: 3px solid #ddd;}
+  
+  .dropdown10 {
+    display: inline-block;
+  }
+  
+  .dropdown-content10 {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content10 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown10 a:hover {background-color: #ddd;}
+  
+  .show10 {display: block;}
+
+
+
+
+
+  
+  .dropbtn11 {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn11:hover, .dropbtn11:focus {
+    background-color: #3e8e41;
+  }
+  
+  #myInput11 {
+    box-sizing: border-box;
+    background-image: url('searchicon.png');
+    background-position: 14px 12px;
+    background-repeat: no-repeat;
+    font-size: 16px;
+    padding: 14px 20px 12px 45px;
+    border: none;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  #myInput11:focus {outline: 3px solid #ddd;}
+  
+  .dropdown11 {
+    display: inline-block;
+  }
+  
+  .dropdown-content11 {
+    display: none;
+    position: absolute;
+    background-color: #f6f6f6;
+    min-width: 230px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+  
+  .dropdown-content11 a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown11 a:hover {background-color: #ddd;}
+  
+  .show11 {display: block;}
+  
 
 
 
