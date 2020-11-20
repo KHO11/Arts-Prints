@@ -2247,108 +2247,128 @@ button.menu-toggle {
       display: none;
     }
 
+    div.bottomLists {
+      position: relative;
+      display: inline-block;
+      margin-top: -50px;
+    }
+
+    div.bottomLines {
+      position: relative;
+      display: inline-block;
+    }
+
     .site-footer span.company {
-      position: absolute;
-      right:1215px;
-      top:100px;
+      position: relative;
+      top: 73px;
+      margin-left: -107px;
     }
 
     .site-footer hr.lineCompany {
       position: relative;
-      right: 108px;
-      top: 47px;
+      right: 78px;
+      top: 71px;
+    }
+
+    .site-footer ul {
+      display: inline-block;
+    }
+
+    .site-footer ul li {
+      padding-bottom: 11px;
     }
 
     .site-footer ul.one {
       position: relative;
-      right: 150px;
-      top:70px;
+      margin-left: -77px;
+      bottom: 115px;
     }
 
     .site-footer span.shop {
-      position: absolute;
-      left:230px;
-      bottom:375px;
+      position: relative;
+      margin-left: 87px;
+      top: 75px;
     }
 
     .site-footer hr.lineShop {
-      position: absolute;
-      left:230px;
-      bottom: 329px;
+      position: relative;
+      margin-left: 111px;
+      top: 48px;
     }
 
     .site-footer ul.two {
-      position: absolute;
-      bottom:165px;
-      left:185px;
+      position: relative;
+      bottom: 91px;
+      margin-left: 119px;
     }
 
     .site-footer span.contact {
-      position: absolute;
-      left: 465px;
-      bottom: 375px;
+      position: relative;
+      margin-left: 149px;
+      top: 75px;
     }
 
     .site-footer hr.lineContact {
-      position: absolute;
-      left:465px;
-      bottom:329px;
+      position: relative;
+      margin-left: 301px;
+      top: 24px;
     }
 
     .site-footer ul.three {
-      position: absolute;
-      left:420px;
-      bottom:165px;
+      position: relative;
+      margin-left: 46px;
+      bottom: 80px;
     }
 
     .site-footer span.sellers {
-      position: absolute;
-      left:695px;
-      bottom:375px;
+      position: relative;
+      margin-left: 125px;
+      top: 75px;
     }
 
     .site-footer hr.lineSellers {
-      position: absolute;
-      left:695px;
-      bottom: 329px;
+      position: relative;
+      margin-left: 495px;
     }
 
   .site-footer ul.four {
-    position: absolute;
-    left:650px;
-    bottom:213px;
+    position: relative;
+    margin-left: 83px;
+    bottom: 150px;
   }
 
   .site-footer span.newsletter {
-    position: absolute;
-    left:930px;
-    bottom: 375px;
+    position: relative;
+    margin-left: 650px;
+    top: 52px;
   }
 
 
 
   .site-footer input {
-    position: absolute;
-    left:930px;
-    bottom: 300px;
+    position: relative;
+    margin-left: 680px;
+    bottom: 23px;
     width: 388.82px;
     height: 53.68px;
   }
 
-  .site-footer span.facebook {
-    position: absolute;
-    left: 960px;
-    bottom:255px;
+  .site-footer label.facebook {
+    position: relative;
+    margin-left: 100px;
+    bottom: 174px;
   }
 
   .site-footer span.copyrights {
     position: absolute;
-    left:450px;
+    margin-top: 150px;
+    margin-left: -700px;
   }
 
     .site-footer {
       position: relative;
-      padding-top: 50px;
+      height: 452px;
+      width: 100%;
     }
 
     .storefront-sorting {
@@ -2364,9 +2384,9 @@ button.menu-toggle {
       background-color: #D6D6D6;
       width: 59.48px;
       height: 54px;
-      position: absolute;
-      left: 1270px;
-      bottom: 300px;
+      position: relative;
+      margin-left: 1038px;
+      bottom: 77px;
     }
 
     .site-footer ul{
@@ -2392,6 +2412,47 @@ button.menu-toggle {
       cursor: pointer;
       width: 222px;
       height:48px;
+      float: left;
+    }
+
+    span.sortBy {
+      font-weight: normal;
+      font-size: 12px;
+      position: relative;
+      margin-right: 35px;
+      bottom: 7px;
+      background: transparent;
+    }
+
+    span.recommend {
+      font-weight: normal;
+      color: #5D5D5D;
+      position: relative;
+      right: 25px;
+      bottom: 5px;
+      background: transparent;
+    }
+
+    span.category {
+      font-weight: normal;
+      font-size: 12px;
+      position: relative;
+      bottom: 5px;
+      background: transparent;
+      right: 10px;
+    }
+
+    img.arrow2 {
+      position: absolute;
+      margin-left: 80px;
+      bottom: 20px;
+    }
+
+    img.downArrow {
+      float: right;
+      position: relative;
+      left: 19px;
+      margin-top: -16px;
     }
     
     #myInput {
@@ -2447,6 +2508,10 @@ button.menu-toggle {
       cursor: pointer;
       width: 127px;
       height: 48px;
+      margin-right: 20px;
+      width: 127px;
+      position: relative;
+      bottom: 13px;
     }
     
     #myInput2 {
@@ -2518,7 +2583,7 @@ button.menu-toggle {
     .dropdown3 {
       position: relative;
       display: inline-block;
-      bottom: 50px;
+      bottom: 63px;
       right: 23px;
     }
     
@@ -2574,7 +2639,7 @@ button.menu-toggle {
     .dropdown4 {
       position: relative;
       display: inline-block;
-      bottom: 50px;
+      bottom: 63px;
       right:27px;
     }
     
@@ -2629,7 +2694,7 @@ button.menu-toggle {
     .dropdown5 {
       position: relative;
       display: inline-block;
-      bottom: 50px;
+      bottom: 63px;
       right:30px;
     }
     
@@ -2683,7 +2748,7 @@ button.menu-toggle {
     .dropdown6 {
       position: relative;
       display: inline-block;
-      bottom: 50px;
+      bottom: 63px;
       right: 33px;
     }
     
@@ -2737,7 +2802,7 @@ button.menu-toggle {
     .dropdown7 {
       position: relative;
       display: inline-block;
-      bottom: 50px;
+      bottom: 63px;
       right: 36px;
     }
     
@@ -2791,8 +2856,8 @@ button.menu-toggle {
     .dropdown8 {
       position: relative;
       display: inline-block;
-      bottom: 98px;
-      left:549px;
+      bottom: 111px;
+      left:483px;
     }
     
     .dropdown-content8 {
@@ -2818,7 +2883,7 @@ button.menu-toggle {
 
     hr.searchLine {
       position: relative;
-      top:40px;
+      top:20px;
       left:50px;
     }
 
@@ -2831,11 +2896,20 @@ button.menu-toggle {
       position: relative;
       bottom:0px;
       right:170px;
+      line-height: 26px;
+      position: relative;
+      bottom: 30px;
     }
 
-    h9 {
-      position: absolute;
-      right: 1000px;
+    a.par2 {
+      color: black;
+      margin-left: 16px;
+    }
+
+    .contentTitle {
+      margin-left: -70px;
+      top: 460px;
+      float: left;
       color: black;
       font-weight: normal;
       line-height: 56px;
@@ -2844,6 +2918,7 @@ button.menu-toggle {
 
     .site-search form {
       position: relative;
+      bottom: 63px;
     }
 
     ul.products {
@@ -2852,7 +2927,7 @@ button.menu-toggle {
       bottom: 70px;
       right: 140px;
       padding-top: 80px;
-      width: 1380px; 
+      width: 150%; 
       height: 1450px;    
     }
 
@@ -2862,21 +2937,53 @@ button.menu-toggle {
       color: white;
       width: 256px;
       height: 63px;
+      margin-right: 250px;
+    }
+
+    .mainInfo {
+      margin-bottom: -152px;
     }
 
     .mainInfo span {
       background-color: #F8F9FA;
-      padding-top: 18px;
+      padding-top: 10px;
       padding-bottom: 10px;
     }
 
     .site-header input {
       background-color: transparent;
-      position: absolute;
-      bottom:165px;
+      position: relative;
+      bottom: 50px;
       left:42px;
       font-size: 13px;
       width: 340px;
+    }
+
+    .site-header img.heart {
+      position: relative;
+      float: right;
+      bottom: 38px;
+      right: 130px;
+    }
+
+    .site-header img.person {
+      float: right;
+      margin-right: 190px;
+      bottom: 37px;
+      position: relative;
+    }
+
+    .site-header img.kart {
+      position: relative;
+      margin-left: 1275px;
+      bottom: 75px;
+    }
+
+    .site-header img.circleNumber {
+      position: relative;
+    float: right;
+    bottom: 107px;
+    right: 38px;
     }
 
     .site-header input::placeholder {
@@ -2895,70 +3002,58 @@ button.menu-toggle {
 
 
     li.product.type-product.post-165.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
-      position: absolute;
-      top: 277px;
-      left: 90px;
+      margin-top: 102px;
+      margin-left: -118px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-165.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price {
-      position: absolute;
-      top:303px;
-      left: 90px;
+      margin-top: -5px;
+      margin-left: -186px;
       color: #8E8E8E;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-170.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      left: 290px;
-      top: 60px;
+      top: -21px;
+      margin-left: -260px;
     }
 
     li.product.type-product.post-170.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
-      position: absolute;
-      top: 298px;
-      left:100px;
+      margin-top: 56px;
+      margin-left: -137px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-170.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price {
-      position: absolute;
-      top: 325px;
-      left: 100px;
+      margin-top: -5px;
+      margin-left: -204px;
       color: #8E8E8E;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      left: 600px;
-    }
-
-    li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      top: 45px;
+      margin-top: -462px;
+      margin-left: 600px;
     }
 
     li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
-      position: absolute;
-      top: 315px;
-      left: 100px;
+      margin-top: 63px;
+      margin-left: -110px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price {
-      position: absolute;
-      top: 340px;
-      left: 100px;
+      margin-top: -4px;
+      margin-left: -178px;
       color: #8E8E8E;
       font-weight: bold;
       font-size: 16px;
@@ -2966,192 +3061,169 @@ button.menu-toggle {
 
 
     li.product.type-product.post-181.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      left:910px;
-      top: 60px;
+      margin-left: 920px;
+      margin-top: -444px;
     }
 
     li.product.type-product.post-181.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
-      position: absolute;
-      top: 300px;
-      left: 100px;
+      margin-top: 76px;
+      margin-left: -110px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-181.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
-      position: absolute;
-      top: 325px;
-      left: 100px;
+      margin-top: -3px;
+      margin-left: -176px;
       color: #8E8E8E;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-183.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      top: 500px;
-      right: 920px;
+      margin-top: -10px;
+      float: left;
+      margin-left: -20px;
     }
 
     li.product.type-product.post-183.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
-      position: absolute;
-      top: 350px;
-      left: 100px;
+      margin-top: 79px;
+      margin-left: -97px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-183.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price {
-      position: absolute;
-      top: 380px;
-      left: 100px;
+      margin-top: 10px;
+      margin-left: -159px;
       color: #8E8E8E;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-187.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      top: 520px;
-      left: 300px;
+      margin-top: 6px;
+      margin-left: -240px;
     }
 
     li.product.type-product.post-187.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
-      position: absolute;
-      top: 332px;
-      left: 100px;
+      margin-top: 114px;
+      margin-left: -129px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-187.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
-      position: absolute;
-      top: 360px;
-      left: 100px;
+      margin-top: -1px;
+      margin-left: -198px;
       color: #8E8E8E;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-196.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      top: 520px;
-      left: 610px;
+      margin-top: -463px;
+      margin-left: 610px;
     }
 
     li.product.type-product.post-196.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
-      position: absolute;
-      top: 333px;
-      left: 100px;
+      margin-top: 106px;
+      margin-left: -126px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-196.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
-      position: absolute;
-      top: 360px;
-      left: 100px;
+      margin-top: 0px;
+      margin-left: -193px;
       color: #8E8E8E;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-198.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      top: 500px;
-      left: 910px;
+      margin-top: -483px;
+      margin-left: 910px;
     }
 
     li.product.type-product.post-198.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
-      position: absolute;
-      top: 352px;
-      left: 100px;
+      margin-top: 90px;
+      margin-left: -91px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-198.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price {
-      position: absolute;
-      top: 380px;
-      left: 100px;
+      margin-top: 4px;
+      margin-left: -158px;
       color: #8E8E8E;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-200.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      top: 1050px;
-      right: 970px;
+      margin-top: 66px;
+      float: left;
     }
 
     li.product.type-product.post-200.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
-      position: absolute;
-      top: 300px;
-      left: 100px;
+      margin-top: 118px;
+      margin-left: -124px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-200.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
-      position: absolute;
-      top: 333px;
-      left: 100px;
+      margin-top: 8px;
+      margin-left: -190px;
       color: #8E8E8E;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-202.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      top: 1000px;
-      left: 300px;
+      margin-top: -472px;
+      margin-left: 300px;
     }
 
     li.product.type-product.post-202.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
-      position: absolute;
-      top: 352px;
-      left: 100px;
+      margin-top: 77px;
+      margin-left: -136px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-202.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
-      position: absolute;
-      top: 382px;
-      left: 100px;
+      margin-top: -1px;
+      margin-left: -204px;
       color: #8e8e8e;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-204.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      top: 1020px;
-      left:610px;
+      margin-top: -459px;
+      margin-left: 610px;
     }
 
     li.product.type-product.post-204.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
-      position: absolute;
-      top: 333px;
-      left: 100px;
+      margin-top: 109px;
+      margin-left: -124px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-204.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
-      position: absolute;
-      top: 360px;
-      left: 100px;
+      margin-top: 8px;
+      margin-left: -191px;
       color: #8e8e8e;
       font-weight: bold;
       font-size: 16px;
@@ -3160,24 +3232,21 @@ button.menu-toggle {
 
 
     li.product.type-product.post-206.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      position: absolute;
-      top: 1000px;
-      left:910px;
+      margin-top: -472px;
+      margin-left: -261px;
     }
 
     li.product.type-product.post-206.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
-      position: absolute;
-      top: 352px;
-      left:100px;
+      margin-top: 84px;
+      margin-left: -79px;
       color: #06022A;
       font-weight: bold;
       font-size: 16px;
     }
 
     li.product.type-product.post-206.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple span.price{
-      position: absolute;
-      top: 382px;
-      left:100px;
+      margin-top: 12px;
+      margin-left: -147px;
       color: #8e8e8e;
       font-weight: bold;
       font-size: 16px;
@@ -3229,7 +3298,7 @@ button.menu-toggle {
 
 
   .dropbtn9 {
-    background-color: #4CAF50;
+    background-color: transparent;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -3256,6 +3325,9 @@ button.menu-toggle {
   
   .dropdown9 {
     display: inline-block;
+    position: relative;
+    top: 332px;
+    left: -2px;
   }
   
   .dropdown-content9 {
@@ -3282,7 +3354,11 @@ button.menu-toggle {
 
   img.wp-post-image {
     width: 532px;
-    height: 389px;
+    height: 325px;
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    display: none;
   }
 
   #reviews .comment-form-rating label {
@@ -3291,8 +3367,18 @@ button.menu-toggle {
 
   #reviews .comment-form-rating {
     position: relative;
-    left: 450px;
-    bottom: 50px;
+    margin-left: 400px;
+    display: none;
+  }
+
+  button.single_add_to_cart_button.button.alt {
+    margin-top: -3%;
+    margin-left: 222px;
+    width: 280px;
+    height: 75px;
+    background: #06022A;
+    border-radius: 8px;
+    display: none;
   }
 
 
@@ -3325,6 +3411,9 @@ button.menu-toggle {
   
   .dropdown10 {
     display: inline-block;
+    position: relative;
+    top: 395px;
+    margin-left: -84px;
   }
   
   .dropdown-content10 {
@@ -3381,6 +3470,9 @@ button.menu-toggle {
   
   .dropdown11 {
     display: inline-block;
+    position: relative;
+    top: 456px;
+    margin-left: -66px;
   }
   
   .dropdown-content11 {
@@ -3404,14 +3496,328 @@ button.menu-toggle {
   
   .show11 {display: block;}
   
+.colourStuff {
+  position: relative;
+    background-color: #F8F9FA;
+    width: 150%;
+    height: 130px;
+    top: 1454px;
+    margin-left: -150px;
+}
+
+img.blueHeart1 {
+  position: relative;
+}
+
+.singleList {
+    list-style-type: none;
+    margin-left: -106px;
+    margin-top: -79px;
+}
+
+span.erin {
+  margin-left: 684px;
+  top: 36px;
+  font-size: 15px;
+  color: #1C1C1C;
+  letter-spacing: 1.96154px;
+  position: relative;
+}
+
+.single-product li.product.type-product.post-206.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
+  position: relative;
+  top: 350px;
+}
+
+p.price {
+  position: relative;
+  left: 221px;
+  top: -7px;
+  color: black;
+  font-weight: bold;
+  display: none;
+}
+
+.single-product ul.products.columns-3 {
+  display: none;
+}
+
+img.downArrow1 {
+  margin-top: -16px;
+  position: relative;
+  left: 246px;
+}
+
+img.downArrow2 {
+  position: relative;
+  margin-top: -16px;
+  left: 243px;
+}
+
+img.downArrow3 {
+  position: relative;
+  margin-top: -16px;
+  left: 243px;
+}
+
+img.singleOval {
+  float: right;
+  position: relative;
+  top: 538px;
+}
+
+img.singleBlueHeart {
+  float: right;
+  position: relative;
+  top: 555px;
+  left: 38px;
+}
+
+.heartOval {
+  position: relative;
+  left: 62%;
+  bottom: 52px;
+}
+
+span.singlePrint {
+  color: #1C1C1C;
+  font-size: 38px;
+  line-height: 49px;
+  left: -90px;
+  top: 86px;
+  position: relative;
+}
+
+p.productInfo {
+  position: relative;
+  float: right;
+  left: -9%;
+  margin-top: -25%;
+}
 
 
+.optionsList {
+  position: relative;
+  float: right;
+  margin-top: -47%;
+  left: -28%;
+}
 
 
+.smallSection {
+  background: #F8F9FA;
+  height: 662px;
+  width: 128%;
+  left: -14%;
+  position: relative;
+  top: 234px;
+  text-align: center;
+  border-top: groove;
+  border-top-width: thin;
+  border-bottom: groove;
+  border-bottom-width: thin;
 
+}
 
+label.printPrice {
+  position: relative;
+  font-size: 30px;
+  line-height: 35px;
+  color: black;
+  font-family: AvenirNext;
+  float: right;
+  width: 36%;
+  top: 142px;
+}
 
-    
+.single-product div.product {
+  position: relative;
+  overflow: hidden;
+  
+}
+
+img.flex-active {
+  display: none;
+}
+
+img.bigWave {
+  position: relative;
+  margin-top: 8%;
+}
+
+.single-product div.product .woocommerce-product-gallery img {
+  margin: 0;
+  display: none;
+}
+
+.woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-5.images {
+  display: none;
+}
+
+.related > h2:first-child, .upsells > h2:first-child {
+  font-size: 1.618em;
+  margin-bottom: 1em;
+  display: none;
+}
+
+.single-product .addKart {
+background: #06022A;
+border-radius: 8px;
+display: inline-flex;
+width: 280px;
+height: 75px;
+position: relative;
+margin-right: 105px;
+top: 64px;
+float: right;
+}
+
+.horizontalLines {
+  float: right;
+  width: 25%;
+  margin-right: 118px;
+  margin-top: -108px;
+}
+
+hr.line2 {
+  position: relative;
+  top: 38px;
+}
+
+hr.line3 {
+  position: relative;
+  top: 77px;
+}
+
+.smallSection h10 {
+  font-family: AvenirNext;
+    font-size: 38px;
+    line-height: 49px;
+    color: #1C1C1C;
+    font-weight: bold;
+    position: relative;
+    left: 26%;
+}
+
+img.blackFace {
+  position: relative;
+  margin-left: 34%;
+  margin-top: 40px;
+}
+
+p.personPar {
+  color: black;
+  position: relative;
+  margin-top: -6%;
+}
+
+.imagesSection {
+  display: inline-flex;
+  position: relative;
+  margin-top: 8%;
+}
+
+.imagesSection img {
+  margin-right: 65px;
+}
+
+img.elephant {
+  width: 221px;
+}
+
+.arrowLeft {
+  width: 60px;
+  height: 84px;
+  margin-left: 76px;
+  margin-top: 41px;
+}
+
+.arrowRight {
+  width: 60px;
+  height: 84px;
+  margin-left: 11px;
+  margin-top: 52px;
+}
+
+.smallSection button {
+  background-color: transparent;
+  color: #06022A;
+  border: 2px solid #06022A;
+  box-sizing: border-box;
+  width: 225px;
+  height: 60px;
+  border-radius: 8px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  margin-top: 43px;
+}
+
+.otherPrints {
+  position: relative;
+  top: 300px;
+  text-align: center;
+}
+
+.otherPrints h11 {
+  font-size: 38px;
+  line-height: 49px;
+  color: black;
+  font-weight: bold;
+}
+
+div.showPrints {
+  display: inline-flex;
+  position: relative;
+  top: 47px;
+}
+
+.showPrints div {
+  margin-right: 40px;
+  text-align: left;
+}
+
+.heart1 {
+  float: right;
+}
+
+.heart2 {
+  float: right;
+}
+
+.heart3 {
+  float: right;
+}
+
+.heart4 {
+  float: right;
+}
+
+label.heading1 {
+  position: relative;
+  top: 15%;
+}
+
+label.price1 {
+  position: relative;
+  top: 51px;
+  margin-right: 16%;
+}
+
+label.heading2 {
+  position: relative;
+  top: 15%;
+}
+
+label.price2 {
+  position: relative;
+  top: 78px;
+  right: 51%;
+}
 
 
 

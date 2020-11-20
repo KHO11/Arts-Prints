@@ -1,0 +1,1222 @@
+0000.020 (0) Opened log file at time: Fri, 23 Oct 2020 08:28:25 +0000 on http://localhost/TestWordPress/wordpress
+0000.068 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 68.3M | 8M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.211 (0) Free space on disk containing Updraft's temporary directory: 414616.2 MB
+0000.305 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0000.422 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0000.555 (0) Set semaphore last lock (fd) time to 2020-10-23 08:28:25
+0000.578 (0) Semaphore lock (fd) complete
+0000.678 (0) Backup run: resumption=0, nonce=5448fabc40fc, file_nonce=5448fabc40fc begun at=1603441705 (1s ago), job type=backup
+0000.800 (0) Scheduling a resumption (1) after 300 seconds (1603442006) in case this run gets aborted
+0001.044 (0) Checking if we have a zip executable available
+0001.121 (0) Creation of backups of directories: beginning
+0001.545 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0018.432 (0) Total entities for the zip file: 1201 directories, 6886 files (0 skipped as non-modified), 109.8 MB
+0018.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0021.636 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.6 MB, 59 (60) files added so far); re-opening (prior size: 227.6 KB)
+0022.980 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 100 files added (on-disk size: 654 KB)
+0024.598 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2 MB, 124 (184) files added so far); re-opening (prior size: 654 KB)
+0026.168 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 200 files added (on-disk size: 1245 KB)
+0027.636 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.2 MB, 43 (227) files added so far); re-opening (prior size: 1245 KB)
+0030.660 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 41 (268) files added so far); re-opening (prior size: 2145.9 KB)
+0031.595 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 300 files added (on-disk size: 2316.8 KB)
+0033.601 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.6 MB, 113 (381) files added so far); re-opening (prior size: 2316.8 KB)
+0035.397 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 400 files added (on-disk size: 2803.1 KB)
+0037.636 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.5 MB, 44 (425) files added so far); re-opening (prior size: 2803.1 KB)
+0041.597 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.2 MB, 30 (455) files added so far); re-opening (prior size: 3841.8 KB)
+0044.590 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.5 MB, 34 (489) files added so far); re-opening (prior size: 4554.9 KB)
+0046.920 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 500 files added (on-disk size: 5763.5 KB)
+0048.623 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3 MB, 39 (528) files added so far); re-opening (prior size: 5763.5 KB)
+0051.781 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 600 files added (on-disk size: 7126.8 KB)
+0052.592 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 MB, 113 (641) files added so far); re-opening (prior size: 7126.8 KB)
+0055.161 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 700 files added (on-disk size: 7389.9 KB)
+0055.665 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 77 (718) files added so far); re-opening (prior size: 7389.9 KB)
+0058.853 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 55 (773) files added so far); re-opening (prior size: 7503.1 KB)
+0060.551 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 800 files added (on-disk size: 7579.2 KB)
+0061.716 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 52 (825) files added so far); re-opening (prior size: 7579.2 KB)
+0065.591 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 MB, 61 (886) files added so far); re-opening (prior size: 7730.4 KB)
+0067.697 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 900 files added (on-disk size: 7994.3 KB)
+0068.597 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 MB, 37 (923) files added so far); re-opening (prior size: 7994.3 KB)
+0071.556 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 1000 files added (on-disk size: 8710 KB)
+0072.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.6 MB, 109 (1032) files added so far); re-opening (prior size: 8710 KB)
+0076.815 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 53 (1085) files added so far); re-opening (prior size: 9614.3 KB)
+0080.380 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 13 (1098) files added so far); re-opening (prior size: 9987 KB)
+0080.758 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 1100 files added (on-disk size: 10019.3 KB)
+0083.614 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1 MB, 68 (1166) files added so far); re-opening (prior size: 10019.3 KB)
+0086.618 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 MB, 30 (1196) files added so far); re-opening (prior size: 10884.4 KB)
+0088.438 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 1200 files added (on-disk size: 11445.3 KB)
+0089.706 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 9 (1205) files added so far); re-opening (prior size: 11445.3 KB)
+0092.780 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.7 MB, 47 (1252) files added so far); re-opening (prior size: 11462.9 KB)
+0096.078 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 1300 files added (on-disk size: 13463.1 KB)
+0096.634 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.6 MB, 73 (1325) files added so far); re-opening (prior size: 13463.1 KB)
+0101.622 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 11 (1336) files added so far); re-opening (prior size: 16035.3 KB)
+0105.607 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.6 MB, 43 (1379) files added so far); re-opening (prior size: 16049.3 KB)
+0108.958 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 1400 files added (on-disk size: 18325.6 KB)
+0109.958 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 1500 files added (on-disk size: 18325.6 KB)
+0110.597 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.7 MB, 158 (1537) files added so far); re-opening (prior size: 18325.6 KB)
+0114.625 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 37 (1574) files added so far); re-opening (prior size: 19442.4 KB)
+0117.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 24 (1598) files added so far); re-opening (prior size: 19578.1 KB)
+0118.068 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 1600 files added (on-disk size: 19674.3 KB)
+0120.605 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 36 (1634) files added so far); re-opening (prior size: 19674.3 KB)
+0123.669 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 28 (1662) files added so far); re-opening (prior size: 19845.9 KB)
+0126.629 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 10 (1672) files added so far); re-opening (prior size: 20040.3 KB)
+0129.622 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 9 (1681) files added so far); re-opening (prior size: 20137.4 KB)
+0132.664 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.4 MB, 17 (1698) files added so far); re-opening (prior size: 20158.3 KB)
+0135.497 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 1700 files added (on-disk size: 20780.1 KB)
+0137.607 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (7.7 MB, 41 (1739) files added so far); re-opening (prior size: 20780.1 KB)
+0142.855 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 1800 files added (on-disk size: 22786.2 KB)
+0143.623 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.7 MB, 100 (1839) files added so far); re-opening (prior size: 22786.2 KB)
+0148.592 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 59 (1898) files added so far); re-opening (prior size: 24019 KB)
+0151.153 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 1900 files added (on-disk size: 24086.5 KB)
+0152.625 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 55 (1953) files added so far); re-opening (prior size: 24086.5 KB)
+0156.379 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 2000 files added (on-disk size: 24141 KB)
+0156.602 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 54 (2007) files added so far); re-opening (prior size: 24141 KB)
+0160.628 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 38 (2045) files added so far); re-opening (prior size: 24179.1 KB)
+0164.601 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 35 (2080) files added so far); re-opening (prior size: 24220.1 KB)
+0167.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 8 (2088) files added so far); re-opening (prior size: 24289.7 KB)
+0170.488 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 2100 files added (on-disk size: 24298 KB)
+0170.615 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 14 (2102) files added so far); re-opening (prior size: 24298 KB)
+0173.605 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 20 (2122) files added so far); re-opening (prior size: 24326 KB)
+0176.593 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 23 (2145) files added so far); re-opening (prior size: 24339.4 KB)
+0179.640 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 21 (2166) files added so far); re-opening (prior size: 24368.6 KB)
+0182.592 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 21 (2187) files added so far); re-opening (prior size: 24388.6 KB)
+0185.488 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 2200 files added (on-disk size: 24565.1 KB)
+0185.783 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 15 (2202) files added so far); re-opening (prior size: 24565.1 KB)
+0188.603 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 25 (2227) files added so far); re-opening (prior size: 24577.3 KB)
+0191.595 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 28 (2255) files added so far); re-opening (prior size: 24598.4 KB)
+0195.594 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 35 (2290) files added so far); re-opening (prior size: 24622.8 KB)
+0198.382 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 2300 files added (on-disk size: 24666.3 KB)
+0199.596 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 45 (2335) files added so far); re-opening (prior size: 24666.3 KB)
+0202.637 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 17 (2352) files added so far); re-opening (prior size: 24716.4 KB)
+0205.594 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 20 (2372) files added so far); re-opening (prior size: 24733 KB)
+0208.487 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 2400 files added (on-disk size: 24760.6 KB)
+0208.603 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 33 (2405) files added so far); re-opening (prior size: 24760.6 KB)
+0211.656 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 13 (2418) files added so far); re-opening (prior size: 24795.8 KB)
+0214.762 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 12 (2430) files added so far); re-opening (prior size: 24810.9 KB)
+0217.593 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 14 (2444) files added so far); re-opening (prior size: 24824.3 KB)
+0220.632 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 16 (2460) files added so far); re-opening (prior size: 24838.2 KB)
+0224.627 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 20 (2480) files added so far); re-opening (prior size: 24857.7 KB)
+0228.198 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 13 (2493) files added so far); re-opening (prior size: 24900.3 KB)
+0230.708 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 2500 files added (on-disk size: 25060.1 KB)
+0231.645 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 17 (2510) files added so far); re-opening (prior size: 25060.1 KB)
+0234.631 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 15 (2525) files added so far); re-opening (prior size: 25143.8 KB)
+0238.597 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 60 (2585) files added so far); re-opening (prior size: 25165.5 KB)
+0241.062 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 2600 files added (on-disk size: 25208.2 KB)
+0241.591 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 22 (2607) files added so far); re-opening (prior size: 25208.2 KB)
+0244.593 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 24 (2631) files added so far); re-opening (prior size: 25223.6 KB)
+0247.726 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 16 (2647) files added so far); re-opening (prior size: 25240.5 KB)
+0251.662 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 28 (2675) files added so far); re-opening (prior size: 25256.4 KB)
+0254.951 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 2700 files added (on-disk size: 25292.3 KB)
+0255.604 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 42 (2717) files added so far); re-opening (prior size: 25292.3 KB)
+0256.844 (0) The scheduled resumption is within 45 seconds - will reschedule
+0256.928 (0) Rescheduling resumption 1: moving to 345 seconds from now (1603442307)
+0257.128 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 300 + 45 = 345
+0259.614 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 33 (2750) files added so far); re-opening (prior size: 25352.3 KB)
+0263.617 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (4.1 MB, 35 (2785) files added so far); re-opening (prior size: 25481.1 KB)
+0267.160 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 2800 files added (on-disk size: 25582.9 KB)
+0268.593 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 66 (2851) files added so far); re-opening (prior size: 25582.9 KB)
+0271.599 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 42 (2893) files added so far); re-opening (prior size: 25807 KB)
+0274.396 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 2900 files added (on-disk size: 26448.4 KB)
+0274.899 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 8 (2901) files added so far); re-opening (prior size: 26448.4 KB)
+0278.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 13 (2914) files added so far); re-opening (prior size: 26462.2 KB)
+0284.825 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 35 (2949) files added so far); re-opening (prior size: 26484.2 KB)
+0287.636 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 19 (2968) files added so far); re-opening (prior size: 26564.6 KB)
+0290.860 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 21 (2989) files added so far); re-opening (prior size: 26592.7 KB)
+0293.943 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 3000 files added (on-disk size: 26692 KB)
+0294.625 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 20 (3009) files added so far); re-opening (prior size: 26692 KB)
+0298.631 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 MB, 14 (3023) files added so far); re-opening (prior size: 26869.2 KB)
+0304.602 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 40 (3063) files added so far); re-opening (prior size: 27173 KB)
+0307.820 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 19 (3082) files added so far); re-opening (prior size: 27337.5 KB)
+0311.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 16 (3098) files added so far); re-opening (prior size: 27389.6 KB)
+0312.272 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 3100 files added (on-disk size: 27416.5 KB)
+0314.810 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 11 (3109) files added so far); re-opening (prior size: 27416.5 KB)
+0316.907 (0) The time we have been running (316.5) is approaching the resumption interval (345) - increasing resumption interval to 347
+0319.981 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 8 (3117) files added so far); re-opening (prior size: 27439.2 KB)
+0320.474 (0) The time we have been running (320.4) is approaching the resumption interval (347) - increasing resumption interval to 351
+0322.789 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 8 (3125) files added so far); re-opening (prior size: 27452.8 KB)
+0325.085 (0) The time we have been running (324.7) is approaching the resumption interval (351) - increasing resumption interval to 355
+0327.734 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (3130) files added so far); re-opening (prior size: 27463.4 KB)
+0328.447 (0) The time we have been running (328.3) is approaching the resumption interval (355) - increasing resumption interval to 359
+0331.646 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 17 (3147) files added so far); re-opening (prior size: 27469.6 KB)
+0332.241 (0) The time we have been running (332.1) is approaching the resumption interval (359) - increasing resumption interval to 363
+0334.602 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 5 (3152) files added so far); re-opening (prior size: 27510.9 KB)
+0335.867 (0) The time we have been running (335.4) is approaching the resumption interval (363) - increasing resumption interval to 366
+0338.685 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 17 (3169) files added so far); re-opening (prior size: 27526.6 KB)
+0339.419 (0) The time we have been running (339.3) is approaching the resumption interval (366) - increasing resumption interval to 370
+0342.419 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 4 (3173) files added so far); re-opening (prior size: 27560.8 KB)
+0344.164 (0) The time we have been running (343.9) is approaching the resumption interval (370) - increasing resumption interval to 374
+0346.956 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 5 (3178) files added so far); re-opening (prior size: 27569 KB)
+0347.563 (0) The time we have been running (347.4) is approaching the resumption interval (374) - increasing resumption interval to 378
+0350.739 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 22 (3200) files added so far); re-opening (prior size: 27581.7 KB)
+0352.651 (0) The time we have been running (352.3) is approaching the resumption interval (378) - increasing resumption interval to 383
+0352.966 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 3200 files added (on-disk size: 27600.7 KB)
+0355.189 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 3300 files added (on-disk size: 27600.7 KB)
+0355.725 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 MB, 136 (3336) files added so far); re-opening (prior size: 27600.7 KB)
+0357.941 (0) The time we have been running (357.7) is approaching the resumption interval (383) - increasing resumption interval to 388
+0360.500 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 3400 files added (on-disk size: 28056.8 KB)
+0360.630 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 66 (3402) files added so far); re-opening (prior size: 28056.8 KB)
+0361.541 (0) The time we have been running (361.3) is approaching the resumption interval (388) - increasing resumption interval to 392
+0364.647 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 36 (3438) files added so far); re-opening (prior size: 28229.9 KB)
+0365.341 (0) The time we have been running (365.2) is approaching the resumption interval (392) - increasing resumption interval to 396
+0367.698 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 7 (3445) files added so far); re-opening (prior size: 28348.9 KB)
+0368.319 (0) The time we have been running (368.2) is approaching the resumption interval (396) - increasing resumption interval to 399
+0371.610 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 12 (3457) files added so far); re-opening (prior size: 28372.6 KB)
+0372.231 (0) The time we have been running (372.1) is approaching the resumption interval (399) - increasing resumption interval to 403
+0375.598 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 38 (3495) files added so far); re-opening (prior size: 28417.9 KB)
+0377.593 (0) The time we have been running (377.3) is approaching the resumption interval (403) - increasing resumption interval to 408
+0378.648 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 3500 files added (on-disk size: 28518.5 KB)
+0380.599 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 60 (3555) files added so far); re-opening (prior size: 28518.5 KB)
+0382.296 (0) The time we have been running (382) is approaching the resumption interval (408) - increasing resumption interval to 412
+0384.119 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 3600 files added (on-disk size: 28625.8 KB)
+0384.638 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 67 (3622) files added so far); re-opening (prior size: 28625.8 KB)
+0386.397 (0) The time we have been running (386.2) is approaching the resumption interval (412) - increasing resumption interval to 417
+0388.622 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 49 (3671) files added so far); re-opening (prior size: 28852.6 KB)
+0389.242 (0) The time we have been running (389.2) is approaching the resumption interval (417) - increasing resumption interval to 420
+0391.622 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 17 (3688) files added so far); re-opening (prior size: 28926 KB)
+0392.887 (0) The time we have been running (392.4) is approaching the resumption interval (420) - increasing resumption interval to 423
+0395.223 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 3700 files added (on-disk size: 28948.8 KB)
+0395.649 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 17 (3705) files added so far); re-opening (prior size: 28948.8 KB)
+0396.364 (0) The time we have been running (396.3) is approaching the resumption interval (423) - increasing resumption interval to 427
+0398.768 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 9 (3714) files added so far); re-opening (prior size: 29105.4 KB)
+0401.827 (0) The time we have been running (401.1) is approaching the resumption interval (427) - increasing resumption interval to 432
+0405.620 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 20 (3734) files added so far); re-opening (prior size: 29146.8 KB)
+0406.503 (0) The time we have been running (406.2) is approaching the resumption interval (432) - increasing resumption interval to 437
+0409.848 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 18 (3752) files added so far); re-opening (prior size: 29232.3 KB)
+0413.731 (0) The time we have been running (412.2) is approaching the resumption interval (437) - increasing resumption interval to 443
+0417.400 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 3800 files added (on-disk size: 29409.5 KB)
+0417.633 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.8 MB, 51 (3803) files added so far); re-opening (prior size: 29409.5 KB)
+0419.803 (0) The time we have been running (419.4) is approaching the resumption interval (443) - increasing resumption interval to 450
+0422.612 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 55 (3858) files added so far); re-opening (prior size: 30171 KB)
+0424.587 (0) The time we have been running (424.3) is approaching the resumption interval (450) - increasing resumption interval to 455
+0426.777 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 3900 files added (on-disk size: 30483.1 KB)
+0427.603 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 62 (3920) files added so far); re-opening (prior size: 30483.1 KB)
+0429.439 (0) The time we have been running (428.2) is approaching the resumption interval (455) - increasing resumption interval to 459
+0432.532 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 4000 files added (on-disk size: 30627.2 KB)
+0432.647 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 81 (4001) files added so far); re-opening (prior size: 30627.2 KB)
+0433.993 (0) The time we have been running (433.3) is approaching the resumption interval (459) - increasing resumption interval to 464
+0436.594 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 7 (4008) files added so far); re-opening (prior size: 30756.7 KB)
+0437.332 (0) The time we have been running (437.1) is approaching the resumption interval (464) - increasing resumption interval to 468
+0439.932 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 13 (4021) files added so far); re-opening (prior size: 30763.7 KB)
+0441.858 (0) The time we have been running (441.4) is approaching the resumption interval (468) - increasing resumption interval to 472
+0444.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 35 (4056) files added so far); re-opening (prior size: 30782.7 KB)
+0445.422 (0) The time we have been running (445.3) is approaching the resumption interval (472) - increasing resumption interval to 476
+0448.017 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 13 (4069) files added so far); re-opening (prior size: 30821.2 KB)
+0448.881 (0) The time we have been running (448.7) is approaching the resumption interval (476) - increasing resumption interval to 479
+0451.711 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 2 (4071) files added so far); re-opening (prior size: 30828.6 KB)
+0452.543 (0) The time we have been running (452.5) is approaching the resumption interval (479) - increasing resumption interval to 483
+0454.763 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 15 (4086) files added so far); re-opening (prior size: 30829.7 KB)
+0457.355 (0) The time we have been running (456.7) is approaching the resumption interval (483) - increasing resumption interval to 487
+0460.024 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 4100 files added (on-disk size: 30839.4 KB)
+0460.702 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 25 (4111) files added so far); re-opening (prior size: 30839.4 KB)
+0462.521 (0) The time we have been running (462.3) is approaching the resumption interval (487) - increasing resumption interval to 493
+0465.649 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 50 (4161) files added so far); re-opening (prior size: 30854.1 KB)
+0468.309 (0) The time we have been running (467.7) is approaching the resumption interval (493) - increasing resumption interval to 498
+0469.814 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 4200 files added (on-disk size: 31149.6 KB)
+0470.593 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 90 (4251) files added so far); re-opening (prior size: 31149.6 KB)
+0473.211 (0) The time we have been running (472.7) is approaching the resumption interval (498) - increasing resumption interval to 503
+0475.365 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 4300 files added (on-disk size: 31342.3 KB)
+0476.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 94 (4345) files added so far); re-opening (prior size: 31342.3 KB)
+0477.255 (0) The time we have been running (477.2) is approaching the resumption interval (503) - increasing resumption interval to 508
+0479.685 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (4350) files added so far); re-opening (prior size: 31407.4 KB)
+0482.966 (0) The time we have been running (481.6) is approaching the resumption interval (508) - increasing resumption interval to 512
+0484.877 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 4400 files added (on-disk size: 31411.4 KB)
+0485.591 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 87 (4437) files added so far); re-opening (prior size: 31411.4 KB)
+0486.312 (0) The time we have been running (486.2) is approaching the resumption interval (512) - increasing resumption interval to 517
+0488.694 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 6 (4443) files added so far); re-opening (prior size: 31488.9 KB)
+0491.494 (0) The time we have been running (490.2) is approaching the resumption interval (517) - increasing resumption interval to 521
+0493.968 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 4500 files added (on-disk size: 31494.6 KB)
+0494.598 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 82 (4525) files added so far); re-opening (prior size: 31494.6 KB)
+0495.234 (0) The time we have been running (495.1) is approaching the resumption interval (521) - increasing resumption interval to 526
+0497.615 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 7 (4532) files added so far); re-opening (prior size: 31571.2 KB)
+0500.126 (0) The time we have been running (499.5) is approaching the resumption interval (526) - increasing resumption interval to 530
+0502.434 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 4600 files added (on-disk size: 31576.2 KB)
+0502.600 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 75 (4607) files added so far); re-opening (prior size: 31576.2 KB)
+0504.679 (0) The time we have been running (504.1) is approaching the resumption interval (530) - increasing resumption interval to 535
+0507.620 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 82 (4689) files added so far); re-opening (prior size: 31651.5 KB)
+0510.504 (0) The time we have been running (509.4) is approaching the resumption interval (535) - increasing resumption interval to 540
+0511.416 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 4700 files added (on-disk size: 31734.1 KB)
+0513.292 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 4800 files added (on-disk size: 31734.1 KB)
+0513.608 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 117 (4806) files added so far); re-opening (prior size: 31734.1 KB)
+0516.363 (0) The time we have been running (515.7) is approaching the resumption interval (540) - increasing resumption interval to 546
+0519.376 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 4900 files added (on-disk size: 31861.4 KB)
+0519.597 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 103 (4909) files added so far); re-opening (prior size: 31861.4 KB)
+0521.226 (0) The time we have been running (520.2) is approaching the resumption interval (546) - increasing resumption interval to 551
+0524.625 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 41 (4950) files added so far); re-opening (prior size: 31939.7 KB)
+0525.643 (0) The time we have been running (525.4) is approaching the resumption interval (551) - increasing resumption interval to 556
+0528.605 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 17 (4967) files added so far); re-opening (prior size: 32058.3 KB)
+0529.290 (0) The time we have been running (529.2) is approaching the resumption interval (556) - increasing resumption interval to 560
+0531.758 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 12 (4979) files added so far); re-opening (prior size: 32095.4 KB)
+0535.007 (0) The time we have been running (533.9) is approaching the resumption interval (560) - increasing resumption interval to 564
+0537.577 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 5000 files added (on-disk size: 32106.1 KB)
+0538.656 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.9 MB, 67 (5046) files added so far); re-opening (prior size: 32106.1 KB)
+0539.557 (0) The time we have been running (539.5) is approaching the resumption interval (564) - increasing resumption interval to 570
+0542.823 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 6 (5052) files added so far); re-opening (prior size: 32602.7 KB)
+0543.668 (0) The time we have been running (543.6) is approaching the resumption interval (570) - increasing resumption interval to 574
+0546.617 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 10 (5062) files added so far); re-opening (prior size: 32631.5 KB)
+0548.768 (0) The time we have been running (548.3) is approaching the resumption interval (574) - increasing resumption interval to 579
+0552.515 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 5100 files added (on-disk size: 32688.4 KB)
+0552.632 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.6 MB, 43 (5105) files added so far); re-opening (prior size: 32688.4 KB)
+0554.924 (0) The time we have been running (554.6) is approaching the resumption interval (579) - increasing resumption interval to 585
+0557.235 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 5200 files added (on-disk size: 33629.6 KB)
+0557.606 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 104 (5209) files added so far); re-opening (prior size: 33629.6 KB)
+0558.766 (0) The time we have been running (558.5) is approaching the resumption interval (585) - increasing resumption interval to 589
+0559.605 (0) The scheduled resumption is within 45 seconds - will reschedule
+0560.106 (0) Rescheduling resumption 1: moving to 634 seconds from now (1603442899)
+0561.430 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 589 + 45 = 634
+0563.892 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 5300 files added (on-disk size: 33780.3 KB)
+0564.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 110 (5319) files added so far); re-opening (prior size: 33780.3 KB)
+0567.665 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 16 (5335) files added so far); re-opening (prior size: 33863.2 KB)
+0572.663 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 21 (5356) files added so far); re-opening (prior size: 33873.9 KB)
+0577.837 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (5361) files added so far); re-opening (prior size: 33949.3 KB)
+0582.697 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (5366) files added so far); re-opening (prior size: 33954.9 KB)
+0587.876 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 6 (5372) files added so far); re-opening (prior size: 33961.6 KB)
+0592.596 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 2 (5374) files added so far); re-opening (prior size: 33968.1 KB)
+0596.844 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (5379) files added so far); re-opening (prior size: 33970.1 KB)
+0599.712 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 6 (5385) files added so far); re-opening (prior size: 33976.1 KB)
+0604.649 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (5390) files added so far); re-opening (prior size: 33981.4 KB)
+0606.973 (0) The time we have been running (606.4) is approaching the resumption interval (634) - increasing resumption interval to 637
+0608.912 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 5400 files added (on-disk size: 33987.1 KB)
+0610.720 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 52 (5442) files added so far); re-opening (prior size: 33987.1 KB)
+0613.218 (0) The time we have been running (612.7) is approaching the resumption interval (637) - increasing resumption interval to 643
+0616.604 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 28 (5470) files added so far); re-opening (prior size: 34040.4 KB)
+0617.492 (0) The time we have been running (617.4) is approaching the resumption interval (643) - increasing resumption interval to 648
+0619.617 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 3 (5473) files added so far); re-opening (prior size: 34070 KB)
+0626.263 (0) The time we have been running (623.9) is approaching the resumption interval (648) - increasing resumption interval to 654
+0629.695 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 14 (5487) files added so far); re-opening (prior size: 34072.5 KB)
+0630.970 (0) The time we have been running (630.8) is approaching the resumption interval (654) - increasing resumption interval to 661
+0633.588 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 5500 files added (on-disk size: 34084 KB)
+0633.715 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 14 (5501) files added so far); re-opening (prior size: 34084 KB)
+0635.708 (0) The time we have been running (634.6) is approaching the resumption interval (661) - increasing resumption interval to 665
+0639.612 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 30 (5531) files added so far); re-opening (prior size: 34100.4 KB)
+0644.205 (0) The time we have been running (642.4) is approaching the resumption interval (665) - increasing resumption interval to 673
+0645.597 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 5600 files added (on-disk size: 34134.9 KB)
+0647.625 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 146 (5677) files added so far); re-opening (prior size: 34134.9 KB)
+0650.530 (0) The time we have been running (649.3) is approaching the resumption interval (673) - increasing resumption interval to 680
+0652.501 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 5700 files added (on-disk size: 34275.7 KB)
+0653.625 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 59 (5736) files added so far); re-opening (prior size: 34275.7 KB)
+0654.403 (0) The time we have been running (654.3) is approaching the resumption interval (680) - increasing resumption interval to 685
+0656.737 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 6 (5742) files added so far); re-opening (prior size: 34337.5 KB)
+0659.236 (0) The time we have been running (658.6) is approaching the resumption interval (685) - increasing resumption interval to 689
+0662.543 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 5800 files added (on-disk size: 34342.7 KB)
+0662.678 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 60 (5802) files added so far); re-opening (prior size: 34342.7 KB)
+0663.437 (0) The time we have been running (663.3) is approaching the resumption interval (689) - increasing resumption interval to 694
+0665.846 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 13 (5815) files added so far); re-opening (prior size: 34458.7 KB)
+0669.059 (0) The time we have been running (668) is approaching the resumption interval (694) - increasing resumption interval to 698
+0671.601 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 62 (5877) files added so far); re-opening (prior size: 34471 KB)
+0673.331 (0) The time we have been running (673.2) is approaching the resumption interval (698) - increasing resumption interval to 704
+0676.097 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 5900 files added (on-disk size: 34530.4 KB)
+0676.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 37 (5914) files added so far); re-opening (prior size: 34530.4 KB)
+0678.509 (0) The time we have been running (678.2) is approaching the resumption interval (704) - increasing resumption interval to 709
+0681.740 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 25 (5939) files added so far); re-opening (prior size: 34569.2 KB)
+0682.761 (0) The time we have been running (682.6) is approaching the resumption interval (709) - increasing resumption interval to 713
+0685.883 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 5 (5944) files added so far); re-opening (prior size: 34605.6 KB)
+0688.501 (0) The time we have been running (688.1) is approaching the resumption interval (713) - increasing resumption interval to 719
+0691.591 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 32 (5976) files added so far); re-opening (prior size: 34610.8 KB)
+0693.350 (0) The time we have been running (693.1) is approaching the resumption interval (719) - increasing resumption interval to 724
+0695.604 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 18 (5994) files added so far); re-opening (prior size: 34641.2 KB)
+0698.537 (0) The time we have been running (697.3) is approaching the resumption interval (724) - increasing resumption interval to 728
+0699.705 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 6000 files added (on-disk size: 34669.8 KB)
+0701.643 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 36 (6030) files added so far); re-opening (prior size: 34669.8 KB)
+0703.366 (0) The time we have been running (703.1) is approaching the resumption interval (728) - increasing resumption interval to 734
+0706.597 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 55 (6085) files added so far); re-opening (prior size: 34736.7 KB)
+0709.236 (0) The time we have been running (708.9) is approaching the resumption interval (734) - increasing resumption interval to 739
+0712.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 10 (6095) files added so far); re-opening (prior size: 35007.3 KB)
+0716.631 (0) The time we have been running (714.7) is approaching the resumption interval (739) - increasing resumption interval to 745
+0718.445 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 6100 files added (on-disk size: 35030.8 KB)
+0719.594 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 37 (6132) files added so far); re-opening (prior size: 35030.8 KB)
+0720.719 (0) The time we have been running (720.4) is approaching the resumption interval (745) - increasing resumption interval to 751
+0723.890 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 8 (6140) files added so far); re-opening (prior size: 35121.1 KB)
+0724.850 (0) The time we have been running (724.7) is approaching the resumption interval (751) - increasing resumption interval to 755
+0727.871 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.6 MB, 12 (6152) files added so far); re-opening (prior size: 35142 KB)
+0731.477 (0) The time we have been running (731.2) is approaching the resumption interval (755) - increasing resumption interval to 762
+0734.153 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 6200 files added (on-disk size: 35834.2 KB)
+0734.593 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.6 MB, 69 (6221) files added so far); re-opening (prior size: 35834.2 KB)
+0735.784 (0) The time we have been running (735.4) is approaching the resumption interval (762) - increasing resumption interval to 766
+0738.733 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 4 (6225) files added so far); re-opening (prior size: 36287.3 KB)
+0741.173 (0) The time we have been running (740.7) is approaching the resumption interval (766) - increasing resumption interval to 771
+0743.598 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.8 MB, 25 (6250) files added so far); re-opening (prior size: 36309.9 KB)
+0744.528 (0) The time we have been running (744.3) is approaching the resumption interval (771) - increasing resumption interval to 775
+0747.631 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 5 (6255) files added so far); re-opening (prior size: 36517.9 KB)
+0750.142 (0) The time we have been running (749.7) is approaching the resumption interval (775) - increasing resumption interval to 780
+0752.902 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 6300 files added (on-disk size: 36549.5 KB)
+0753.593 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 MB, 74 (6329) files added so far); re-opening (prior size: 36549.5 KB)
+0755.797 (0) The time we have been running (755.2) is approaching the resumption interval (780) - increasing resumption interval to 786
+0758.345 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 6400 files added (on-disk size: 36951.9 KB)
+0758.601 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 78 (6407) files added so far); re-opening (prior size: 36951.9 KB)
+0761.987 (0) The time we have been running (760.5) is approaching the resumption interval (786) - increasing resumption interval to 791
+0764.594 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 53 (6460) files added so far); re-opening (prior size: 37167.1 KB)
+0767.531 (0) The time we have been running (766.4) is approaching the resumption interval (791) - increasing resumption interval to 797
+0769.870 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 6500 files added (on-disk size: 37212.2 KB)
+0770.599 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.1 MB, 64 (6524) files added so far); re-opening (prior size: 37212.2 KB)
+0773.740 (0) The time we have been running (772.5) is approaching the resumption interval (797) - increasing resumption interval to 803
+0776.661 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 68 (6592) files added so far); re-opening (prior size: 37264.9 KB)
+0779.284 (0) The time we have been running (778.6) is approaching the resumption interval (803) - increasing resumption interval to 809
+0780.601 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 6600 files added (on-disk size: 37352.4 KB)
+0782.614 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 82 (6674) files added so far); re-opening (prior size: 37352.4 KB)
+0783.801 (0) The time we have been running (783.4) is approaching the resumption interval (809) - increasing resumption interval to 814
+0787.598 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 7 (6681) files added so far); re-opening (prior size: 37438 KB)
+0789.479 (0) The time we have been running (788.5) is approaching the resumption interval (814) - increasing resumption interval to 819
+0792.468 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 6700 files added (on-disk size: 37442.7 KB)
+0792.640 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 23 (6704) files added so far); re-opening (prior size: 37442.7 KB)
+0795.379 (0) The time we have been running (794.7) is approaching the resumption interval (819) - increasing resumption interval to 825
+0798.787 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 54 (6758) files added so far); re-opening (prior size: 37458.3 KB)
+0801.583 (0) The time we have been running (800.4) is approaching the resumption interval (825) - increasing resumption interval to 831
+0805.610 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 36 (6794) files added so far); re-opening (prior size: 37546.1 KB)
+0808.731 (0) The time we have been running (807.5) is approaching the resumption interval (831) - increasing resumption interval to 838
+0810.144 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip.tmp: 6800 files added (on-disk size: 37602.6 KB)
+0811.592 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.2 MB, 49 (6843) files added so far); re-opening (prior size: 37602.6 KB)
+0812.496 (0) The time we have been running (812.4) is approaching the resumption interval (838) - increasing resumption interval to 843
+0814.935 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 7 (6850) files added so far); re-opening (prior size: 37673.4 KB)
+0818.776 (0) The time we have been running (817.6) is approaching the resumption interval (843) - increasing resumption interval to 848
+0825.381 (0) The time we have been running (824.6) is approaching the resumption interval (848) - increasing resumption interval to 855
+0826.815 (0) Created plugins zip (0) - 37725.5 KB in 825.2 s (45.7 KB/s) (sha1: 7240c6cb48165bea07f5dcbf0f69db0249c56f46, sha256: edfda68c93fea93d2f14a65b8e7e449b53acbd032900ced7c310b7a45166bb1b)
+0826.919 (0) Beginning creation of dump of themes (split every: 400 MB)
+0830.156 (0) Total entities for the zip file: 239 directories, 913 files (0 skipped as non-modified), 16.2 MB
+0830.240 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0830.474 (0) The time we have been running (830.4) is approaching the resumption interval (855) - increasing resumption interval to 861
+0833.027 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.5 MB, 31 (32) files added so far); re-opening (prior size: 37.2 KB)
+0833.848 (0) The time we have been running (833.6) is approaching the resumption interval (861) - increasing resumption interval to 864
+0836.467 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip.tmp: 100 files added (on-disk size: 131.2 KB)
+0836.692 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.3 MB, 71 (103) files added so far); re-opening (prior size: 131.2 KB)
+0837.230 (0) The time we have been running (837.1) is approaching the resumption interval (864) - increasing resumption interval to 868
+0839.590 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 66 (169) files added so far); re-opening (prior size: 407.2 KB)
+0840.086 (0) The time we have been running (839.8) is approaching the resumption interval (868) - increasing resumption interval to 870
+0842.078 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip.tmp: 200 files added (on-disk size: 523.8 KB)
+0842.592 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 44 (213) files added so far); re-opening (prior size: 523.8 KB)
+0843.085 (0) The time we have been running (842.7) is approaching the resumption interval (870) - increasing resumption interval to 873
+0845.314 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip.tmp: 300 files added (on-disk size: 619.2 KB)
+0845.620 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.7 MB, 97 (310) files added so far); re-opening (prior size: 619.2 KB)
+0845.952 (0) The time we have been running (845.8) is approaching the resumption interval (873) - increasing resumption interval to 876
+0848.666 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.6 MB, 60 (370) files added so far); re-opening (prior size: 754.4 KB)
+0849.132 (0) The time we have been running (848.9) is approaching the resumption interval (876) - increasing resumption interval to 879
+0850.239 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip.tmp: 400 files added (on-disk size: 878.9 KB)
+0851.771 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.4 MB, 59 (429) files added so far); re-opening (prior size: 878.9 KB)
+0852.242 (0) The time we have been running (852.1) is approaching the resumption interval (879) - increasing resumption interval to 883
+0854.731 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 MB, 55 (484) files added so far); re-opening (prior size: 1035.6 KB)
+0855.619 (0) The time we have been running (855.4) is approaching the resumption interval (883) - increasing resumption interval to 886
+0856.337 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip.tmp: 500 files added (on-disk size: 1726.2 KB)
+0858.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.3 MB, 108 (592) files added so far); re-opening (prior size: 1726.2 KB)
+0859.553 (0) The time we have been running (859.4) is approaching the resumption interval (886) - increasing resumption interval to 890
+0860.339 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip.tmp: 600 files added (on-disk size: 2716.6 KB)
+0862.327 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip.tmp: 700 files added (on-disk size: 2716.6 KB)
+0862.623 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.7 MB, 115 (707) files added so far); re-opening (prior size: 2716.6 KB)
+0864.860 (0) The time we have been running (864.3) is approaching the resumption interval (890) - increasing resumption interval to 895
+0867.561 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip.tmp: 800 files added (on-disk size: 5298 KB)
+0867.618 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.1 MB, 94 (801) files added so far); re-opening (prior size: 5298 KB)
+0868.738 (0) The time we have been running (868.5) is approaching the resumption interval (895) - increasing resumption interval to 899
+0871.609 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.2 MB, 57 (858) files added so far); re-opening (prior size: 5684.1 KB)
+0872.286 (0) The time we have been running (872.1) is approaching the resumption interval (899) - increasing resumption interval to 903
+0874.293 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip.tmp: 900 files added (on-disk size: 6639.4 KB)
+0874.704 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.5 MB, 45 (903) files added so far); re-opening (prior size: 6639.4 KB)
+0875.453 (0) The time we have been running (875.2) is approaching the resumption interval (903) - increasing resumption interval to 906
+0876.786 (0) The time we have been running (876.7) is approaching the resumption interval (906) - increasing resumption interval to 907
+0877.078 (0) Created themes zip (0) - 7454 KB in 50.1 s (148.8 KB/s) (sha1: a54b7ef7f17664d60331184ed369d2d2a809483f, sha256: 338b7f6b798c851599649ae59c56c2b02f69c79ffdbd88b7034f9f8f283af35e)
+0877.417 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0877.499 (0) Looking for candidates to backup in: C:\xampp\htdocs\TestWordPress\wordpress/wp-content/uploads
+0877.554 (0) finding files: 2020: adding to list (1)
+0877.620 (0) finding files: elementor: adding to list (2)
+0877.760 (0) finding files: wc-logs: adding to list (3)
+0877.820 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (4)
+0877.894 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (5)
+0877.975 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (6)
+0878.009 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (7)
+0878.108 (0) finding files: woocommerce-placeholder-324x324.png: adding to list (8)
+0878.161 (0) finding files: woocommerce-placeholder-416x416.png: adding to list (9)
+0878.209 (0) finding files: woocommerce-placeholder-450x450.png: adding to list (10)
+0878.258 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (11)
+0878.731 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (12)
+0878.850 (0) finding files: woocommerce-placeholder.png: adding to list (13)
+0878.881 (0) finding files: woocommerce_uploads: adding to list (14)
+0878.927 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0880.676 (0) Total entities for the zip file: 7 directories, 166 files (0 skipped as non-modified), 4.3 MB
+0881.295 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0881.621 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.9 MB, 148 (148) files added so far); re-opening (prior size: 0 KB)
+0884.331 (0) The time we have been running (884.2) is approaching the resumption interval (907) - increasing resumption interval to 915
+0885.332 (0) The time we have been running (885.2) is approaching the resumption interval (915) - increasing resumption interval to 916
+0886.157 (0) Created uploads zip (0) - 4388 KB in 7.1 s (618.9 KB/s) (sha1: 4f010a16363a43aa56db67c440a0b6b5844e08d1, sha256: 3c58311691f0e6201b19e5fd8250ef18ae1c2f62c80cc18e9a965cb5688d123e)
+0886.355 (0) Beginning backup of other directories found in the content directory (index: 0)
+0886.387 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0886.420 (0) Looking for candidates to backup in: C:\xampp\htdocs\TestWordPress\wordpress/wp-content
+0886.465 (0) finding files: index.php: adding to list (1)
+0886.498 (0) finding files: index.php-old: adding to list (2)
+0886.532 (0) finding files: languages: adding to list (3)
+0886.564 (0) finding files: languages-old: adding to list (4)
+0886.598 (0) finding files: plugins: skipping: this is the plugins directory
+0886.631 (0) finding files: plugins-old: adding to list (5)
+0886.665 (0) finding files: themes: skipping: this is the themes directory
+0886.698 (0) finding files: themes-old: adding to list (6)
+0887.054 (0) finding files: updraft: skipping: this is the updraft directory
+0887.120 (0) finding files: upgrade: skipping: excluded by options
+0887.276 (0) finding files: uploads: skipping: this is the uploads directory
+0887.320 (0) finding files: uploads-old: adding to list (7)
+0888.461 (0) Total entities for the zip file: 9 directories, 562 files (0 skipped as non-modified), 10.5 MB
+0889.611 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (2.1 MB, 55 (55) files added so far); re-opening (prior size: 0 KB)
+0890.240 (0) The time we have been running (890.1) is approaching the resumption interval (916) - increasing resumption interval to 921
+0891.187 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip.tmp: 100 files added (on-disk size: 522.1 KB)
+0892.436 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip.tmp: 200 files added (on-disk size: 522.1 KB)
+0892.594 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.9 MB, 152 (207) files added so far); re-opening (prior size: 522.1 KB)
+0893.265 (0) The time we have been running (893) is approaching the resumption interval (921) - increasing resumption interval to 924
+0895.100 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip.tmp: 300 files added (on-disk size: 793.6 KB)
+0895.620 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (3.5 MB, 125 (332) files added so far); re-opening (prior size: 793.6 KB)
+0896.766 (0) The time we have been running (896.7) is approaching the resumption interval (924) - increasing resumption interval to 927
+0898.250 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip.tmp: 400 files added (on-disk size: 1638 KB)
+0899.334 (0) Zip: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip.tmp: 500 files added (on-disk size: 1638 KB)
+0899.620 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (1.8 MB, 184 (516) files added so far); re-opening (prior size: 1638 KB)
+0900.532 (0) The time we have been running (900.4) is approaching the resumption interval (927) - increasing resumption interval to 931
+0902.665 (0) The time we have been running (902.4) is approaching the resumption interval (931) - increasing resumption interval to 933
+0902.994 (0) Created others zip (0) - 2636.8 KB in 15.6 s (168.8 KB/s) (sha1: 384f2ebe2791a6f488d2af6b9753d66c27df272a, sha256: e46d932fde43c66336fca6353e1ad3a2e2dcbfc81f9d128e51f432d748e34614)
+0903.143 (0) Saving backup status to database (elements: 8)
+0903.210 (0) Beginning creation of database dump (WordPress DB)
+0903.256 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0904.960 (0) Table wp_options: Total expected rows (approximate): 440
+0905.147 (0) Table wp_options: Rows added in this batch (start page: 0; next: finished): 442 in 0.16 seconds
+0905.228 (0) Table wp_options: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_options.table.gz - 192.1 KB)
+0905.431 (0) The time we have been running (905.3) is approaching the resumption interval (933) - increasing resumption interval to 936
+0905.524 (0) Table wp_users: Total expected rows (approximate): 0
+0905.589 (0) Table wp_users: Rows added in this batch (start page: 0; next: finished): 1 in 0.04 seconds
+0905.629 (0) Table wp_users: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_users.table.gz - 0.6 KB)
+0905.798 (0) Table wp_usermeta: Total expected rows (approximate): 35
+0905.924 (0) Table wp_usermeta: Rows added in this batch (start page: 0; next: finished): 35 in 0.09 seconds
+0906.147 (0) Table wp_usermeta: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_usermeta.table.gz - 3.1 KB)
+0906.287 (0) The time we have been running (906.2) is approaching the resumption interval (936) - increasing resumption interval to 937
+0906.397 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 11
+0906.468 (0) Table wp_actionscheduler_actions: Rows added in this batch (start page: 0; next: finished): 11 in 0.05 seconds
+0906.514 (0) Table wp_actionscheduler_actions: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_actionscheduler_actions.table.gz - 1.1 KB)
+0906.625 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0906.776 (0) Table wp_actionscheduler_claims: Rows added in this batch (start page: 0; next: finished): 0 in 0.05 seconds
+0906.810 (0) Table wp_actionscheduler_claims: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_actionscheduler_claims.table.gz - 0.3 KB)
+0907.322 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 0
+0907.391 (0) Table wp_actionscheduler_groups: Rows added in this batch (start page: 0; next: finished): 1 in 0.04 seconds
+0907.449 (0) Table wp_actionscheduler_groups: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0907.577 (0) The time we have been running (907.5) is approaching the resumption interval (937) - increasing resumption interval to 938
+0907.753 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 28
+0907.843 (0) Table wp_actionscheduler_logs: Rows added in this batch (start page: 0; next: finished): 33 in 0.05 seconds
+0907.878 (0) Table wp_actionscheduler_logs: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_actionscheduler_logs.table.gz - 0.9 KB)
+0907.987 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0908.123 (0) Table wp_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.07 seconds
+0908.202 (0) Table wp_commentmeta: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0908.576 (0) The time we have been running (908.4) is approaching the resumption interval (938) - increasing resumption interval to 939
+0908.680 (0) Table wp_comments: Total expected rows (approximate): 0
+0908.734 (0) Table wp_comments: Rows added in this batch (start page: 0; next: finished): 1 in 0.02 seconds
+0908.760 (0) Table wp_comments: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_comments.table.gz - 0.7 KB)
+0908.872 (0) Table wp_links: Total expected rows (approximate): 0
+0908.970 (0) Table wp_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.07 seconds
+0909.031 (0) Table wp_links: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_links.table.gz - 0.4 KB)
+0909.143 (0) The time we have been running (909.1) is approaching the resumption interval (939) - increasing resumption interval to 940
+0909.614 (0) Table wp_postmeta: Total expected rows (approximate): 1192
+0909.803 (0) Table wp_postmeta: Rows added in this batch (start page: 0; next: finished): 1278 in 0.15 seconds
+0909.850 (0) Table wp_postmeta: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_postmeta.table.gz - 14.7 KB)
+0909.953 (0) Table wp_posts: Total expected rows (approximate): 261
+0910.084 (0) Table wp_posts: Rows added in this batch (start page: 0; next: finished): 263 in 0.11 seconds
+0910.129 (0) Table wp_posts: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_posts.table.gz - 22.3 KB)
+0910.232 (0) The time we have been running (910.2) is approaching the resumption interval (940) - increasing resumption interval to 941
+0910.646 (0) Table wp_term_relationships: Total expected rows (approximate): 51
+0910.866 (0) Table wp_term_relationships: Rows added in this batch (start page: 0; next: finished): 54 in 0.07 seconds
+0910.975 (0) Table wp_term_relationships: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0911.076 (0) The time we have been running (911) is approaching the resumption interval (941) - increasing resumption interval to 942
+0911.189 (0) Table wp_term_taxonomy: Total expected rows (approximate): 20
+0911.314 (0) Table wp_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 21 in 0.08 seconds
+0911.359 (0) Table wp_term_taxonomy: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0911.676 (0) Table wp_termmeta: Total expected rows (approximate): 6
+0911.788 (0) Table wp_termmeta: Rows added in this batch (start page: 0; next: finished): 5 in 0.07 seconds
+0912.057 (0) Table wp_termmeta: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_termmeta.table.gz - 0.5 KB)
+0912.254 (0) The time we have been running (912.1) is approaching the resumption interval (942) - increasing resumption interval to 943
+0912.361 (0) Table wp_terms: Total expected rows (approximate): 21
+0912.403 (0) Table wp_terms: Rows added in this batch (start page: 0; next: finished): 21 in 0.02 seconds
+0912.439 (0) Table wp_terms: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_terms.table.gz - 0.6 KB)
+0912.767 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 0
+0912.854 (0) Table wp_wc_category_lookup: Rows added in this batch (start page: 0; next: finished): 1 in 0.05 seconds
+0912.884 (0) Table wp_wc_category_lookup: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_category_lookup.table.gz - 0.3 KB)
+0913.092 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 12
+0913.360 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (start page: 0; next: finished): 12 in 0.07 seconds
+0913.408 (0) Table wp_wc_product_meta_lookup: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_product_meta_lookup.table.gz - 0.6 KB)
+0913.755 (0) The time we have been running (913.5) is approaching the resumption interval (943) - increasing resumption interval to 944
+0913.882 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0913.978 (0) Table wp_wc_reserved_stock: Rows added in this batch (start page: 0; next: finished): 0 in 0.06 seconds
+0914.058 (0) Table wp_wc_reserved_stock: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_reserved_stock.table.gz - 0.3 KB)
+0914.177 (0) The time we have been running (914.1) is approaching the resumption interval (944) - increasing resumption interval to 945
+0914.461 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0914.781 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (start page: 0; next: finished): 2 in 0.06 seconds
+0914.850 (0) Table wp_wc_tax_rate_classes: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_tax_rate_classes.table.gz - 0.4 KB)
+0915.110 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0915.198 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.05 seconds
+0915.238 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0915.421 (0) The time we have been running (915.3) is approaching the resumption interval (945) - increasing resumption interval to 946
+0915.570 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0915.675 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.08 seconds
+0915.869 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0916.150 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 8
+0916.239 (0) Table wp_wc_admin_note_actions: Rows added in this batch (start page: 0; next: finished): 11 in 0.04 seconds
+0916.292 (0) Table wp_wc_admin_note_actions: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_admin_note_actions.table.gz - 0.9 KB)
+0916.465 (0) The time we have been running (916.3) is approaching the resumption interval (946) - increasing resumption interval to 947
+0916.558 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 8
+0916.619 (0) Table wp_wc_admin_notes: Rows added in this batch (start page: 0; next: finished): 10 in 0.02 seconds
+0916.698 (0) Table wp_wc_admin_notes: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_admin_notes.table.gz - 1.7 KB)
+0916.901 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 0
+0917.318 (0) Table wp_wc_customer_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.07 seconds
+0917.369 (0) Table wp_wc_customer_lookup: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_customer_lookup.table.gz - 0.4 KB)
+0917.525 (0) The time we have been running (917.4) is approaching the resumption interval (947) - increasing resumption interval to 948
+0917.771 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0917.868 (0) Table wp_wc_download_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.06 seconds
+0917.913 (0) Table wp_wc_download_log: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0918.165 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0918.431 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.05 seconds
+0918.489 (0) Table wp_wc_order_coupon_lookup: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_order_coupon_lookup.table.gz - 0.4 KB)
+0918.643 (0) The time we have been running (918.5) is approaching the resumption interval (948) - increasing resumption interval to 949
+0918.805 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 0
+0918.897 (0) Table wp_wc_order_product_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.05 seconds
+0919.030 (0) Table wp_wc_order_product_lookup: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_order_product_lookup.table.gz - 0.4 KB)
+0919.177 (0) The time we have been running (919.1) is approaching the resumption interval (949) - increasing resumption interval to 950
+0919.738 (0) Table wp_wc_order_stats: Total expected rows (approximate): 0
+0919.831 (0) Table wp_wc_order_stats: Rows added in this batch (start page: 0; next: finished): 0 in 0.04 seconds
+0919.876 (0) Table wp_wc_order_stats: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_order_stats.table.gz - 0.5 KB)
+0920.051 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0920.175 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.02 seconds
+0920.216 (0) Table wp_wc_order_tax_lookup: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_order_tax_lookup.table.gz - 0.4 KB)
+0920.610 (0) The time we have been running (920.3) is approaching the resumption interval (950) - increasing resumption interval to 951
+0921.011 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0921.112 (0) Table wp_wc_webhooks: Rows added in this batch (start page: 0; next: finished): 0 in 0.06 seconds
+0921.159 (0) Table wp_wc_webhooks: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0921.366 (0) The time we have been running (921.2) is approaching the resumption interval (951) - increasing resumption interval to 952
+0921.991 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0922.184 (0) Table wp_woocommerce_api_keys: Rows added in this batch (start page: 0; next: finished): 0 in 0.06 seconds
+0922.236 (0) Table wp_woocommerce_api_keys: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0922.387 (0) The time we have been running (922.3) is approaching the resumption interval (952) - increasing resumption interval to 953
+0922.562 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0922.645 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (start page: 0; next: finished): 0 in 0.05 seconds
+0922.850 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0923.159 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0923.496 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (start page: 0; next: finished): 0 in 0.07 seconds
+0923.546 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0923.687 (0) The time we have been running (923.6) is approaching the resumption interval (953) - increasing resumption interval to 954
+0924.057 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0924.129 (0) Table wp_woocommerce_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.02 seconds
+0924.161 (0) Table wp_woocommerce_log: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0924.276 (0) The time we have been running (924.2) is approaching the resumption interval (954) - increasing resumption interval to 955
+0924.605 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0924.931 (0) Table wp_woocommerce_order_items: Rows added in this batch (start page: 0; next: finished): 0 in 0.09 seconds
+0925.036 (0) Table wp_woocommerce_order_items: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_order_items.table.gz - 0.3 KB)
+0925.177 (0) The time we have been running (925.1) is approaching the resumption interval (955) - increasing resumption interval to 956
+0925.361 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0925.448 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (start page: 0; next: finished): 0 in 0.05 seconds
+0925.492 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0925.904 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0926.028 (0) Table wp_woocommerce_sessions: Rows added in this batch (start page: 0; next: finished): 1 in 0.08 seconds
+0926.147 (0) Table wp_woocommerce_sessions: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_sessions.table.gz - 0.8 KB)
+0926.287 (0) The time we have been running (926.2) is approaching the resumption interval (956) - increasing resumption interval to 957
+0926.460 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0926.535 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.04 seconds
+0926.581 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0926.736 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0927.012 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (start page: 0; next: finished): 0 in 0.06 seconds
+0927.105 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0927.454 (0) The time we have been running (927.3) is approaching the resumption interval (957) - increasing resumption interval to 958
+0927.590 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0927.695 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (start page: 0; next: finished): 0 in 0.06 seconds
+0927.732 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0927.890 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0928.186 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.03 seconds
+0928.239 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0928.532 (0) The time we have been running (928.4) is approaching the resumption interval (958) - increasing resumption interval to 959
+0928.715 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0928.812 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (start page: 0; next: finished): 0 in 0.06 seconds
+0928.856 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0929.028 (0) Table wp_yoast_indexable: Total expected rows (approximate): 36
+0929.144 (0) Table wp_yoast_indexable: Rows added in this batch (start page: 0; next: finished): 36 in 0.08 seconds
+0929.225 (0) Table wp_yoast_indexable: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_yoast_indexable.table.gz - 3.6 KB)
+0929.677 (0) The time we have been running (929.4) is approaching the resumption interval (959) - increasing resumption interval to 960
+0929.866 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 5
+0930.013 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (start page: 0; next: finished): 5 in 0.06 seconds
+0930.059 (0) Table wp_yoast_indexable_hierarchy: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_yoast_indexable_hierarchy.table.gz - 0.4 KB)
+0930.166 (0) The time we have been running (930.1) is approaching the resumption interval (960) - increasing resumption interval to 961
+0930.328 (0) Table wp_yoast_migrations: Total expected rows (approximate): 18
+0930.612 (0) Table wp_yoast_migrations: Rows added in this batch (start page: 0; next: finished): 18 in 0.22 seconds
+0930.669 (0) Table wp_yoast_migrations: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_yoast_migrations.table.gz - 0.5 KB)
+0930.820 (0) Table wp_yoast_primary_term: Total expected rows (approximate): 0
+0930.896 (0) Table wp_yoast_primary_term: Rows added in this batch (start page: 0; next: finished): 0 in 0.05 seconds
+0930.934 (0) Table wp_yoast_primary_term: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_yoast_primary_term.table.gz - 0.4 KB)
+0931.100 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 28
+0931.175 (0) Table wp_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 28 in 0.04 seconds
+0931.258 (0) Table wp_yoast_seo_links: finishing file (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_yoast_seo_links.table.gz - 0.8 KB)
+0931.399 (0) The time we have been running (931.3) is approaching the resumption interval (961) - increasing resumption interval to 962
+0931.471 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_options.table.gz (1/48): adding to final database dump
+0931.601 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_users.table.gz (2/48): adding to final database dump
+0931.791 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_usermeta.table.gz (3/48): adding to final database dump
+0931.845 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_actionscheduler_actions.table.gz (4/48): adding to final database dump
+0931.877 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_actionscheduler_claims.table.gz (5/48): adding to final database dump
+0931.911 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_actionscheduler_groups.table.gz (6/48): adding to final database dump
+0931.944 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_actionscheduler_logs.table.gz (7/48): adding to final database dump
+0931.978 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_commentmeta.table.gz (8/48): adding to final database dump
+0932.011 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_comments.table.gz (9/48): adding to final database dump
+0932.044 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_links.table.gz (10/48): adding to final database dump
+0932.078 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_postmeta.table.gz (11/48): adding to final database dump
+0932.127 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_posts.table.gz (12/48): adding to final database dump
+0932.184 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_term_relationships.table.gz (13/48): adding to final database dump
+0932.212 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_term_taxonomy.table.gz (14/48): adding to final database dump
+0932.245 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_termmeta.table.gz (15/48): adding to final database dump
+0932.278 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_terms.table.gz (16/48): adding to final database dump
+0932.311 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_category_lookup.table.gz (17/48): adding to final database dump
+0932.345 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_product_meta_lookup.table.gz (18/48): adding to final database dump
+0932.379 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_reserved_stock.table.gz (19/48): adding to final database dump
+0932.412 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_tax_rate_classes.table.gz (20/48): adding to final database dump
+0932.445 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_order_itemmeta.table.gz (21/48): adding to final database dump
+0932.479 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_payment_tokenmeta.table.gz (22/48): adding to final database dump
+0932.526 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_admin_note_actions.table.gz (23/48): adding to final database dump
+0932.606 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_admin_notes.table.gz (24/48): adding to final database dump
+0932.669 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_customer_lookup.table.gz (25/48): adding to final database dump
+0932.827 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_download_log.table.gz (26/48): adding to final database dump
+0932.967 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_order_coupon_lookup.table.gz (27/48): adding to final database dump
+0932.999 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_order_product_lookup.table.gz (28/48): adding to final database dump
+0933.034 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_order_stats.table.gz (29/48): adding to final database dump
+0933.066 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_order_tax_lookup.table.gz (30/48): adding to final database dump
+0933.100 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_wc_webhooks.table.gz (31/48): adding to final database dump
+0933.133 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_api_keys.table.gz (32/48): adding to final database dump
+0933.167 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_attribute_taxonomies.table.gz (33/48): adding to final database dump
+0933.200 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (34/48): adding to final database dump
+0933.234 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_log.table.gz (35/48): adding to final database dump
+0933.266 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_order_items.table.gz (36/48): adding to final database dump
+0933.312 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_payment_tokens.table.gz (37/48): adding to final database dump
+0933.344 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_sessions.table.gz (38/48): adding to final database dump
+0933.378 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_shipping_zone_locations.table.gz (39/48): adding to final database dump
+0933.411 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_shipping_zone_methods.table.gz (40/48): adding to final database dump
+0933.445 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_shipping_zones.table.gz (41/48): adding to final database dump
+0933.478 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_tax_rate_locations.table.gz (42/48): adding to final database dump
+0933.512 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_woocommerce_tax_rates.table.gz (43/48): adding to final database dump
+0933.545 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_yoast_indexable.table.gz (44/48): adding to final database dump
+0933.580 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_yoast_indexable_hierarchy.table.gz (45/48): adding to final database dump
+0933.611 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_yoast_migrations.table.gz (46/48): adding to final database dump
+0933.643 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_yoast_primary_term.table.gz (47/48): adding to final database dump
+0933.667 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db-table-wp_yoast_seo_links.table.gz (48/48): adding to final database dump
+0934.168 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: finished writing out complete database file (224 KB)
+0934.421 (0) Total database tables backed up: 48 (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz, size: 250124, sha1: b5711736fe01cd8f9e79eea695db40bd5fb1879b, sha256: 9dd1674702be03e4f457e46690cb2488cd7033dc438660175fed18f9a71e824e)
+0934.533 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0934.555 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0934.644 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0934.721 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+0934.744 (0) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: db: This file has not yet been successfully uploaded: will queue
+0934.777 (0) Saving backup history. Total backup size: 51.2 MB
+0934.821 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0934.910 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0934.955 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+0937.731 (0) Google Drive: quota usage: used=240.7 MB, total=15360 MB, available=15119.3 MB
+0937.755 (0) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+0998.403 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0998.438 (0) An error condition has occurred for the first time during this job
+0998.993 (0) Google Drive: quota usage: used=240.7 MB, total=15360 MB, available=15119.3 MB
+0999.056 (0) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1059.495 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1060.229 (0) Google Drive: quota usage: used=240.7 MB, total=15360 MB, available=15119.3 MB
+1060.259 (0) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1120.869 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1121.467 (0) Google Drive: quota usage: used=240.7 MB, total=15360 MB, available=15119.3 MB
+1121.571 (0) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1182.012 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1182.854 (0) Google Drive: quota usage: used=240.7 MB, total=15360 MB, available=15119.3 MB
+1182.890 (0) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1188.274 (0) The time we have been running (1188.2) is approaching the resumption interval (962) - increasing resumption interval to 1219
+1188.351 (0) The scheduled resumption is within 45 seconds - will reschedule
+1188.428 (0) Rescheduling resumption 1: moving to 600 seconds from now (1603443493)
+1188.550 (0) To decrease the likelihood of overlaps, increasing resumption interval to: 1219 + 45 = 1264
+1188.595 (0) Googledrive chunked upload: 100 % uploaded
+1188.884 (0) Google Drive: OK: Archive backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz uploaded in 5.96 seconds
+1188.929 (0) Recording as successfully uploaded: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz
+1188.998 (0) Deleting local file: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: OK
+1189.062 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1189.097 (0) Number of backup sets in history: 2; groups (db): 1
+1189.129 (0) Examining (for databases) backup set with group_id=0, nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+1189.161 (0) This backup set is the backup set just made, so will not be deleted.
+1189.161 (0) Examining (for databases) backup set with group_id=0, nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+1189.162 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1189.195 (0) Number of backup sets in history: 2; groups (files): 1
+1189.228 (0) Examining (for files) backup set with nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+1189.228 (0) This backup set is the backup set just made, so will not be deleted.
+1189.273 (0) This backup set is the backup set just made, so will not be deleted.
+1189.273 (0) This backup set is the backup set just made, so will not be deleted.
+1189.274 (0) This backup set is the backup set just made, so will not be deleted.
+1189.274 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1189.306 (0) Examining (for files) backup set with nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+1189.306 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+1189.306 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1189.372 (0) Resume backup (5448fabc40fc, 0): finish run
+1189.491 (0) Decremented the semaphore (fd) by 1
+1189.550 (0) Semaphore (fd) unlocked
+1189.628 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1189.829 (0) Rescheduling resumption 1: moving to 100 seconds from now (1603442995)
+1190.295 (0) The backup has not finished; a resumption is scheduled
+1293.100 (1) Opened log file at time: Fri, 23 Oct 2020 08:49:58 +0000 on http://localhost/TestWordPress/wordpress
+1293.142 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.8M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+1293.176 (1) Free space on disk containing Updraft's temporary directory: 414567.7 MB
+1293.275 (1) Backup run: resumption=1, nonce=5448fabc40fc, file_nonce=5448fabc40fc begun at=1603441705 (1293s ago), job type=backup, previous check-in=1188.2s
+1293.453 (1) Scheduling a resumption (2) after 1264 seconds (1603444262) in case this run gets aborted
+1293.846 (1) Checking if we have a zip executable available
+1293.919 (1) Creation of backups of directories: already finished
+1293.957 (1) Saving backup status to database (elements: 8)
+1294.043 (1) Database dump (WordPress DB): Creation was completed already
+1294.087 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1294.166 (1) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1294.195 (1) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1294.231 (1) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1294.265 (1) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+1294.297 (1) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: db: This file has already been successfully uploaded
+1294.331 (1) Saving backup history. Total backup size: Unknown
+1294.587 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+1294.676 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1294.751 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+1296.501 (1) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+1296.564 (1) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1357.047 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1357.109 (1) An error condition has occurred for the first time during this job
+1357.681 (1) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+1357.709 (1) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1418.087 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1418.599 (1) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+1418.622 (1) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1479.054 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1479.548 (1) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+1479.601 (1) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1540.071 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1540.159 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1540.193 (1) Number of backup sets in history: 2; groups (db): 1
+1540.225 (1) Examining (for databases) backup set with group_id=0, nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+1540.258 (1) This backup set is the backup set just made, so will not be deleted.
+1540.258 (1) Examining (for databases) backup set with group_id=0, nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+1540.258 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1540.303 (1) Number of backup sets in history: 2; groups (files): 1
+1540.458 (1) Examining (for files) backup set with nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+1540.458 (1) This backup set is the backup set just made, so will not be deleted.
+1540.503 (1) This backup set is the backup set just made, so will not be deleted.
+1540.503 (1) This backup set is the backup set just made, so will not be deleted.
+1540.504 (1) This backup set is the backup set just made, so will not be deleted.
+1540.504 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1540.536 (1) Examining (for files) backup set with nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+1540.536 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+1540.536 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1540.603 (1) Resume backup (5448fabc40fc, 1): finish run
+1540.680 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1540.781 (1) Rescheduling resumption 2: moving to 1020 seconds from now (1603444266)
+1540.859 (1) The backup has not finished; a resumption is scheduled
+2563.573 (2) Opened log file at time: Fri, 23 Oct 2020 09:11:08 +0000 on http://localhost/TestWordPress/wordpress
+2563.697 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.9M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+2563.762 (2) Free space on disk containing Updraft's temporary directory: 414580.3 MB
+2563.927 (2) Backup run: resumption=2, nonce=5448fabc40fc, file_nonce=5448fabc40fc begun at=1603441705 (2564s ago), job type=backup
+2564.082 (2) Scheduling a resumption (3) after 1264 seconds (1603445533) in case this run gets aborted
+2564.265 (2) Checking if we have a zip executable available
+2564.293 (2) Creation of backups of directories: already finished
+2564.321 (2) Saving backup status to database (elements: 8)
+2564.417 (2) Database dump (WordPress DB): Creation was completed already
+2564.450 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+2564.528 (2) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2564.584 (2) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2564.604 (2) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+2564.627 (2) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+2564.673 (2) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: db: This file has already been successfully uploaded
+2564.693 (2) Saving backup history. Total backup size: Unknown
+2565.049 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+2565.386 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2565.549 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+2567.869 (2) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+2567.905 (2) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+2628.629 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2628.675 (2) An error condition has occurred for the first time during this job
+2629.144 (2) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+2629.172 (2) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+2689.724 (2) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2690.368 (2) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+2690.396 (2) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+2751.026 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2751.573 (2) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+2751.597 (2) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+2812.166 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2812.265 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2812.299 (2) Number of backup sets in history: 2; groups (db): 1
+2812.321 (2) Examining (for databases) backup set with group_id=0, nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+2812.343 (2) This backup set is the backup set just made, so will not be deleted.
+2812.343 (2) Examining (for databases) backup set with group_id=0, nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+2812.343 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2812.365 (2) Number of backup sets in history: 2; groups (files): 1
+2812.387 (2) Examining (for files) backup set with nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+2812.387 (2) This backup set is the backup set just made, so will not be deleted.
+2812.410 (2) This backup set is the backup set just made, so will not be deleted.
+2812.410 (2) This backup set is the backup set just made, so will not be deleted.
+2812.411 (2) This backup set is the backup set just made, so will not be deleted.
+2812.411 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2812.432 (2) Examining (for files) backup set with nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+2812.432 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+2812.432 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2812.476 (2) Resume backup (5448fabc40fc, 2): finish run
+2812.499 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2812.591 (2) Rescheduling resumption 3: moving to 1140 seconds from now (1603445658)
+2812.655 (2) The backup has not finished; a resumption is scheduled
+3997.679 (3) Opened log file at time: Fri, 23 Oct 2020 09:35:03 +0000 on http://localhost/TestWordPress/wordpress
+3997.759 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.9M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+3997.983 (3) Free space on disk containing Updraft's temporary directory: 414573.3 MB
+3998.878 (3) Backup run: resumption=3, nonce=5448fabc40fc, file_nonce=5448fabc40fc begun at=1603441705 (3999s ago), job type=backup
+3999.152 (3) Scheduling a resumption (4) after 1264 seconds (1603446968) in case this run gets aborted
+3999.977 (3) Checking if we have a zip executable available
+4000.363 (3) Creation of backups of directories: already finished
+4000.499 (3) Saving backup status to database (elements: 8)
+4001.952 (3) Database dump (WordPress DB): Creation was completed already
+4002.110 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+4002.376 (3) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+4002.441 (3) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+4002.549 (3) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+4002.672 (3) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+4003.049 (3) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: db: This file has already been successfully uploaded
+4003.407 (3) Saving backup history. Total backup size: Unknown
+4003.641 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+4003.930 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+4004.660 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+4013.689 (3) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+4013.815 (3) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+4074.963 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+4075.006 (3) An error condition has occurred for the first time during this job
+4075.940 (3) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+4076.005 (3) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+4136.999 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+4138.000 (3) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+4138.078 (3) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+4199.439 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+4199.980 (3) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+4199.997 (3) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+4260.646 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+4260.743 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+4260.777 (3) Number of backup sets in history: 2; groups (db): 1
+4260.809 (3) Examining (for databases) backup set with group_id=0, nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+4260.831 (3) This backup set is the backup set just made, so will not be deleted.
+4260.831 (3) Examining (for databases) backup set with group_id=0, nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+4260.831 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+4260.880 (3) Number of backup sets in history: 2; groups (files): 1
+4260.925 (3) Examining (for files) backup set with nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+4260.925 (3) This backup set is the backup set just made, so will not be deleted.
+4260.969 (3) This backup set is the backup set just made, so will not be deleted.
+4260.970 (3) This backup set is the backup set just made, so will not be deleted.
+4260.970 (3) This backup set is the backup set just made, so will not be deleted.
+4260.971 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+4260.987 (3) Examining (for files) backup set with nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+4260.987 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+4260.987 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+4261.064 (3) Resume backup (5448fabc40fc, 3): finish run
+4261.087 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+4261.176 (3) Rescheduling resumption 4: moving to 1260 seconds from now (1603447226)
+4261.220 (3) The backup has not finished; a resumption is scheduled
+6320.902 (4) Opened log file at time: Fri, 23 Oct 2020 10:13:46 +0000 on http://localhost/TestWordPress/wordpress
+6320.940 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.9M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+6321.003 (4) Free space on disk containing Updraft's temporary directory: 414374.6 MB
+6321.641 (4) Backup run: resumption=4, nonce=5448fabc40fc, file_nonce=5448fabc40fc begun at=1603441705 (6322s ago), job type=backup
+6321.739 (4) Long time past since expected resumption time: approx expected=1603446967, now=1603448026.2, diff=1059.1
+6321.861 (4) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+6321.968 (4) Scheduling a resumption (5) after 1264 seconds (1603449291) in case this run gets aborted
+6322.433 (4) Checking if we have a zip executable available
+6322.468 (4) Creation of backups of directories: already finished
+6322.510 (4) Saving backup status to database (elements: 8)
+6322.950 (4) Database dump (WordPress DB): Creation was completed already
+6323.029 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+6323.096 (4) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+6323.184 (4) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+6323.241 (4) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+6323.422 (4) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+6323.484 (4) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: db: This file has already been successfully uploaded
+6323.537 (4) Saving backup history. Total backup size: Unknown
+6323.617 (4) Requesting upload of the files that have not yet been successfully uploaded (4)
+6323.706 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+6323.740 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+6327.844 (4) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+6327.906 (4) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+6356.027 (4) Googledrive chunked upload: 2.7 % uploaded (1048576)
+6416.709 (4) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+6416.775 (4) An error condition has occurred for the first time during this job
+6418.304 (4) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+6418.630 (4) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+6479.413 (4) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+6480.237 (4) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+6480.414 (4) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+6541.100 (4) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+6541.647 (4) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+6541.700 (4) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+6556.156 (4) Googledrive chunked upload: 38.8 % uploaded (1048576)
+6616.330 (4) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+6616.447 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+6616.471 (4) Number of backup sets in history: 2; groups (db): 1
+6616.501 (4) Examining (for databases) backup set with group_id=0, nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+6616.524 (4) This backup set is the backup set just made, so will not be deleted.
+6616.524 (4) Examining (for databases) backup set with group_id=0, nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+6616.524 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+6616.546 (4) Number of backup sets in history: 2; groups (files): 1
+6616.679 (4) Examining (for files) backup set with nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+6616.680 (4) This backup set is the backup set just made, so will not be deleted.
+6616.723 (4) This backup set is the backup set just made, so will not be deleted.
+6616.724 (4) This backup set is the backup set just made, so will not be deleted.
+6616.724 (4) This backup set is the backup set just made, so will not be deleted.
+6616.724 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+6616.746 (4) Examining (for files) backup set with nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+6616.746 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+6616.747 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+6616.823 (4) Resume backup (5448fabc40fc, 4): finish run
+6616.868 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+6616.923 (4) The backup has not finished; a resumption is scheduled
+8849.193 (5) Opened log file at time: Fri, 23 Oct 2020 10:55:54 +0000 on http://localhost/TestWordPress/wordpress
+8849.409 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.9M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+8849.464 (5) Free space on disk containing Updraft's temporary directory: 414164.7 MB
+8849.676 (5) Backup run: resumption=5, nonce=5448fabc40fc, file_nonce=5448fabc40fc begun at=1603441705 (8850s ago), job type=backup, previous check-in=235.2s
+8849.850 (5) Long time past since expected resumption time: approx expected=1603449525.4, now=1603450554.1, diff=1028.6
+8850.030 (5) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+8850.129 (5) Scheduling a resumption (6) after 1264 seconds (1603451819) in case this run gets aborted
+8851.274 (5) Checking if we have a zip executable available
+8851.354 (5) Creation of backups of directories: already finished
+8851.489 (5) Saving backup status to database (elements: 8)
+8852.307 (5) Database dump (WordPress DB): Creation was completed already
+8852.475 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+8853.053 (5) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+8853.607 (5) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+8853.697 (5) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+8853.763 (5) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: others: This file has not yet been successfully uploaded: will queue
+8853.819 (5) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: db: This file has already been successfully uploaded
+8853.874 (5) Saving backup history. Total backup size: Unknown
+8853.986 (5) Requesting upload of the files that have not yet been successfully uploaded (4)
+8854.108 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+8854.261 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+8863.958 (5) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+8864.086 (5) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+8864.606 (5) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: upload already began; attempting to resume from byte 2097151
+8925.414 (5) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+8925.453 (5) An error condition has occurred for the first time during this job
+8925.936 (5) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+8925.975 (5) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+8937.109 (5) Googledrive chunked upload: 13.7 % uploaded (1048576)
+8997.342 (5) Google Drive: Upload error: Operation timed out after 60001 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+8997.979 (5) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+8998.022 (5) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+9058.624 (5) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+9059.189 (5) Google Drive: quota usage: used=240.9 MB, total=15360 MB, available=15119.1 MB
+9059.235 (5) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+9059.580 (5) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: upload already began; attempting to resume from byte 2097151
+9067.078 (5) Googledrive chunked upload: 100 % uploaded (2097152)
+9067.434 (5) Google Drive: OK: Archive backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip uploaded in 8.15 seconds
+9067.571 (5) Recording as successfully uploaded: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip
+9068.671 (5) Deleting local file: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: OK
+9068.758 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+9068.804 (5) Number of backup sets in history: 2; groups (db): 1
+9068.879 (5) Examining (for databases) backup set with group_id=0, nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+9068.947 (5) This backup set is the backup set just made, so will not be deleted.
+9068.947 (5) Examining (for databases) backup set with group_id=0, nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+9068.947 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+9068.990 (5) Number of backup sets in history: 2; groups (files): 1
+9069.047 (5) Examining (for files) backup set with nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+9069.048 (5) This backup set is the backup set just made, so will not be deleted.
+9069.091 (5) This backup set is the backup set just made, so will not be deleted.
+9069.092 (5) This backup set is the backup set just made, so will not be deleted.
+9069.092 (5) This backup set is the backup set just made, so will not be deleted.
+9069.093 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+9069.147 (5) Examining (for files) backup set with nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+9069.147 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+9069.148 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+9069.270 (5) Resume backup (5448fabc40fc, 5): finish run
+9069.367 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+9069.458 (5) The backup has not finished; a resumption is scheduled
+13578.220 (6) Opened log file at time: Fri, 23 Oct 2020 12:14:43 +0000 on http://localhost/TestWordPress/wordpress
+13578.384 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.9M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+13578.443 (6) Free space on disk containing Updraft's temporary directory: 414160.9 MB
+13578.587 (6) Backup run: resumption=6, nonce=5448fabc40fc, file_nonce=5448fabc40fc begun at=1603441705 (13578s ago), job type=backup, previous check-in=218.3s
+13578.815 (6) Long time past since expected resumption time: approx expected=1603452036.3, now=1603455283.6, diff=3247.2
+13578.962 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+13579.066 (6) Scheduling a resumption (7) after 1264 seconds (1603456548) in case this run gets aborted
+13579.634 (6) Checking if we have a zip executable available
+13579.689 (6) Creation of backups of directories: already finished
+13580.009 (6) Saving backup status to database (elements: 8)
+13580.164 (6) Database dump (WordPress DB): Creation was completed already
+13580.296 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+13581.437 (6) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+13581.566 (6) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+13581.737 (6) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+13582.641 (6) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: others: This file has already been successfully uploaded
+13582.732 (6) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: db: This file has already been successfully uploaded
+13582.842 (6) Saving backup history. Total backup size: Unknown
+13583.134 (6) Requesting upload of the files that have not yet been successfully uploaded (3)
+13583.321 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+13584.071 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+13590.427 (6) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+13590.610 (6) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+13590.871 (6) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: upload already began; attempting to resume from byte 3145727
+13601.344 (6) Googledrive chunked upload: 10.9 % uploaded (4194304)
+13661.700 (6) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+13661.740 (6) An error condition has occurred for the first time during this job
+13662.413 (6) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+13662.446 (6) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+13662.812 (6) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: upload already began; attempting to resume from byte 2097151
+13723.012 (6) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+13723.552 (6) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+13723.592 (6) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+13784.399 (6) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+13784.494 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+13784.567 (6) Number of backup sets in history: 2; groups (db): 1
+13784.621 (6) Examining (for databases) backup set with group_id=0, nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+13784.643 (6) This backup set is the backup set just made, so will not be deleted.
+13784.643 (6) Examining (for databases) backup set with group_id=0, nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+13784.643 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+13784.666 (6) Number of backup sets in history: 2; groups (files): 1
+13784.687 (6) Examining (for files) backup set with nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+13784.688 (6) This backup set is the backup set just made, so will not be deleted.
+13784.710 (6) This backup set is the backup set just made, so will not be deleted.
+13784.710 (6) This backup set is the backup set just made, so will not be deleted.
+13784.710 (6) This backup set is the backup set just made, so will not be deleted.
+13784.711 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+13784.743 (6) Examining (for files) backup set with nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+13784.743 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+13784.743 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+13784.788 (6) Resume backup (5448fabc40fc, 6): finish run
+13784.838 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+13784.893 (6) The backup has not finished; a resumption is scheduled
+14986.661 (7) Opened log file at time: Fri, 23 Oct 2020 12:38:12 +0000 on http://localhost/TestWordPress/wordpress
+14986.789 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.9M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+14986.936 (7) Free space on disk containing Updraft's temporary directory: 414142.8 MB
+14987.292 (7) Backup run: resumption=7, nonce=5448fabc40fc, file_nonce=5448fabc40fc begun at=1603441705 (14987s ago), job type=backup, previous check-in=23.1s
+14987.358 (7) Scheduling a resumption (8) after 1264 seconds (1603457956) in case this run gets aborted
+14987.508 (7) Checking if we have a zip executable available
+14987.548 (7) Creation of backups of directories: already finished
+14987.583 (7) Saving backup status to database (elements: 8)
+14987.658 (7) Database dump (WordPress DB): Creation was completed already
+14987.704 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+14987.783 (7) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+14987.814 (7) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+14987.859 (7) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+14987.892 (7) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: others: This file has already been successfully uploaded
+14987.948 (7) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: db: This file has already been successfully uploaded
+14987.992 (7) Saving backup history. Total backup size: Unknown
+14988.070 (7) Requesting upload of the files that have not yet been successfully uploaded (3)
+14988.358 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+14988.393 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+14990.449 (7) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+14990.480 (7) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+14990.673 (7) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: upload already began; attempting to resume from byte 5242879
+15051.006 (7) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+15051.038 (7) An error condition has occurred for the first time during this job
+15051.643 (7) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+15051.671 (7) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+15051.921 (7) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: upload already began; attempting to resume from byte 3145727
+15112.035 (7) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+15112.588 (7) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+15112.650 (7) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+15173.357 (7) Google Drive: Upload error: Operation timed out after 60018 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+15173.495 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+15173.586 (7) Number of backup sets in history: 2; groups (db): 1
+15173.629 (7) Examining (for databases) backup set with group_id=0, nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+15173.652 (7) This backup set is the backup set just made, so will not be deleted.
+15173.652 (7) Examining (for databases) backup set with group_id=0, nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+15173.652 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+15173.696 (7) Number of backup sets in history: 2; groups (files): 1
+15173.752 (7) Examining (for files) backup set with nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+15173.752 (7) This backup set is the backup set just made, so will not be deleted.
+15173.796 (7) This backup set is the backup set just made, so will not be deleted.
+15173.796 (7) This backup set is the backup set just made, so will not be deleted.
+15173.796 (7) This backup set is the backup set just made, so will not be deleted.
+15173.797 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+15173.829 (7) Examining (for files) backup set with nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+15173.829 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+15173.830 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+15173.919 (7) Resume backup (5448fabc40fc, 7): finish run
+15173.974 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+15174.041 (7) The backup has not finished; a resumption is scheduled
+20116.443 (8) Opened log file at time: Fri, 23 Oct 2020 14:03:41 +0000 on http://localhost/TestWordPress/wordpress
+20116.530 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.9M | 50M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+20116.585 (8) Free space on disk containing Updraft's temporary directory: 414168.2 MB
+20116.730 (8) Backup run: resumption=8, nonce=5448fabc40fc, file_nonce=5448fabc40fc begun at=1603441705 (20117s ago), job type=backup
+20116.774 (8) Long time past since expected resumption time: approx expected=1603457956, now=1603461821.8, diff=3865.8
+20116.819 (8) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+20116.941 (8) Scheduling a resumption (9) after 1264 seconds (1603463086) in case this run gets aborted
+20117.646 (8) Checking if we have a zip executable available
+20117.696 (8) Creation of backups of directories: already finished
+20117.742 (8) Saving backup status to database (elements: 8)
+20117.963 (8) Database dump (WordPress DB): Creation was completed already
+20117.986 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+20118.053 (8) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+20118.464 (8) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+20118.562 (8) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+20119.162 (8) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: others: This file has already been successfully uploaded
+20119.307 (8) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: db: This file has already been successfully uploaded
+20119.552 (8) Saving backup history. Total backup size: Unknown
+20119.663 (8) Requesting upload of the files that have not yet been successfully uploaded (3)
+20119.774 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+20119.829 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+20124.841 (8) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+20124.897 (8) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+20125.261 (8) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: upload already began; attempting to resume from byte 6291455
+20185.469 (8) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+20185.509 (8) An error condition has occurred for the first time during this job
+20186.249 (8) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+20186.275 (8) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+20186.617 (8) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: upload already began; attempting to resume from byte 4194303
+20246.825 (8) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+20247.537 (8) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+20247.588 (8) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+20308.360 (8) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+20308.445 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+20308.480 (8) Number of backup sets in history: 2; groups (db): 1
+20308.511 (8) Examining (for databases) backup set with group_id=0, nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+20308.534 (8) This backup set is the backup set just made, so will not be deleted.
+20308.534 (8) Examining (for databases) backup set with group_id=0, nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+20308.534 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+20308.556 (8) Number of backup sets in history: 2; groups (files): 1
+20308.578 (8) Examining (for files) backup set with nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+20308.578 (8) This backup set is the backup set just made, so will not be deleted.
+20308.600 (8) This backup set is the backup set just made, so will not be deleted.
+20308.623 (8) This backup set is the backup set just made, so will not be deleted.
+20308.623 (8) This backup set is the backup set just made, so will not be deleted.
+20308.624 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+20308.656 (8) Examining (for files) backup set with nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+20308.656 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+20308.656 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+20308.711 (8) Resume backup (5448fabc40fc, 8): finish run
+20308.767 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+20308.811 (8) The backup has not finished; a resumption is scheduled
+22094.622 (9) Opened log file at time: Fri, 23 Oct 2020 14:36:40 +0000 on http://localhost/TestWordPress/wordpress
+22094.688 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.5.1 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 56.9M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+22094.775 (9) Free space on disk containing Updraft's temporary directory: 414171.1 MB
+22094.897 (9) Backup run: resumption=9, nonce=5448fabc40fc, file_nonce=5448fabc40fc begun at=1603441705 (22095s ago), job type=backup
+22095.021 (9) The current run is resumption number 9, and there was nothing useful done on the last run (last useful run: 6) - will not schedule a further attempt until we see something useful happening this time
+22095.121 (9) Scheduling a resumption (10) after 1264 seconds (1603465064); but the job will then be aborted unless something happens this time
+22095.724 (9) Creation of backups of directories: already finished
+22096.059 (9) Saving backup status to database (elements: 8)
+22096.163 (9) Database dump (WordPress DB): Creation was completed already
+22096.223 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+22096.346 (9) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+22096.411 (9) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+22096.466 (9) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+22096.508 (9) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: others: This file has already been successfully uploaded
+22096.555 (9) backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: db: This file has already been successfully uploaded
+22096.588 (9) Saving backup history. Total backup size: Unknown
+22096.666 (9) Requesting upload of the files that have not yet been successfully uploaded (3)
+22096.777 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+22096.811 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+22099.511 (9) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+22099.555 (9) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+22099.883 (9) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: upload already began; attempting to resume from byte 7340031
+22160.102 (9) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+22160.132 (9) An error condition has occurred for the first time during this job
+22160.762 (9) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+22160.854 (9) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+22161.106 (9) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: upload already began; attempting to resume from byte 5242879
+22221.469 (9) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+22221.968 (9) Google Drive: quota usage: used=243.5 MB, total=15360 MB, available=15116.5 MB
+22222.021 (9) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+22282.746 (9) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+22282.845 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+22282.869 (9) Number of backup sets in history: 2; groups (db): 1
+22282.889 (9) Examining (for databases) backup set with group_id=0, nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+22283.023 (9) This backup set is the backup set just made, so will not be deleted.
+22283.023 (9) Examining (for databases) backup set with group_id=0, nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+22283.023 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+22283.067 (9) Number of backup sets in history: 2; groups (files): 1
+22283.090 (9) Examining (for files) backup set with nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+22283.090 (9) This backup set is the backup set just made, so will not be deleted.
+22283.112 (9) This backup set is the backup set just made, so will not be deleted.
+22283.112 (9) This backup set is the backup set just made, so will not be deleted.
+22283.112 (9) This backup set is the backup set just made, so will not be deleted.
+22283.113 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+22283.171 (9) Examining (for files) backup set with nonce=65a27261a261, datestamp=1601484323 (Sep 30 2020 16:45:23)
+22283.171 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+22283.171 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+22283.267 (9) Resume backup (5448fabc40fc, 9): finish run
+22283.334 (9) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+22283.391 (9) Fetching RSS news feed
+22287.701 (9) Fetched RSS news feed; result is a: SimplePie
+22288.387 (9) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 160.1 KB) to: kevhy...
+22288.891 (9) The backup attempt has finished, apparently unsuccessfully

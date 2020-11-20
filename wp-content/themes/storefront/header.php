@@ -29,18 +29,13 @@
 
 	<header id="masthead" class="site-header" role="banner" style="<?php storefront_header_styles(); ?>">
 		<hr class="searchLine" style="width:324px">
-		<img src="<?php echo get_template_directory_uri(); ?>/heart.png" style="position:relative;left:1205px; bottom:18px">
-		<img src="<?php echo get_template_directory_uri(); ?>/person.png" style="position:relative;left:1130px;bottom:38px">
+		<img class="heart" src="<?php echo get_template_directory_uri(); ?>/heart.png">
+		<img class="person" src="<?php echo get_template_directory_uri(); ?>/person.png">
 		<input type="search" placeholder="SEARCH" class="searchHeader" >
 
-		<img src="<?php echo get_template_directory_uri(); ?>/kart.png" 
-		style="position:absolute;margin-left:1275px;bottom:172px">
+		<img class="kart" src="<?php echo get_template_directory_uri(); ?>/kart.png">
 
-		<img src="<?php echo get_template_directory_uri(); ?>/Oval.png" 
-		style="position:absolute;margin-left:1289px;bottom:182px">
-
-		<img src="<?php echo get_template_directory_uri(); ?>/Group15.png" 
-		style="position:absolute;margin-left:1289px;bottom:182px">
+		<img class="circleNumber" src="<?php echo get_template_directory_uri(); ?>/Group15.png" >
 		<?php
 		/**
 		 * Functions hooked into storefront_header action

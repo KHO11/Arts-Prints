@@ -22,7 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 get_header( 'shop' ); ?>
-<ul class="singleList" style="list-style-type:none;position:absolute;right:750px;bottom:300px">
+<ul class="singleList">
 	<li>SHOP</li>
 	<li>/</li>
 	<li>NEW PRINTS</li>
@@ -34,22 +34,25 @@ get_header( 'shop' ); ?>
 	<li style="color:#3B3B3B">ERIN ISAACS</li>
 </ul>
 
-<span class="erin" style="position:absolute;left:830px;bottom:260px;font-size:15px;color:#1C1C1C;letter-spacing: 1.96154px;">
+<span class="erin">
 Erin Isaacs</span>
 
-<span class="singlePrint" style="color:#1C1C1C;font-size:38px;line-height:49px;
-left:832px;top:450px;position:absolute">Abstract print</span>
+<span class="singlePrint">Abstract print</span>
 
-<p class="productInfo" style="position:absolute;top:600px;left:830px">Our range of framed prints are eye catching, 
+<label class="printPrice">£100.00</label>
+
+<img class="bigWave" src="<?php echo get_template_directory_uri(); ?>/bigWWave.png">
+
+<p class="productInfo">Our range of framed prints are eye catching, 
 <br> hassle free gifts that are perfect for livening
 <br> up a space with minimal effort.
 </p>
 
-<div class="dropdown9" style="position:absolute;left:850px;top:700px">
-  <button onclick="myFunction9()" class="dropbtn9">
-  <span style="">FRAME</span>
-  <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
-  style="">
+<div class="optionsList">
+
+<div class="dropdown9">
+  <button onclick="myFunction9()" class="dropbtn9" style="background:transparent">
+  <div style="color:#06022A">FRAME  <img class="downArrow1" src="<?php echo get_template_directory_uri(); ?>/downArrow.png"></div>
   <div style=""></div></button>
   <div id="myDropdown9" class="dropdown-content9">
     <input type="text" placeholder="Search.." id="myInput9" onkeyup="filterFunction9()">
@@ -57,10 +60,10 @@ left:832px;top:450px;position:absolute">Abstract print</span>
   </div>
 </div>
 
-<div class="dropdown10" style="position:absolute;left:850px;top:800px">
-  <button onclick="myFunction10()" class="dropbtn10">
-  <span style="">SIZE</span>
-  <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
+<div class="dropdown10">
+  <button onclick="myFunction10()" class="dropbtn10" style="background:transparent">
+  <span style="color:#06022A">SIZE</span>
+  <img class="downArrow2" src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
   style="">
   <div style=""></div></button>
   <div id="myDropdown10" class="dropdown-content10">
@@ -70,17 +73,83 @@ left:832px;top:450px;position:absolute">Abstract print</span>
 </div>
 
 
-<div class="dropdown11" style="position:absolute;left:850px;top:900px">
-  <button onclick="myFunction11()" class="dropbtn11">
-  <span style="">QUANTITY</span>
-  <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
-  style="">
+<div class="dropdown11">
+  <button onclick="myFunction11()" class="dropbtn11" style="background:transparent">
+  <span style="color:#06022A">QUANTITY</span>
+  <img class="downArrow3" src="<?php echo get_template_directory_uri(); ?>/downArrow.png">
   <div style=""></div></button>
   <div id="myDropdown11" class="dropdown-content11">
     <input type="text" placeholder="Search.." id="myInput11" onkeyup="filterFunction11()">
     <a href="#about">About</a>
   </div>
 </div>
+
+</div>
+
+<div class="horizontalLines">
+  <hr class="line1">
+  <hr class="line2">
+  <hr class="line3">
+</div>
+
+<div class="buttonStuff">
+  <button class="addKart"><img class="kart2" src="http://localhost/TestWordPress/wordpress/wp-content/themes/storefront/kart.png">ADD TO CART</button>
+</div>
+<div class="heartOval">
+<img class="singleOval" src="<?php echo get_template_directory_uri(); ?>/greyOval.png">
+
+<img class="singleBlueHeart" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png">
+</div>
+
+<div class="smallSection">
+  <h10>About the artist.</h10>
+
+  <div class="personInfo">
+    <img class="blackFace" src="<?php echo get_template_directory_uri(); ?>/blackFace.png">
+    <p class="personPar">Joined on Mar 20 2014.
+    <br>original art by Kay Khadija
+    <br>IG @sabrenakhadija</p>
+  </div>
+
+  <div class="imagesSection">
+    <img class="arrowLeft" src="<?php echo get_template_directory_uri(); ?>/arrowLeft.png">
+    <img class="elephant" src="<?php echo get_template_directory_uri(); ?>/elephant.png">
+    <img src="<?php echo get_template_directory_uri(); ?>/womanFaces.png">
+    <img src="<?php echo get_template_directory_uri(); ?>/colourElephants.png">
+    <img src="<?php echo get_template_directory_uri(); ?>/can.png">
+    <img class="arrowRight" src="<?php echo get_template_directory_uri(); ?>/arrowRight.png">
+  </div>
+
+  <button>SEE MORE</button>
+</div>
+
+<div class="otherPrints">
+  <h11>You might like.</h11>
+
+  <div class="showPrints">
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/bmi.png">
+      <label class="heading1">ABSTRACT PRINT <img class="heart1" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png"></label>
+      <label class="price1">£100.00</label>
+    </div>
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/bmi2.png">
+      <label class="heading2">ABSTRACT PRINT <img class="heart2" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png"></label>
+      <label class="price2">£100.00</label>
+    </div>
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/lucrecia.png">
+      <label class="heading3">ABSTRACT PRINT <img class="heart3" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png"></label>
+      <label clas="price3">£100.00</label>
+    </div>
+    <div>
+      <img src="<?php echo get_template_directory_uri(); ?>/bmi01.png">
+      <label class="heading4">ABSTRACT PRINT <img class="heart4" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png"></label>
+      <label class="price4">£100.00</label>
+    </div>
+  </div>
+</div>
+
 
 
 <script>

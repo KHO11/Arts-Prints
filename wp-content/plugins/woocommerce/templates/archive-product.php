@@ -32,11 +32,10 @@ do_action( 'woocommerce_before_main_content' );
 <header class="woocommerce-products-header test2">
 <div class="mainInfo">
 <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn"  style="margin-left:20px">
-  <span class="sortBy" style="font-weight:normal;font-size:12px;position:relative;margin-right:35px;bottom:7px;background:transparent">Sort By:</span> 
-  <span style="font-weight:normal;color:#5D5D5D;position:relative;right:25px;bottom:5px;background:transparent">Recommended 
-  <img class="downArrow" src="<?php echo get_template_directory_uri(); ?>/downArrow.png"
-  style="position:relative;left:200px;bottom:16px" ></span></button>
+  <button onclick="myFunction()" class="dropbtn">
+  <span class="sortBy">Sort By:</span> 
+  <span class="recommend">Recommended 
+  <img class="downArrow" src="<?php echo get_template_directory_uri(); ?>/downArrow.png"></span></button>
   <div id="myDropdown" class="dropdown-content">
     <input type="text" placeholder="Search.." id="myInput" onkeyup="filterFunction()">
     <a href="#about">About</a>
@@ -45,9 +44,8 @@ do_action( 'woocommerce_before_main_content' );
 
 <div class="dropdown2">
   <button onclick="myFunction2()" class="dropbtn2" style="margin-right:20px;width:127px">
-  <span style="font-weight:normal;font-size:12px;position:relative;bottom:5px;background:transparent;right:10px">CATEGORY</span>
-  <img src="<?php echo get_template_directory_uri(); ?>/downArrow.png"
-  style="position:absolute;margin-left:80px;bottom:20px">
+  <span class="category">CATEGORY</span>
+  <img class="arrow2" src="<?php echo get_template_directory_uri(); ?>/downArrow.png">
   <div 
   style="position:absolute;border-left:1px solid #D6D6D6;bottom:10px;margin-left:109px;height:28px"></div></button>
   <div id="myDropdown2" class="dropdown-content2">
@@ -129,16 +127,15 @@ do_action( 'woocommerce_before_main_content' );
   </div>
 </div>
 
-<h9 style="position:absolute;right:1080px;top:430px">New Prints.</h9>
+<h9 class="contentTitle">New Prints.</h9>
 
-<div class="small-description" style="line-height:26px;position:relative;bottom:30px">
-  <p>Perfect for every room our range of wall art options <br>
-    <a class="par2" style="color:black;margin-right:95px">were made to fit any budget or space</a> </p>
+<div class="small-description">
+  <p class="description1">Perfect for every room our range of wall art options <br>
+    <a class="par2">were made to fit any budget or space</a> </p>
 </div>
 
-<div class="colourStuff" 
-style="position:absolute;background-color:#F8F9FA;width:1550px;height:130px;top:2025px;left:0px">
-<button class="newPrints" style="margin-right:250px">See all new prints</button>
+<div class="colourStuff">
+<button class="newPrints">See all new prints</button>
 </div>
 
 
