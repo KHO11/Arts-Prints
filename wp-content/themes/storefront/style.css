@@ -2467,6 +2467,60 @@ button.menu-toggle {
     }
     
     #myInput:focus {outline: 3px solid #ddd;}
+
+    .lineOne {
+      border-right: 1px solid #D6D6D6;
+      margin-top: -30%;
+      position: relative;
+      left: 15px;
+      height: 28px;
+    }
+
+    .lineTwo {
+      border-right: 1px solid #D6D6D6;
+      position: relative;
+      margin-top: -18%;
+      left: 16px;
+      height: 28px;
+      bottom: 10px;
+    }
+
+    .lineThree {
+      border-right: 1px solid #D6D6D6;
+      position: relative;
+      margin-top: -18%;
+      left: 16px;
+      height: 28px;
+      bottom: 10px;
+    }
+
+    .lineFour {
+      border-right: 1px solid #D6D6D6;
+      position: relative;
+      margin-top: -18%;
+      left: 16px;
+      height: 28px;
+      bottom: 10px;
+    }
+    
+
+    .lineFive {
+      border-right: 1px solid #D6D6D6;
+      position: relative;
+      margin-top: -17%;
+      left: 16px;
+      height: 28px;
+      bottom: 10px;
+    }
+
+    .lineSix {
+      border-right: 1px solid #D6D6D6;
+    position: relative;
+    margin-top: -17%;
+    height: 28px;
+    bottom: 10px;
+    left: 16px;
+    }
     
     .dropdown {
       position: relative;
@@ -3777,47 +3831,101 @@ div.showPrints {
 }
 
 .showPrints div {
-  margin-right: 40px;
+  margin-right: 70px;
   text-align: left;
 }
 
 .heart1 {
   float: right;
+  position: relative;
+  right: 16px;
 }
 
 .heart2 {
   float: right;
+  position: relative;
+  right: 14px;
 }
 
 .heart3 {
   float: right;
+  position: relative;
+  left: 10px;
 }
 
 .heart4 {
   float: right;
+  position: relative;
+  right: 27px;
 }
 
 label.heading1 {
   position: relative;
   top: 15%;
+  color: #06022A;
+  font-weight: bold;
 }
 
 label.price1 {
   position: relative;
   top: 51px;
   margin-right: 16%;
+  color: #8E8E8E;
+  font-weight: bold;
 }
 
 label.heading2 {
   position: relative;
   top: 15%;
+  color: #06022A;
+  font-weight: bold;
 }
 
 label.price2 {
   position: relative;
-  top: 78px;
-  right: 51%;
+  top: 52px;
+  color: #8E8E8E;
+  font-weight: bold;
 }
+
+label.heading3 {
+  position: relative;
+  top: 33px;
+  color: #06022A;
+  font-weight: bold;
+}
+
+label.price3 {
+  position: relative;
+  top: 49px;
+  color: #8E8E8E;
+  font-weight: bold;
+}
+
+label.heading4 {
+  position: relative;
+  top: 70px;
+  color: #06022A;
+  font-weight: bold;
+}
+
+label.price4 {
+  position: relative;
+  top: 115px;
+  margin-left: -53%;
+  color: #8E8E8E;
+  font-weight: bold;
+}
+
+img.lucrecia {
+  margin-top: -36px;
+  max-height: 202px;
+}
+
+.lucreciaSection {
+  margin-top: 35px;
+}
+
 
 
 

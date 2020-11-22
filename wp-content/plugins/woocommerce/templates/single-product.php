@@ -137,10 +137,10 @@ Erin Isaacs</span>
       <label class="heading2">ABSTRACT PRINT <img class="heart2" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png"></label>
       <label class="price2">£100.00</label>
     </div>
-    <div>
-      <img src="<?php echo get_template_directory_uri(); ?>/lucrecia.png">
+    <div class="lucreciaSection">
+      <img class="lucrecia" src="<?php echo get_template_directory_uri(); ?>/lucrecia.png">
       <label class="heading3">ABSTRACT PRINT <img class="heart3" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png"></label>
-      <label clas="price3">£100.00</label>
+      <label class="price3">£100.00</label>
     </div>
     <div>
       <img src="<?php echo get_template_directory_uri(); ?>/bmi01.png">
