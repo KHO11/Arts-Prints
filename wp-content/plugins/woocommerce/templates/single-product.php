@@ -39,6 +39,8 @@ Erin Isaacs</span>
 
 <span class="singlePrint">Abstract print</span>
 
+<span class="reviewsSection"><img src="<?php echo get_template_directory_uri(); ?>/reviewsPic.png"></span>
+
 <label class="printPrice">£100.00</label>
 
 <img class="bigWave" src="<?php echo get_template_directory_uri(); ?>/bigWWave.png">
@@ -96,7 +98,7 @@ Erin Isaacs</span>
   <button class="addKart"><img class="kart2" src="http://localhost/TestWordPress/wordpress/wp-content/themes/storefront/kart.png">ADD TO CART</button>
 </div>
 <div class="heartOval">
-<img class="singleOval" src="<?php echo get_template_directory_uri(); ?>/greyOval.png">
+<span class="singleOval"><img src="<?php echo get_template_directory_uri(); ?>/greyOval.png"></span>
 
 <img class="singleBlueHeart" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png">
 </div>

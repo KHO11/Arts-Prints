@@ -3073,7 +3073,7 @@ button.menu-toggle {
 
     li.product.type-product.post-170.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
       top: -21px;
-      margin-left: -260px;
+      margin-left: -15%;
     }
 
     li.product.type-product.post-170.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
@@ -3093,8 +3093,10 @@ button.menu-toggle {
     }
 
     li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      margin-top: -462px;
-      margin-left: 600px;
+      float: right;
+      position: relative;
+      right: 32%;
+      bottom: 2.5%;
     }
 
     li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
@@ -3115,8 +3117,9 @@ button.menu-toggle {
 
 
     li.product.type-product.post-181.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      margin-left: 920px;
-      margin-top: -444px;
+      margin-top: -28.5%;
+      float: right;
+      margin-right: 12%;
     }
 
     li.product.type-product.post-181.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3159,7 +3162,7 @@ button.menu-toggle {
 
     li.product.type-product.post-187.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
       margin-top: 6px;
-      margin-left: -240px;
+      margin-left: -14%;
     }
 
     li.product.type-product.post-187.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
@@ -3180,7 +3183,9 @@ button.menu-toggle {
 
     li.product.type-product.post-196.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
       margin-top: -463px;
-      margin-left: 610px;
+      float: right;
+      position: relative;
+      right: 26%;
     }
 
     li.product.type-product.post-196.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3200,8 +3205,10 @@ button.menu-toggle {
     }
 
     li.product.type-product.post-198.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      margin-top: -483px;
-      margin-left: 910px;
+      float: right;
+      position: relative;
+      top: -34.7%;
+      right: 8%;
     }
 
     li.product.type-product.post-198.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3242,8 +3249,8 @@ button.menu-toggle {
     }
 
     li.product.type-product.post-202.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      margin-top: -472px;
-      margin-left: 300px;
+      margin-top: -29.5%;
+      margin-left: 20.5%;
     }
 
     li.product.type-product.post-202.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3263,8 +3270,10 @@ button.menu-toggle {
     }
 
     li.product.type-product.post-204.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      margin-top: -459px;
-      margin-left: 610px;
+      margin-top: -28.5%;
+      float: right;
+      position: relative;
+      right: 26%;
     }
 
     li.product.type-product.post-204.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3286,8 +3295,10 @@ button.menu-toggle {
 
 
     li.product.type-product.post-206.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      margin-top: -472px;
-      margin-left: -261px;
+      margin-top: -29.1%;
+      float: right;
+      position: relative;
+      left: 24%;
     }
 
     li.product.type-product.post-206.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3348,6 +3359,13 @@ button.menu-toggle {
 
   input#quantity_5f91563f6b88c {
     display: none;
+  }
+
+  span.reviewsSection {
+    float: right;
+    position: relative;
+    margin-top: 99px;
+    right: 22%;
   }
 
 
@@ -3412,7 +3430,7 @@ button.menu-toggle {
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px 18px #888888;
-    display: none;
+    display: block;
   }
 
   #reviews .comment-form-rating label {
@@ -3623,14 +3641,15 @@ img.singleOval {
 img.singleBlueHeart {
   float: right;
   position: relative;
-  top: 555px;
-  left: 38px;
+  left: -14px;
+  bottom: 34px;
 }
 
 .heartOval {
   position: relative;
-  left: 62%;
-  bottom: 52px;
+  float: right;
+  left: 26%;
+  top: 76px;
 }
 
 span.singlePrint {
@@ -3680,7 +3699,7 @@ label.printPrice {
   color: black;
   font-family: AvenirNext;
   float: right;
-  width: 36%;
+  width: 23%;
   top: 142px;
 }
 
@@ -3715,15 +3734,16 @@ img.bigWave {
 }
 
 .single-product .addKart {
-background: #06022A;
-border-radius: 8px;
-display: inline-flex;
-width: 280px;
-height: 75px;
-position: relative;
-margin-right: 105px;
-top: 64px;
-float: right;
+  display: inline-flex;
+  background: #06022A;
+  border-radius: 8px;
+  width: 280px;
+  height: 75px;
+  position: relative;
+  padding: 26px 0px 0px 73px;
+  float: right;
+  top: 64px;
+  right: 107px;
 }
 
 .horizontalLines {
