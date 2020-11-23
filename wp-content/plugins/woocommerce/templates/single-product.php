@@ -34,10 +34,14 @@ get_header( 'shop' ); ?>
 	<li style="color:#3B3B3B">ERIN ISAACS</li>
 </ul>
 
+<div class="erinText">
 <span class="erin">
 Erin Isaacs</span>
+</div>
 
+<div class="productTitle">
 <span class="singlePrint">Abstract print</span>
+</div>
 
 <span class="reviewsSection"><img src="<?php echo get_template_directory_uri(); ?>/reviewsPic.png"></span>
 

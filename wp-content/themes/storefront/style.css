@@ -3588,12 +3588,16 @@ img.blueHeart1 {
 }
 
 span.erin {
-  margin-left: 684px;
   top: 36px;
   font-size: 15px;
   color: #1C1C1C;
   letter-spacing: 1.96154px;
   position: relative;
+}
+
+.erinText {
+  text-align: right;
+  margin-right: 28%;
 }
 
 .single-product li.product.type-product.post-206.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
@@ -3656,9 +3660,13 @@ span.singlePrint {
   color: #1C1C1C;
   font-size: 38px;
   line-height: 49px;
-  left: -90px;
   top: 86px;
   position: relative;
+}
+
+div.productTitle {
+  text-align: right;
+  margin-right: 16%;
 }
 
 p.productInfo {
