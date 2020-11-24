@@ -50,8 +50,8 @@ Erin Isaacs</span>
 <img class="bigWave" src="<?php echo get_template_directory_uri(); ?>/bigWWave.png">
 
 <p class="productInfo">Our range of framed prints are eye catching, 
-<br> hassle free gifts that are perfect for livening
-<br> up a space with minimal effort.
+<br><span class="secondInfo"> hassle free gifts that are perfect for livening</span>
+<br><span class="thirdInfo"> up a space with minimal effort.</span>
 </p>
 
 <div class="optionsList">
@@ -98,6 +98,7 @@ Erin Isaacs</span>
   <hr class="line3">
 </div>
 
+<div class="buttonCircle">
 <div class="buttonStuff">
   <button class="addKart"><img class="kart2" src="http://localhost/TestWordPress/wordpress/wp-content/themes/storefront/kart.png">ADD TO CART</button>
 </div>
@@ -105,6 +106,8 @@ Erin Isaacs</span>
 <span class="singleOval"><img src="<?php echo get_template_directory_uri(); ?>/greyOval.png"></span>
 
 <img class="singleBlueHeart" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png">
+</div>
+
 </div>
 
 <div class="smallSection">

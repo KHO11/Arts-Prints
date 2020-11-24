@@ -3365,7 +3365,7 @@ button.menu-toggle {
     float: right;
     position: relative;
     margin-top: 99px;
-    right: 22%;
+    right: 23%;
   }
 
 
@@ -3656,6 +3656,10 @@ img.singleBlueHeart {
   top: 76px;
 }
 
+.buttonCircle {
+  margin-top: 41%;
+}
+
 span.singlePrint {
   color: #1C1C1C;
   font-size: 38px;
@@ -3671,17 +3675,25 @@ div.productTitle {
 
 p.productInfo {
   position: relative;
-  float: right;
+  text-align: right;
   left: -9%;
-  margin-top: -25%;
+  margin-top: 21%;
+}
+
+span.secondInfo {
+  margin-right: 5px;
+}
+
+span.thirdInfo {
+  margin-right: 8%;
 }
 
 
-.optionsList {
+div.optionsList {
   position: relative;
-  float: right;
-  margin-top: -47%;
-  left: -28%;
+  text-align: right;
+  margin-top: -32%;
+  left: 8%;
 }
 
 
@@ -3691,7 +3703,7 @@ p.productInfo {
   width: 128%;
   left: -14%;
   position: relative;
-  top: 234px;
+  margin-top: 61%;
   text-align: center;
   border-top: groove;
   border-top-width: thin;
@@ -3708,7 +3720,7 @@ label.printPrice {
   font-family: AvenirNext;
   float: right;
   width: 23%;
-  top: 142px;
+  top: 168px;
 }
 
 .single-product div.product {
@@ -3724,15 +3736,22 @@ img.flex-active {
 img.bigWave {
   position: relative;
   margin-top: 8%;
+  display: none;
+}
+
+.woocommerce-notices-wrapper {
+  position: relative;
+  margin-top: -161%;
 }
 
 .single-product div.product .woocommerce-product-gallery img {
   margin: 0;
-  display: none;
+  display: block;
+  width: auto;
 }
 
 .woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-5.images {
-  display: none;
+  display: block;
 }
 
 .related > h2:first-child, .upsells > h2:first-child {
@@ -3744,6 +3763,7 @@ img.bigWave {
 .single-product .addKart {
   display: inline-flex;
   background: #06022A;
+  color: white;
   border-radius: 8px;
   width: 280px;
   height: 75px;
@@ -3757,8 +3777,8 @@ img.bigWave {
 .horizontalLines {
   float: right;
   width: 25%;
-  margin-right: 118px;
-  margin-top: -108px;
+  margin-right: -25%;
+  margin-top: 32%;
 }
 
 hr.line2 {
@@ -3778,7 +3798,6 @@ hr.line3 {
     color: #1C1C1C;
     font-weight: bold;
     position: relative;
-    left: 26%;
 }
 
 img.blackFace {
@@ -3841,8 +3860,9 @@ img.elephant {
 
 .otherPrints {
   position: relative;
-  top: 300px;
+  top: 72px;
   text-align: center;
+  margin-bottom: 19%;
 }
 
 .otherPrints h11 {
@@ -3952,6 +3972,10 @@ img.lucrecia {
 
 .lucreciaSection {
   margin-top: 35px;
+}
+
+.single-product .main-navigation {
+  display: none;
 }
 
 
