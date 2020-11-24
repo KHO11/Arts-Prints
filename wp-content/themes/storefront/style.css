@@ -3666,6 +3666,8 @@ span.singlePrint {
   line-height: 49px;
   top: 86px;
   position: relative;
+  font-weight: bold;
+  left: 13px;
 }
 
 div.productTitle {
@@ -3976,6 +3978,31 @@ img.lucrecia {
 
 .single-product .main-navigation {
   display: none;
+}
+
+.single-product div#product-170 {
+  margin-right: 37%;
+  overflow: hidden;
+}
+
+.single-product div#product-174 {
+  margin-right: 37%;
+}
+
+.single-product div#product-183 {
+  margin-right: 37%;
+}
+
+.single-product div#product-198 {
+  margin-right: 37%;
+}
+
+.single-product div#product-202 {
+  margin-right: 37%;
+}
+
+.single-product div#product-206 {
+  margin-right: 37%;
 }
 
 
