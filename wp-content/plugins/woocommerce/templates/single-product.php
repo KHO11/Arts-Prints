@@ -22,6 +22,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 
 get_header( 'shop' ); ?>
+<div class="properList">
 <ul class="singleList">
 	<li>SHOP</li>
 	<li>/</li>
@@ -33,6 +34,7 @@ get_header( 'shop' ); ?>
 	<li>/</li>
 	<li style="color:#3B3B3B">ERIN ISAACS</li>
 </ul>
+</div>
 
 <div class="erinText">
 <span class="erin">

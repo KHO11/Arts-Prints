@@ -3582,13 +3582,14 @@ img.blueHeart1 {
 }
 
 .singleList {
-    list-style-type: none;
-    margin-left: -106px;
-    margin-top: -79px;
+  list-style-type: none;
+  float: left;
+  margin-top: -123px;
+  margin-left: -10.5%;
 }
 
 span.erin {
-  top: 36px;
+  top: 65px;
   font-size: 15px;
   color: #1C1C1C;
   letter-spacing: 1.96154px;
@@ -3598,6 +3599,7 @@ span.erin {
 .erinText {
   text-align: right;
   margin-right: 28%;
+  margin-top: -15%;
 }
 
 .single-product li.product.type-product.post-206.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
@@ -3680,6 +3682,7 @@ p.productInfo {
   text-align: right;
   left: -9%;
   margin-top: 21%;
+  color: black;
 }
 
 span.secondInfo {
@@ -3723,6 +3726,7 @@ label.printPrice {
   float: right;
   width: 23%;
   top: 168px;
+  font-weight: bold;
 }
 
 .single-product div.product {
@@ -3760,6 +3764,11 @@ img.bigWave {
   font-size: 1.618em;
   margin-bottom: 1em;
   display: none;
+}
+
+img.kart2 {
+  padding-right: 8%;
+  height: 25px;
 }
 
 .single-product .addKart {
@@ -3980,34 +3989,155 @@ img.lucrecia {
   display: none;
 }
 
+.single-product div#product-165 {
+  background-image: url(bigWWave.png);
+  background-repeat: no-repeat;
+  position: relative;
+  padding-bottom: 50px;
+  bottom: 50px;
+  margin-right: 38%;
+}
+
 .single-product div#product-170 {
   margin-right: 37%;
   overflow: hidden;
+  background-image: url(hanna.png);
+  background-repeat: no-repeat;
+  background-size: 52%;
+  position: relative;
+  left: 11%;
+  padding-bottom: 12%;
+  bottom: 44px;
 }
 
 .single-product div#product-174 {
-  margin-right: 37%;
+  margin-right: 42%;
+  background-image: url(berit.png);
+  background-repeat: no-repeat;
+  background-size: 51%;
+  padding-bottom: 11%;
+  position: relative;
+  left: 129px;
+  bottom: 50px;
+}
+
+.single-product div#product-181 {
+  background-image: url(bmwcm.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  padding-bottom: 7%;
+  position: relative;
+  bottom: 50px;
+  margin-right: 43%;
+  left: 100px;
 }
 
 .single-product div#product-183 {
+  margin-right: 45%;
+  background-image: url(wham.png);
+  background-repeat: no-repeat;
+  background-size: 61%;
+  padding-bottom: 11%;
+  position: relative;
+  left: 100px;
+  bottom: 48px;
+}
+
+.single-product div#product-187 {
+  background-image: url(bmi.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  padding-bottom: 9%;
+  position: relative;
+  bottom: 50px;
+  left: 65px;
   margin-right: 37%;
 }
 
+.single-product div#product-196 {
+  background-image: url(bmi2.png);
+  background-repeat: no-repeat;
+  margin-right: 47%;
+  background-size: 70%;
+  padding-bottom: 5%;
+  position: relative;
+  bottom: 50px;
+  left: 98px;
+}
+
 .single-product div#product-198 {
+  margin-right: 44%;
+  background-image: url(lucrecia.png);
+  background-repeat: no-repeat;
+  background-size: 61%;
+  padding-bottom: 15%;
+  position: relative;
+  left: 70px;
+  bottom: 50px;
+}
+
+.single-product div#product-200 {
+  background-image: url(bmi01.png);
+  background-repeat: no-repeat;
+  background-size: 70%;
+  padding-bottom: 5%;
+  position: relative;
+  bottom: 50px;
   margin-right: 37%;
 }
 
 .single-product div#product-202 {
+  margin-right: 43%;
+  background-image: url(baircm.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  position: relative;
+  bottom: 50px;
+  left: 90px;
+  padding-bottom: 19%;
+}
+
+.single-product div#product-204 {
+  background-image: url(tree.png);
+  background-repeat: no-repeat;
+  background-size: 65%;
+  padding-bottom: 18%;
   margin-right: 37%;
+  position: relative;
+  left: 60px;
+  bottom: 50px;
 }
 
 .single-product div#product-206 {
-  margin-right: 37%;
+  margin-right: 47%;
+  background-image: url(sweets.png);
+  background-repeat: no-repeat;
+  background-size: 60%;
+  padding-bottom: 15%;
+  position: relative;
+  left: 100px;
+  bottom: 50px;
 }
 
 
+.single-product .woocommerce-product-gallery.woocommerce-product-gallery--with-images.woocommerce-product-gallery--columns-5.images {
+  display: none;
+}
 
+.single-product .woocommerce-tabs .panel h2:first-of-type {
+  font-size: 1.618em;
+  margin-bottom: 1em;
+  display: none;
+}
 
+.single-product .site-branding .site-title a {
+  position: relative;
+  bottom: 105px;
+}
+
+.single-product header#masthead {
+  height: 141px;
+}
 
     
 
