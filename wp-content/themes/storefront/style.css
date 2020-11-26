@@ -3353,6 +3353,10 @@ button.menu-toggle {
       display: none;
     }
 
+    .dropdown-content11 .quantity .qty {
+      display: block;
+    }
+
     input#submit {
       display: none;
   }
@@ -3407,9 +3411,12 @@ button.menu-toggle {
     position: absolute;
     background-color: #f6f6f6;
     min-width: 230px;
+    height: 50px;
     overflow: auto;
     border: 1px solid #ddd;
     z-index: 1;
+    margin-left: 283px;
+    margin-top: -40px;
   }
   
   .dropdown-content9 a {
@@ -3417,6 +3424,7 @@ button.menu-toggle {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: left;
   }
   
   .dropdown9 a:hover {background-color: #ddd;}
@@ -3496,6 +3504,9 @@ button.menu-toggle {
     overflow: auto;
     border: 1px solid #ddd;
     z-index: 1;
+    margin-left: 283px;
+    margin-top: -42px;
+    height: 50px;
   }
   
   .dropdown-content10 a {
@@ -3503,6 +3514,7 @@ button.menu-toggle {
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: left;
   }
   
   .dropdown10 a:hover {background-color: #ddd;}
@@ -3551,17 +3563,22 @@ button.menu-toggle {
     display: none;
     position: absolute;
     background-color: #f6f6f6;
-    min-width: 230px;
+    min-width: 70px;
     overflow: auto;
     border: 1px solid #ddd;
     z-index: 1;
-  }
+    margin-left: 283px;
+    margin-top: -40px;
+    height: 50px;
+}
+  
   
   .dropdown-content11 a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    text-align: left;
   }
   
   .dropdown11 a:hover {background-color: #ddd;}
@@ -3887,10 +3904,12 @@ div.showPrints {
   display: inline-flex;
   position: relative;
   top: 47px;
+  left: 50px;
+  margin-bottom: -3%;
 }
 
 .showPrints div {
-  margin-right: 70px;
+  padding-right: 87px;
   text-align: left;
 }
 
@@ -3918,63 +3937,6 @@ div.showPrints {
   right: 27px;
 }
 
-label.heading1 {
-  position: relative;
-  top: 15%;
-  color: #06022A;
-  font-weight: bold;
-}
-
-label.price1 {
-  position: relative;
-  top: 51px;
-  margin-right: 16%;
-  color: #8E8E8E;
-  font-weight: bold;
-}
-
-label.heading2 {
-  position: relative;
-  top: 15%;
-  color: #06022A;
-  font-weight: bold;
-}
-
-label.price2 {
-  position: relative;
-  top: 52px;
-  color: #8E8E8E;
-  font-weight: bold;
-}
-
-label.heading3 {
-  position: relative;
-  top: 33px;
-  color: #06022A;
-  font-weight: bold;
-}
-
-label.price3 {
-  position: relative;
-  top: 49px;
-  color: #8E8E8E;
-  font-weight: bold;
-}
-
-label.heading4 {
-  position: relative;
-  top: 70px;
-  color: #06022A;
-  font-weight: bold;
-}
-
-label.price4 {
-  position: relative;
-  top: 115px;
-  margin-left: -53%;
-  color: #8E8E8E;
-  font-weight: bold;
-}
 
 img.lucrecia {
   margin-top: -36px;
@@ -3982,7 +3944,7 @@ img.lucrecia {
 }
 
 .lucreciaSection {
-  margin-top: 35px;
+  margin-top: 0px;
 }
 
 .single-product .main-navigation {
@@ -4139,9 +4101,37 @@ img.lucrecia {
   height: 141px;
 }
 
-    
+.lucreciaSection img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+  width: 169px;
+}
+
+.single-product h2.woocommerce-loop-product__title {
+  margin-top: 47px;
+    margin-left: 1px;
+    color: #06022A;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.lastpicture h2.woocommerce-loop-product__title {
+  margin-top: 40%;
+}
+
+.showPrints span.woocommerce-Price-amount.amount {
+  font-family: AvenirNext;
+font-size: 16px;
+line-height: 19px;
+/* or 119% */
 
 
+color: #8E8E8E;
+font-weight: bold;
+}
+
+.lastpicture img.attachment-woocommerce_thumbnail.size-woocommerce_thumbnail {
+  position: relative;
+  top: 20px;
+}
 
 
 

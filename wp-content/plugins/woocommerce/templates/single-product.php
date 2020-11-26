@@ -87,8 +87,10 @@ Erin Isaacs</span>
   <img class="downArrow3" src="<?php echo get_template_directory_uri(); ?>/downArrow.png">
   <div style=""></div></button>
   <div id="myDropdown11" class="dropdown-content11">
-    <input type="text" placeholder="Search.." id="myInput11" onkeyup="filterFunction11()">
-    <a href="#about">About</a>
+  <div class="quantity">
+				<label class="screen-reader-text" for="quantity_5fbfbdf8536b2">ABSTRACT PRINT quantity</label>
+		<input type="number" id="quantity_5fbfbdf8536b2" class="input-text qty text" step="1" min="1" max="" name="quantity" value="1" title="Qty" size="4" placeholder="" inputmode="numeric">
+			</div>
   </div>
 </div>
 
@@ -139,24 +141,24 @@ Erin Isaacs</span>
 
   <div class="showPrints">
     <div>
-      <img src="<?php echo get_template_directory_uri(); ?>/bmi.png">
-      <label class="heading1">ABSTRACT PRINT <img class="heart1" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png"></label>
-      <label class="price1">£100.00</label>
+      <a href="http://localhost/TestWordPress/wordpress/product/abstract-print-5/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="228" height="228" src="http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi.png 228w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi-150x150.png 150w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi-24x24.png 24w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi-36x36.png 36w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi-48x48.png 48w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi-100x100.png 100w" sizes="(max-width: 228px) 100vw, 228px"><h2 class="woocommerce-loop-product__title">ABSTRACT PRINT</h2>
+	    <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>100.00</bdi></span></span>
+      </a>
     </div>
     <div>
-      <img src="<?php echo get_template_directory_uri(); ?>/bmi2.png">
-      <label class="heading2">ABSTRACT PRINT <img class="heart2" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png"></label>
-      <label class="price2">£100.00</label>
+      <a href="http://localhost/TestWordPress/wordpress/product/abstract-print-6/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="228" height="228" src="http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi2.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi2.png 228w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi2-150x150.png 150w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi2-24x24.png 24w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi2-36x36.png 36w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi2-48x48.png 48w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi2-100x100.png 100w" sizes="(max-width: 228px) 100vw, 228px"><h2 class="woocommerce-loop-product__title">ABSTRACT PRINT</h2>
+	    <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>100.00</bdi></span></span>
+      </a>
     </div>
     <div class="lucreciaSection">
-      <img class="lucrecia" src="<?php echo get_template_directory_uri(); ?>/lucrecia.png">
-      <label class="heading3">ABSTRACT PRINT <img class="heart3" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png"></label>
-      <label class="price3">£100.00</label>
+      <a href="http://localhost/TestWordPress/wordpress/product/abstract-print-7/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="193" height="262" src="http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/lucrecia.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/lucrecia.png 193w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/lucrecia-18x24.png 18w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/lucrecia-27x36.png 27w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/lucrecia-35x48.png 35w" sizes="(max-width: 193px) 100vw, 193px"><h2 class="woocommerce-loop-product__title">ABSTRACT PRINT</h2>
+	    <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>100.00</bdi></span></span>
+      </a>
     </div>
-    <div>
-      <img src="<?php echo get_template_directory_uri(); ?>/bmi01.png">
-      <label class="heading4">ABSTRACT PRINT <img class="heart4" src="<?php echo get_template_directory_uri(); ?>/blueHeart.png"></label>
-      <label class="price4">£100.00</label>
+    <div class="lastpicture">
+      <a href="http://localhost/TestWordPress/wordpress/product/abstract-print-8/" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"><img width="256" height="187" src="http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi01.png" class="attachment-woocommerce_thumbnail size-woocommerce_thumbnail" alt="" loading="lazy" srcset="http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi01.png 256w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi01-24x18.png 24w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi01-36x26.png 36w, http://localhost/TestWordPress/wordpress/wp-content/uploads/2020/10/bmi01-48x35.png 48w" sizes="(max-width: 256px) 100vw, 256px"><h2 class="woocommerce-loop-product__title">ABSTRACT PRINT</h2>
+	    <span class="price"><span class="woocommerce-Price-amount amount"><bdi><span class="woocommerce-Price-currencySymbol">£</span>100.00</bdi></span></span>
+      </a>
     </div>
   </div>
 </div>
