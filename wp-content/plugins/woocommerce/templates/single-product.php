@@ -24,15 +24,15 @@ if ( ! defined( 'ABSPATH' ) ) {
 get_header( 'shop' ); ?>
 <div class="properList">
 <ul class="singleList">
-	<li>SHOP</li>
+	<li><a href="#">SHOP</a></li>
 	<li>/</li>
-	<li>NEW PRINTS</li>
+	<li><a href="#">NEW PRINTS</a></li>
 	<li>/</li>
-	<li>WALL ART</li>
+	<li><a href="#">WALL ART</a></li>
 	<li>/</li>
-	<li>BEST SELLERS</li>
+	<li><a href="#">BEST SELLERS</a></li>
 	<li>/</li>
-	<li style="color:#3B3B3B">ERIN ISAACS</li>
+	<li style="color:#3B3B3B"><a href="#">ERIN ISAACS</a></li>
 </ul>
 </div>
 
@@ -47,43 +47,52 @@ Erin Isaacs</span>
 
 <span class="reviewsSection"><img src="<?php echo get_template_directory_uri(); ?>/reviewsPic.png"></span>
 
-<label class="printPrice">£100.00</label>
+<a class="printPrice">£100.00</a>
 
 <img class="bigWave" src="<?php echo get_template_directory_uri(); ?>/bigWWave.png">
 
+<div>
 <p class="productInfo">Our range of framed prints are eye catching, 
 <br><span class="secondInfo"> hassle free gifts that are perfect for livening</span>
 <br><span class="thirdInfo"> up a space with minimal effort.</span>
 </p>
 
+</div>
+
 <div class="optionsList">
 
-<div class="dropdown9">
-  <button onclick="myFunction9()" class="dropbtn9" style="background:transparent">
-  <div style="color:#06022A">FRAME  <img class="downArrow1" src="<?php echo get_template_directory_uri(); ?>/downArrow.png"></div>
-  <div style=""></div></button>
-  <div id="myDropdown9" class="dropdown-content9">
-    <input type="text" placeholder="Search.." id="myInput9" onkeyup="filterFunction9()">
-    <a href="#about">About</a>
-  </div>
+<div class="frameList">
+  <label>SELECT FRAME</label>
+  <br>
+  <span>
+    <a href="#" class="standardWhite"><img src="<?php echo get_template_directory_uri(); ?>/standardWhite.png"></a>
+    <a href="#" class="standardBlack"><img src="<?php echo get_template_directory_uri(); ?>/standardBlack.png">
+    <a href="#" class="woodenWhite"><img src="<?php echo get_template_directory_uri(); ?>/woodenWhite.png">
+    <a href="#" class="woodenBlack"><img src="<?php echo get_template_directory_uri(); ?>/woodenBlack.png">
+    <a href="#" class="oakFrame"><img src="<?php echo get_template_directory_uri(); ?>/oakFrame.png">
+  </span>
 </div>
 
 <div class="dropdown10">
+  <a class="size">SIZE</a>
+  <br>
   <button onclick="myFunction10()" class="dropbtn10" style="background:transparent">
-  <span style="color:#06022A">SIZE</span>
-  <img class="downArrow2" src="<?php echo get_template_directory_uri(); ?>/downArrow.png" 
-  style="">
-  <div style=""></div></button>
+  <a style="color:grey">Please select</a>
+  <img class="downArrow2" src="<?php echo get_template_directory_uri(); ?>/downArrow.png">
+</button>
   <div id="myDropdown10" class="dropdown-content10">
     <input type="text" placeholder="Search.." id="myInput10" onkeyup="filterFunction10()">
     <a href="#about">About</a>
   </div>
 </div>
 
+<br>
 
 <div class="dropdown11">
+  <a class="quantity">Quantity</a>
+  <br>
   <button onclick="myFunction11()" class="dropbtn11" style="background:transparent">
-  <span style="color:#06022A">QUANTITY</span>
+  <a style="color:grey">Please select</a>
   <img class="downArrow3" src="<?php echo get_template_directory_uri(); ?>/downArrow.png">
   <div style=""></div></button>
   <div id="myDropdown11" class="dropdown-content11">
@@ -94,12 +103,6 @@ Erin Isaacs</span>
   </div>
 </div>
 
-</div>
-
-<div class="horizontalLines">
-  <hr class="line1">
-  <hr class="line2">
-  <hr class="line3">
 </div>
 
 <div class="buttonCircle">
