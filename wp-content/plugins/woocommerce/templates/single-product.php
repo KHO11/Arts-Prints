@@ -36,6 +36,8 @@ get_header( 'shop' ); ?>
 </ul>
 </div>
 
+
+
 <div class="erinText">
 <span class="erin">
 Erin Isaacs</span>
@@ -43,13 +45,14 @@ Erin Isaacs</span>
 
 <div class="productTitle">
 <span class="singlePrint">Abstract print</span>
-</div>
 
 <span class="reviewsSection"><img src="<?php echo get_template_directory_uri(); ?>/reviewsPic.png"></span>
 
 <a class="printPrice">£100.00</a>
 
-<img class="bigWave" src="<?php echo get_template_directory_uri(); ?>/bigWWave.png">
+</div>
+
+
 
 <div>
 <p class="productInfo">Our range of framed prints are eye catching, 
@@ -81,8 +84,7 @@ Erin Isaacs</span>
   <img class="downArrow2" src="<?php echo get_template_directory_uri(); ?>/downArrow.png">
 </button>
   <div id="myDropdown10" class="dropdown-content10">
-    <input type="text" placeholder="Search.." id="myInput10" onkeyup="filterFunction10()">
-    <a href="#about">About</a>
+    <a href="#">300x400</a>
   </div>
 </div>
 
@@ -165,6 +167,7 @@ Erin Isaacs</span>
     </div>
   </div>
 </div>
+
 
 
 

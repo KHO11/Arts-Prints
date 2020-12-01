@@ -3449,6 +3449,7 @@ button.menu-toggle {
     overflow: auto;
     border: 1px solid #ddd;
     z-index: 1;
+    margin-left: 108%;
   }
   
   .dropdown-content10 a {
@@ -3513,6 +3514,7 @@ button.menu-toggle {
     border: 1px solid #ddd;
     z-index: 1;
     height: 50px;
+    margin-left: 226%;
 }
   
   
@@ -3611,12 +3613,11 @@ span.singlePrint {
   top: 86px;
   position: relative;
   font-weight: bold;
-  left: 13px;
+  right: 15%;
 }
 
 div.productTitle {
   text-align: right;
-  margin-right: 16%;
 }
 
 p.productInfo {
