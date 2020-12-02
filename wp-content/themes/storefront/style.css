@@ -702,7 +702,11 @@ body {
   .site-branding .site-title {
     font-size: 2em;
     letter-spacing: -1px;
-    margin: 0; }
+    margin: 0;
+    position: relative;
+    left: 0%;
+    top: -10px;
+   }
     .site-branding .site-title a {
       font-weight: 700;
       margin-left: 400px; }
@@ -3394,6 +3398,13 @@ button.menu-toggle {
     border-radius: 8px;
     display: none;
   }
+
+  img.downArrow {
+    float: right;
+    position: relative;
+    left: 11%;
+    bottom: 15px;
+}
 
   img.downArrow2 {
     float: right;
