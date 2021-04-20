@@ -37,28 +37,28 @@
 
 			<div class="bottomLists2">
 			<ul class ="one" style="list-style-type:none">
-				<li>ABOUT US</li>
-				<li>PRESS</li>
-				<li>REVIEWS</li>
-				<li>DISCOUNT</li>
+				<li><a href="">ABOUT US</a></li>
+				<li><a href="">PRESS</a></li>
+				<li><a href="">REVIEWS</a></li>
+				<li><a href="">DISCOUNT</a></li>
 			</ul>
 			<ul class="two" style="list-style-type:none">
-				<li>WALL ART</li>
-				<li>ART PRINTS & FRAMED<br> PRINTS</li>
-				<li>FRAMES</li>
-				<li>SALE</li>
+				<li><a href="">WALL ART</a></li>
+				<li><a href="">ART PRINTS & FRAMED<br> PRINTS</a></li>
+				<li><a href="">FRAMES</a></li>
+				<li><a href="">SALE</a></li>
 			</ul>
 			<ul class="three" style="list-style-type:none">
-				<li>CONTACT US</li>
-				<li>FAQ</li>
-				<li>RETURNS POLICY</li>
-				<li>RETURNS</li>
-				<li>TERMS OF USE</li>
+				<li><a href="">CONTACT US</a></li>
+				<li><a href="">FAQ</a></li>
+				<li><a href="">RETURNS POLICY</a></li>
+				<li><a href="">RETURNS</a></li>
+				<li><a href="">TERMS OF USE</a></li>
 			</ul>
 			<ul class="four" style="list-style-type:none">
-				<li>SELL YOUR ART</li>
-				<li>MEMBERSHIP PLAN</li>
-				<li>MOBILE APP</li>
+				<li><a href="">SELL YOUR ART</a></li>
+				<li><a href="">MEMBERSHIP PLAN</a></li>
+				<li><a href="">MOBILE APP</a></li>
 			</ul>
 
 

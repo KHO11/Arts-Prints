@@ -1,0 +1,979 @@
+0000.003 (0) Opened log file at time: Tue, 16 Mar 2021 10:00:49 +0000 on http://localhost/TestWordPress/wordpress
+0000.068 (0) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 69.3M | 10M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0000.100 (0) Free space on disk containing Updraft's temporary directory: 383416.5 MB
+0000.281 (0) Tasks: Backup files: 1 (schedule: manual) Backup DB: 1 (schedule: manual)
+0001.256 (0) Requesting semaphore lock (fd) (apparently not via scheduler)
+0002.411 (0) Set semaphore last lock (fd) time to 2021-03-16 10:00:51
+0002.526 (0) Semaphore lock (fd) complete
+0003.000 (0) Backup run: resumption=0, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (3s ago), job type=backup
+0003.796 (0) Scheduling a resumption (1) after 600 seconds (1615889452) in case this run gets aborted
+0004.036 (0) Checking if we have a zip executable available
+0004.278 (0) Creation of backups of directories: beginning
+0005.207 (0) Beginning creation of dump of plugins (split every: 400 MB)
+0017.604 (0) Total entities for the zip file: 1201 directories, 6886 files (0 skipped as non-modified), 109.8 MB
+0017.923 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0 MB, 1 (1) files added so far); re-opening (prior size: 0 KB)
+0018.693 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 100 files added (on-disk size: 227.6 KB)
+0019.153 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 200 files added (on-disk size: 227.6 KB)
+0019.526 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 300 files added (on-disk size: 227.6 KB)
+0019.715 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 400 files added (on-disk size: 227.6 KB)
+0020.127 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 500 files added (on-disk size: 227.6 KB)
+0020.671 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (20.4 MB, 6886 files batched, 501 (502) added so far); re-opening (prior size: 227.6 KB)
+0036.378 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 600 files added (on-disk size: 6407.7 KB)
+0036.612 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 700 files added (on-disk size: 6407.7 KB)
+0036.871 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 800 files added (on-disk size: 6407.7 KB)
+0037.063 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 900 files added (on-disk size: 6407.7 KB)
+0037.284 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 1000 files added (on-disk size: 6407.7 KB)
+0037.352 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (9.4 MB, 6886 files batched, 501 (1003) added so far); re-opening (prior size: 6407.7 KB)
+0064.896 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 2.0 seconds have passed since the last write (0.3 MB, 39 (1042) files added so far); re-opening (prior size: 9553.2 KB)
+0066.547 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 1100 files added (on-disk size: 9635.9 KB)
+0066.781 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 1200 files added (on-disk size: 9635.9 KB)
+0066.933 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 1300 files added (on-disk size: 9635.9 KB)
+0067.389 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 1400 files added (on-disk size: 9635.9 KB)
+0067.687 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 1500 files added (on-disk size: 9635.9 KB)
+0067.987 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (14.2 MB, 6886 files batched, 501 (1543) added so far); re-opening (prior size: 9635.9 KB)
+0085.400 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 1600 files added (on-disk size: 19457.5 KB)
+0085.620 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 1700 files added (on-disk size: 19457.5 KB)
+0085.821 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 1800 files added (on-disk size: 19457.5 KB)
+0086.154 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 1900 files added (on-disk size: 19457.5 KB)
+0086.399 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 2000 files added (on-disk size: 19457.5 KB)
+0086.498 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (18 MB, 6886 files batched, 501 (2044) added so far); re-opening (prior size: 19457.5 KB)
+0109.963 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 2100 files added (on-disk size: 24219.3 KB)
+0110.235 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 2200 files added (on-disk size: 24219.3 KB)
+0110.624 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 2300 files added (on-disk size: 24219.3 KB)
+0110.830 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 2400 files added (on-disk size: 24219.3 KB)
+0111.108 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 2500 files added (on-disk size: 24219.3 KB)
+0111.203 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.1 MB, 6886 files batched, 501 (2545) added so far); re-opening (prior size: 24219.3 KB)
+0116.663 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 2600 files added (on-disk size: 25180.2 KB)
+0116.821 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 2700 files added (on-disk size: 25180.2 KB)
+0117.170 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 2800 files added (on-disk size: 25180.2 KB)
+0117.387 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 2900 files added (on-disk size: 25180.2 KB)
+0117.536 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 3000 files added (on-disk size: 25180.2 KB)
+0117.652 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (10.3 MB, 6886 files batched, 501 (3046) added so far); re-opening (prior size: 25180.2 KB)
+0128.331 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 3100 files added (on-disk size: 27264.9 KB)
+0128.559 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 3200 files added (on-disk size: 27264.9 KB)
+0128.745 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 3300 files added (on-disk size: 27264.9 KB)
+0129.249 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 3400 files added (on-disk size: 27264.9 KB)
+0129.468 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 3500 files added (on-disk size: 27264.9 KB)
+0129.622 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.2 MB, 6886 files batched, 501 (3547) added so far); re-opening (prior size: 27264.9 KB)
+0139.858 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 3600 files added (on-disk size: 28618.8 KB)
+0140.085 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 3700 files added (on-disk size: 28618.8 KB)
+0140.213 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 3800 files added (on-disk size: 28618.8 KB)
+0140.376 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 3900 files added (on-disk size: 28618.8 KB)
+0140.528 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 4000 files added (on-disk size: 28618.8 KB)
+0140.624 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (7.3 MB, 6886 files batched, 501 (4048) added so far); re-opening (prior size: 28618.8 KB)
+0148.525 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 4100 files added (on-disk size: 30815.1 KB)
+0148.806 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 4200 files added (on-disk size: 30815.1 KB)
+0149.061 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 4300 files added (on-disk size: 30815.1 KB)
+0149.307 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 4400 files added (on-disk size: 30815.1 KB)
+0149.513 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 4500 files added (on-disk size: 30815.1 KB)
+0149.703 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.5 MB, 6886 files batched, 501 (4549) added so far); re-opening (prior size: 30815.1 KB)
+0157.184 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 4600 files added (on-disk size: 31595.5 KB)
+0157.372 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 4700 files added (on-disk size: 31595.5 KB)
+0157.784 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 4800 files added (on-disk size: 31595.5 KB)
+0158.025 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 4900 files added (on-disk size: 31595.5 KB)
+0158.224 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 5000 files added (on-disk size: 31595.5 KB)
+0158.630 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (3.1 MB, 6886 files batched, 501 (5050) added so far); re-opening (prior size: 31595.5 KB)
+0167.000 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 5100 files added (on-disk size: 32619.8 KB)
+0167.120 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 5200 files added (on-disk size: 32619.8 KB)
+0167.721 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 5300 files added (on-disk size: 32619.8 KB)
+0167.916 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 5400 files added (on-disk size: 32619.8 KB)
+0168.154 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 5500 files added (on-disk size: 32619.8 KB)
+0168.353 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (5.3 MB, 6886 files batched, 501 (5551) added so far); re-opening (prior size: 32619.8 KB)
+0175.548 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 5600 files added (on-disk size: 34145.3 KB)
+0175.682 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 5700 files added (on-disk size: 34145.3 KB)
+0175.826 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 5800 files added (on-disk size: 34145.3 KB)
+0176.151 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 5900 files added (on-disk size: 34145.3 KB)
+0176.393 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 6000 files added (on-disk size: 34145.3 KB)
+0176.661 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (1.9 MB, 6886 files batched, 501 (6052) added so far); re-opening (prior size: 34145.3 KB)
+0183.980 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 6100 files added (on-disk size: 34774.7 KB)
+0184.335 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 6200 files added (on-disk size: 34774.7 KB)
+0184.706 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 6300 files added (on-disk size: 34774.7 KB)
+0184.953 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 6400 files added (on-disk size: 34774.7 KB)
+0185.322 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 6500 files added (on-disk size: 34774.7 KB)
+0185.557 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.4 MB, 6886 files batched, 501 (6553) added so far); re-opening (prior size: 34774.7 KB)
+0196.714 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 6600 files added (on-disk size: 37313.2 KB)
+0196.944 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 6700 files added (on-disk size: 37313.2 KB)
+0197.174 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip.tmp: 6800 files added (on-disk size: 37313.2 KB)
+0204.381 (0) Created plugins zip (0) - 37726.4 KB in 199 s (189.6 KB/s) (sha1: ab232ef1e6b9432f6bdc2197d81f8b1cf8053cc7, sha256: 03f8ded5d2848f60651e1165bd5c4abd31cd1ee9b48a7317b1ecc403de432fa5)
+0204.450 (0) Beginning creation of dump of themes (split every: 400 MB)
+0205.606 (0) Total entities for the zip file: 291 directories, 1128 files (0 skipped as non-modified), 20.9 MB
+0205.813 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip.tmp: 100 files added (on-disk size: 0 KB)
+0205.942 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip.tmp: 200 files added (on-disk size: 0 KB)
+0206.157 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip.tmp: 300 files added (on-disk size: 0 KB)
+0206.373 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip.tmp: 400 files added (on-disk size: 0 KB)
+0206.485 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip.tmp: 500 files added (on-disk size: 0 KB)
+0206.528 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (6.5 MB, 1128 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0215.109 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip.tmp: 600 files added (on-disk size: 1758.9 KB)
+0215.334 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip.tmp: 700 files added (on-disk size: 1758.9 KB)
+0215.617 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip.tmp: 800 files added (on-disk size: 1758.9 KB)
+0215.770 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip.tmp: 900 files added (on-disk size: 1758.9 KB)
+0216.038 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip.tmp: 1000 files added (on-disk size: 1758.9 KB)
+0216.098 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (13.4 MB, 1128 files batched, 501 (1002) added so far); re-opening (prior size: 1758.9 KB)
+0222.353 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip.tmp: 1100 files added (on-disk size: 10883.2 KB)
+0223.438 (0) Created themes zip (0) - 11374.1 KB in 18.9 s (600.9 KB/s) (sha1: ecd9f43c1d1c345a490bd0ae08dd47ff26093e91, sha256: 01439473617e788607c78e409859920898fa1d4ec7af9a361845ac7911bf6859)
+0223.573 (0) Exclusion option setting (uploads): backup*,*backups,backwpup*,wp-clone,snapshots
+0223.696 (0) Looking for candidates to backup in: C:\xampp\htdocs\TestWordPress\wordpress/wp-content/uploads
+0223.883 (0) finding files: 2020: adding to list (1)
+0223.918 (0) finding files: 2021: adding to list (2)
+0223.985 (0) finding files: elementor: adding to list (3)
+0224.018 (0) finding files: wc-logs: adding to list (4)
+0224.071 (0) finding files: woocommerce-placeholder-100x100.png: adding to list (5)
+0224.104 (0) finding files: woocommerce-placeholder-1024x1024.png: adding to list (6)
+0224.149 (0) finding files: woocommerce-placeholder-150x150.png: adding to list (7)
+0224.196 (0) finding files: woocommerce-placeholder-300x300.png: adding to list (8)
+0224.229 (0) finding files: woocommerce-placeholder-324x324.png: adding to list (9)
+0224.273 (0) finding files: woocommerce-placeholder-416x416.png: adding to list (10)
+0224.340 (0) finding files: woocommerce-placeholder-450x450.png: adding to list (11)
+0224.382 (0) finding files: woocommerce-placeholder-600x600.png: adding to list (12)
+0224.418 (0) finding files: woocommerce-placeholder-768x768.png: adding to list (13)
+0224.805 (0) finding files: woocommerce-placeholder.png: adding to list (14)
+0224.862 (0) finding files: woocommerce_uploads: adding to list (15)
+0225.038 (0) Beginning creation of dump of uploads (split every: 400 MB)
+0225.329 (0) Total entities for the zip file: 12 directories, 158 files (0 skipped as non-modified), 4.3 MB
+0225.442 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip.tmp: 100 files added (on-disk size: 0 KB)
+0228.523 (0) Created uploads zip (0) - 4385 KB in 3.4 s (1283 KB/s) (sha1: 74ad33587595a7917347de08dfb2696ffd48931c, sha256: 25acbf73d0e074afccabf8cd5aa0d32253b0bc35b0c9a1f20050b54ce47610fe)
+0228.723 (0) Beginning backup of other directories found in the content directory (index: 0)
+0228.774 (0) Exclusion option setting (others): upgrade,cache,updraft,backup*,*backups,mysql.sql,debug.log
+0228.818 (0) Looking for candidates to backup in: C:\xampp\htdocs\TestWordPress\wordpress/wp-content
+0228.882 (0) finding files: index.php: adding to list (1)
+0228.926 (0) finding files: index.php-old: adding to list (2)
+0228.970 (0) finding files: languages: adding to list (3)
+0229.170 (0) finding files: languages-old: adding to list (4)
+0229.253 (0) finding files: plugins: skipping: this is the plugins directory
+0229.437 (0) finding files: plugins-old: adding to list (5)
+0229.470 (0) finding files: themes: skipping: this is the themes directory
+0229.518 (0) finding files: themes-old: adding to list (6)
+0229.571 (0) finding files: updraft: skipping: this is the updraft directory
+0229.607 (0) finding files: upgrade: skipping: excluded by options
+0229.671 (0) finding files: uploads: skipping: this is the uploads directory
+0229.727 (0) finding files: uploads-old: adding to list (7)
+0230.320 (0) Total entities for the zip file: 9 directories, 568 files (0 skipped as non-modified), 10.7 MB
+0230.495 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip.tmp: 100 files added (on-disk size: 0 KB)
+0230.859 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip.tmp: 200 files added (on-disk size: 0 KB)
+0231.062 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip.tmp: 300 files added (on-disk size: 0 KB)
+0231.273 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip.tmp: 400 files added (on-disk size: 0 KB)
+0231.521 (0) Zip: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip.tmp: 500 files added (on-disk size: 0 KB)
+0231.575 (0) Adding batch to zip file (UpdraftPlus_ZipArchive): over 500 files added on this batch (8.4 MB, 568 files batched, 501 (501) added so far); re-opening (prior size: 0 KB)
+0241.735 (0) Created others zip (0) - 2668.4 KB in 11.9 s (223.7 KB/s) (sha1: 3f7b5665d449f0da3f0bbb8ecb1a09aa34d951d0, sha256: 768d77144a5bcdb6854646deb5f118412383b8de4d77450c3d3067a8c8b8607a)
+0241.960 (0) Saving backup status to database (elements: 8)
+0242.068 (0) Beginning creation of database dump (WordPress DB)
+0242.109 (0) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0242.414 (0) Table wp_options: Total expected rows (approximate): 432
+0242.750 (0) Table wp_options: Rows added in this batch (start page: 0; next: finished): 434 in 0.27 seconds
+0242.798 (0) Table wp_options: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_options.table.gz - 262.5 KB)
+0242.988 (0) Table wp_users: Total expected rows (approximate): 1
+0243.066 (0) Table wp_users: Rows added in this batch (start page: 0; next: finished): 1 in 0.03 seconds
+0243.106 (0) Table wp_users: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_users.table.gz - 0.6 KB)
+0243.260 (0) Table wp_usermeta: Total expected rows (approximate): 35
+0243.346 (0) Table wp_usermeta: Rows added in this batch (start page: 0; next: finished): 35 in 0.02 seconds
+0243.400 (0) Table wp_usermeta: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_usermeta.table.gz - 3.4 KB)
+0243.613 (0) Table wp_actionscheduler_actions: Total expected rows (approximate): 1
+0243.879 (0) Table wp_actionscheduler_actions: Rows added in this batch (start page: 0; next: finished): 1 in 0.02 seconds
+0243.908 (0) Table wp_actionscheduler_actions: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_actionscheduler_actions.table.gz - 0.7 KB)
+0244.112 (0) Table wp_actionscheduler_claims: Total expected rows (approximate): 0
+0244.154 (0) Table wp_actionscheduler_claims: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0244.196 (0) Table wp_actionscheduler_claims: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_actionscheduler_claims.table.gz - 0.3 KB)
+0244.486 (0) Table wp_actionscheduler_groups: Total expected rows (approximate): 1
+0244.575 (0) Table wp_actionscheduler_groups: Rows added in this batch (start page: 0; next: finished): 1 in 0.05 seconds
+0244.631 (0) Table wp_actionscheduler_groups: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_actionscheduler_groups.table.gz - 0.4 KB)
+0244.741 (0) Table wp_actionscheduler_logs: Total expected rows (approximate): 3
+0244.923 (0) Table wp_actionscheduler_logs: Rows added in this batch (start page: 0; next: finished): 3 in 0.14 seconds
+0245.330 (0) Table wp_actionscheduler_logs: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_actionscheduler_logs.table.gz - 0.5 KB)
+0245.477 (0) Table wp_commentmeta: Total expected rows (approximate): 0
+0245.530 (0) Table wp_commentmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0245.566 (0) Table wp_commentmeta: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_commentmeta.table.gz - 0.4 KB)
+0245.764 (0) Table wp_comments: Total expected rows (approximate): 1
+0245.824 (0) Table wp_comments: Rows added in this batch (start page: 0; next: finished): 1 in 0.01 seconds
+0245.889 (0) Table wp_comments: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_comments.table.gz - 0.7 KB)
+0246.488 (0) Table wp_links: Total expected rows (approximate): 0
+0246.554 (0) Table wp_links: Rows added in this batch (start page: 0; next: finished): 0 in 0.02 seconds
+0246.629 (0) Table wp_links: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_links.table.gz - 0.4 KB)
+0246.871 (0) Table wp_postmeta: Total expected rows (approximate): 1088
+0246.985 (0) Table wp_postmeta: Rows added in this batch (start page: 0; next: finished): 1088 in 0.06 seconds
+0247.053 (0) Table wp_postmeta: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_postmeta.table.gz - 12.9 KB)
+0247.333 (0) Table wp_posts: Total expected rows (approximate): 194
+0247.530 (0) Table wp_posts: Rows added in this batch (start page: 0; next: finished): 194 in 0.12 seconds
+0247.747 (0) Table wp_posts: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_posts.table.gz - 28.5 KB)
+0248.093 (0) Table wp_term_relationships: Total expected rows (approximate): 54
+0248.165 (0) Table wp_term_relationships: Rows added in this batch (start page: 0; next: finished): 54 in 0.01 seconds
+0248.274 (0) Table wp_term_relationships: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_term_relationships.table.gz - 0.5 KB)
+0248.475 (0) Table wp_term_taxonomy: Total expected rows (approximate): 21
+0248.629 (0) Table wp_term_taxonomy: Rows added in this batch (start page: 0; next: finished): 21 in 0.04 seconds
+0248.795 (0) Table wp_term_taxonomy: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_term_taxonomy.table.gz - 0.6 KB)
+0248.952 (0) Table wp_termmeta: Total expected rows (approximate): 5
+0249.021 (0) Table wp_termmeta: Rows added in this batch (start page: 0; next: finished): 5 in 0.02 seconds
+0249.134 (0) Table wp_termmeta: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_termmeta.table.gz - 0.4 KB)
+0249.317 (0) Table wp_terms: Total expected rows (approximate): 21
+0249.381 (0) Table wp_terms: Rows added in this batch (start page: 0; next: finished): 21 in 0.01 seconds
+0249.430 (0) Table wp_terms: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_terms.table.gz - 0.6 KB)
+0249.598 (0) Table wp_wc_category_lookup: Total expected rows (approximate): 1
+0249.670 (0) Table wp_wc_category_lookup: Rows added in this batch (start page: 0; next: finished): 1 in 0.02 seconds
+0249.762 (0) Table wp_wc_category_lookup: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_category_lookup.table.gz - 0.3 KB)
+0250.231 (0) Table wp_wc_product_meta_lookup: Total expected rows (approximate): 12
+0250.324 (0) Table wp_wc_product_meta_lookup: Rows added in this batch (start page: 0; next: finished): 12 in 0.01 seconds
+0250.380 (0) Table wp_wc_product_meta_lookup: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_product_meta_lookup.table.gz - 0.6 KB)
+0250.645 (0) Table wp_wc_reserved_stock: Total expected rows (approximate): 0
+0250.692 (0) Table wp_wc_reserved_stock: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0250.773 (0) Table wp_wc_reserved_stock: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_reserved_stock.table.gz - 0.3 KB)
+0250.949 (0) Table wp_wc_tax_rate_classes: Total expected rows (approximate): 2
+0251.249 (0) Table wp_wc_tax_rate_classes: Rows added in this batch (start page: 0; next: finished): 2 in 0.04 seconds
+0251.296 (0) Table wp_wc_tax_rate_classes: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_tax_rate_classes.table.gz - 0.4 KB)
+0251.575 (0) Table wp_woocommerce_order_itemmeta: Total expected rows (approximate): 0
+0251.629 (0) Table wp_woocommerce_order_itemmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0251.693 (0) Table wp_woocommerce_order_itemmeta: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_order_itemmeta.table.gz - 0.4 KB)
+0251.875 (0) Table wp_woocommerce_payment_tokenmeta: Total expected rows (approximate): 0
+0251.929 (0) Table wp_woocommerce_payment_tokenmeta: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0251.994 (0) Table wp_woocommerce_payment_tokenmeta: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_payment_tokenmeta.table.gz - 0.4 KB)
+0252.594 (0) Table wp_wc_admin_note_actions: Total expected rows (approximate): 11
+0252.652 (0) Table wp_wc_admin_note_actions: Rows added in this batch (start page: 0; next: finished): 12 in 0.01 seconds
+0252.705 (0) Table wp_wc_admin_note_actions: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_admin_note_actions.table.gz - 0.9 KB)
+0252.872 (0) Table wp_wc_admin_notes: Total expected rows (approximate): 10
+0252.931 (0) Table wp_wc_admin_notes: Rows added in this batch (start page: 0; next: finished): 11 in 0.01 seconds
+0252.986 (0) Table wp_wc_admin_notes: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_admin_notes.table.gz - 1.8 KB)
+0253.163 (0) Table wp_wc_customer_lookup: Total expected rows (approximate): 0
+0253.265 (0) Table wp_wc_customer_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.05 seconds
+0253.492 (0) Table wp_wc_customer_lookup: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_customer_lookup.table.gz - 0.4 KB)
+0253.880 (0) Table wp_wc_download_log: Total expected rows (approximate): 0
+0254.227 (0) Table wp_wc_download_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.20 seconds
+0254.272 (0) Table wp_wc_download_log: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_download_log.table.gz - 0.4 KB)
+0254.728 (0) Table wp_wc_order_coupon_lookup: Total expected rows (approximate): 0
+0255.046 (0) Table wp_wc_order_coupon_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.04 seconds
+0255.293 (0) Table wp_wc_order_coupon_lookup: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_order_coupon_lookup.table.gz - 0.4 KB)
+0255.527 (0) Table wp_wc_order_product_lookup: Total expected rows (approximate): 0
+0255.814 (0) Table wp_wc_order_product_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.03 seconds
+0255.873 (0) Table wp_wc_order_product_lookup: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_order_product_lookup.table.gz - 0.4 KB)
+0256.114 (0) Table wp_wc_order_stats: Total expected rows (approximate): 0
+0256.549 (0) Table wp_wc_order_stats: Rows added in this batch (start page: 0; next: finished): 0 in 0.03 seconds
+0256.618 (0) Table wp_wc_order_stats: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_order_stats.table.gz - 0.5 KB)
+0257.101 (0) Table wp_wc_order_tax_lookup: Total expected rows (approximate): 0
+0257.152 (0) Table wp_wc_order_tax_lookup: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0257.203 (0) Table wp_wc_order_tax_lookup: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_order_tax_lookup.table.gz - 0.4 KB)
+0257.418 (0) Table wp_wc_webhooks: Total expected rows (approximate): 0
+0257.838 (0) Table wp_wc_webhooks: Rows added in this batch (start page: 0; next: finished): 0 in 0.02 seconds
+0258.105 (0) Table wp_wc_webhooks: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_webhooks.table.gz - 0.5 KB)
+0258.416 (0) Table wp_woocommerce_api_keys: Total expected rows (approximate): 0
+0258.483 (0) Table wp_woocommerce_api_keys: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0258.530 (0) Table wp_woocommerce_api_keys: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_api_keys.table.gz - 0.4 KB)
+0259.094 (0) Table wp_woocommerce_attribute_taxonomies: Total expected rows (approximate): 0
+0259.360 (0) Table wp_woocommerce_attribute_taxonomies: Rows added in this batch (start page: 0; next: finished): 0 in 0.20 seconds
+0259.405 (0) Table wp_woocommerce_attribute_taxonomies: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_attribute_taxonomies.table.gz - 0.4 KB)
+0259.616 (0) Table wp_woocommerce_downloadable_product_permissions: Total expected rows (approximate): 0
+0259.683 (0) Table wp_woocommerce_downloadable_product_permissions: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0259.795 (0) Table wp_woocommerce_downloadable_product_permissions: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_downloadable_product_permissions.table.gz - 0.5 KB)
+0260.164 (0) Table wp_woocommerce_log: Total expected rows (approximate): 0
+0260.210 (0) Table wp_woocommerce_log: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0260.263 (0) Table wp_woocommerce_log: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_log.table.gz - 0.4 KB)
+0260.564 (0) Table wp_woocommerce_order_items: Total expected rows (approximate): 0
+0260.633 (0) Table wp_woocommerce_order_items: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0260.695 (0) Table wp_woocommerce_order_items: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_order_items.table.gz - 0.3 KB)
+0261.112 (0) Table wp_woocommerce_payment_tokens: Total expected rows (approximate): 0
+0261.605 (0) Table wp_woocommerce_payment_tokens: Rows added in this batch (start page: 0; next: finished): 0 in 0.05 seconds
+0261.796 (0) Table wp_woocommerce_payment_tokens: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_payment_tokens.table.gz - 0.4 KB)
+0262.037 (0) Table wp_woocommerce_sessions: Total expected rows (approximate): 1
+0262.101 (0) Table wp_woocommerce_sessions: Rows added in this batch (start page: 0; next: finished): 1 in 0.02 seconds
+0262.161 (0) Table wp_woocommerce_sessions: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_sessions.table.gz - 1 KB)
+0262.294 (0) Table wp_woocommerce_shipping_zone_locations: Total expected rows (approximate): 0
+0262.448 (0) Table wp_woocommerce_shipping_zone_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.08 seconds
+0262.751 (0) Table wp_woocommerce_shipping_zone_locations: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_shipping_zone_locations.table.gz - 0.4 KB)
+0262.975 (0) Table wp_woocommerce_shipping_zone_methods: Total expected rows (approximate): 0
+0263.083 (0) Table wp_woocommerce_shipping_zone_methods: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0263.152 (0) Table wp_woocommerce_shipping_zone_methods: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_shipping_zone_methods.table.gz - 0.4 KB)
+0263.293 (0) Table wp_woocommerce_shipping_zones: Total expected rows (approximate): 0
+0263.340 (0) Table wp_woocommerce_shipping_zones: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0263.607 (0) Table wp_woocommerce_shipping_zones: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_shipping_zones.table.gz - 0.3 KB)
+0264.142 (0) Table wp_woocommerce_tax_rate_locations: Total expected rows (approximate): 0
+0264.177 (0) Table wp_woocommerce_tax_rate_locations: Rows added in this batch (start page: 0; next: finished): 0 in 0.00 seconds
+0264.238 (0) Table wp_woocommerce_tax_rate_locations: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_tax_rate_locations.table.gz - 0.4 KB)
+0264.375 (0) Table wp_woocommerce_tax_rates: Total expected rows (approximate): 0
+0264.421 (0) Table wp_woocommerce_tax_rates: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0264.506 (0) Table wp_woocommerce_tax_rates: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_tax_rates.table.gz - 0.4 KB)
+0264.664 (0) Table wp_yoast_indexable: Total expected rows (approximate): 36
+0264.773 (0) Table wp_yoast_indexable: Rows added in this batch (start page: 0; next: finished): 36 in 0.02 seconds
+0265.128 (0) Table wp_yoast_indexable: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_yoast_indexable.table.gz - 3.6 KB)
+0265.360 (0) Table wp_yoast_indexable_hierarchy: Total expected rows (approximate): 5
+0265.427 (0) Table wp_yoast_indexable_hierarchy: Rows added in this batch (start page: 0; next: finished): 5 in 0.01 seconds
+0265.474 (0) Table wp_yoast_indexable_hierarchy: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_yoast_indexable_hierarchy.table.gz - 0.4 KB)
+0265.638 (0) Table wp_yoast_migrations: Total expected rows (approximate): 18
+0265.686 (0) Table wp_yoast_migrations: Rows added in this batch (start page: 0; next: finished): 18 in 0.01 seconds
+0265.741 (0) Table wp_yoast_migrations: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_yoast_migrations.table.gz - 0.5 KB)
+0265.905 (0) Table wp_yoast_primary_term: Total expected rows (approximate): 0
+0265.963 (0) Table wp_yoast_primary_term: Rows added in this batch (start page: 0; next: finished): 0 in 0.01 seconds
+0266.315 (0) Table wp_yoast_primary_term: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_yoast_primary_term.table.gz - 0.4 KB)
+0266.709 (0) Table wp_yoast_seo_links: Total expected rows (approximate): 28
+0266.775 (0) Table wp_yoast_seo_links: Rows added in this batch (start page: 0; next: finished): 28 in 0.04 seconds
+0266.915 (0) Table wp_yoast_seo_links: finishing file (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_yoast_seo_links.table.gz - 0.8 KB)
+0267.022 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_options.table.gz (1/48): adding to final database dump
+0267.379 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_users.table.gz (2/48): adding to final database dump
+0267.440 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_usermeta.table.gz (3/48): adding to final database dump
+0267.763 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_actionscheduler_actions.table.gz (4/48): adding to final database dump
+0267.818 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_actionscheduler_claims.table.gz (5/48): adding to final database dump
+0267.851 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_actionscheduler_groups.table.gz (6/48): adding to final database dump
+0267.884 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_actionscheduler_logs.table.gz (7/48): adding to final database dump
+0267.917 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_commentmeta.table.gz (8/48): adding to final database dump
+0268.028 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_comments.table.gz (9/48): adding to final database dump
+0268.072 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_links.table.gz (10/48): adding to final database dump
+0268.106 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_postmeta.table.gz (11/48): adding to final database dump
+0268.168 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_posts.table.gz (12/48): adding to final database dump
+0268.208 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_term_relationships.table.gz (13/48): adding to final database dump
+0268.317 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_term_taxonomy.table.gz (14/48): adding to final database dump
+0268.396 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_termmeta.table.gz (15/48): adding to final database dump
+0268.461 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_terms.table.gz (16/48): adding to final database dump
+0268.505 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_category_lookup.table.gz (17/48): adding to final database dump
+0268.550 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_product_meta_lookup.table.gz (18/48): adding to final database dump
+0268.840 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_reserved_stock.table.gz (19/48): adding to final database dump
+0268.906 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_tax_rate_classes.table.gz (20/48): adding to final database dump
+0269.240 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_order_itemmeta.table.gz (21/48): adding to final database dump
+0269.329 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_payment_tokenmeta.table.gz (22/48): adding to final database dump
+0269.362 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_admin_note_actions.table.gz (23/48): adding to final database dump
+0270.162 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_admin_notes.table.gz (24/48): adding to final database dump
+0270.517 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_customer_lookup.table.gz (25/48): adding to final database dump
+0270.673 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_download_log.table.gz (26/48): adding to final database dump
+0270.718 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_order_coupon_lookup.table.gz (27/48): adding to final database dump
+0270.751 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_order_product_lookup.table.gz (28/48): adding to final database dump
+0270.807 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_order_stats.table.gz (29/48): adding to final database dump
+0270.840 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_order_tax_lookup.table.gz (30/48): adding to final database dump
+0270.940 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_wc_webhooks.table.gz (31/48): adding to final database dump
+0270.985 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_api_keys.table.gz (32/48): adding to final database dump
+0271.018 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_attribute_taxonomies.table.gz (33/48): adding to final database dump
+0271.051 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_downloadable_product_permissions.table.gz (34/48): adding to final database dump
+0271.095 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_log.table.gz (35/48): adding to final database dump
+0271.195 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_order_items.table.gz (36/48): adding to final database dump
+0271.229 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_payment_tokens.table.gz (37/48): adding to final database dump
+0271.273 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_sessions.table.gz (38/48): adding to final database dump
+0271.318 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_shipping_zone_locations.table.gz (39/48): adding to final database dump
+0271.362 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_shipping_zone_methods.table.gz (40/48): adding to final database dump
+0271.495 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_shipping_zones.table.gz (41/48): adding to final database dump
+0271.939 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_tax_rate_locations.table.gz (42/48): adding to final database dump
+0272.028 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_woocommerce_tax_rates.table.gz (43/48): adding to final database dump
+0272.073 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_yoast_indexable.table.gz (44/48): adding to final database dump
+0272.129 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_yoast_indexable_hierarchy.table.gz (45/48): adding to final database dump
+0272.271 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_yoast_migrations.table.gz (46/48): adding to final database dump
+0272.307 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_yoast_primary_term.table.gz (47/48): adding to final database dump
+0272.340 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db-table-wp_yoast_seo_links.table.gz (48/48): adding to final database dump
+0272.442 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: finished writing out complete database file (304 KB)
+0273.384 (0) Total database tables backed up: 48 (backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz, size: 327226, sha1: bfb756a4c01e16571157a998827a7515a2f7e524, sha256: d7242b01ba718f31ea7c2672fe936865b846b8d4ce7ede698badd4ea4c098cbb)
+0273.703 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0273.751 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0274.105 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0274.184 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has not yet been successfully uploaded: will queue
+0274.218 (0) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has not yet been successfully uploaded: will queue
+0274.251 (0) Saving backup history. Total backup size: 55.1 MB
+0274.606 (0) Requesting upload of the files that have not yet been successfully uploaded (5)
+0274.729 (0) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0274.764 (0) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+0275.772 (0) Google Drive: quota usage: used=385.9 MB, total=15360 MB, available=14974.1 MB
+0275.841 (0) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+0277.696 (0) Googledrive chunked upload: 2.7 % uploaded (1048576)
+0338.020 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0338.074 (0) An error condition has occurred for the first time during this job
+0338.389 (0) Google Drive: quota usage: used=385.9 MB, total=15360 MB, available=14974.1 MB
+0338.454 (0) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+0399.563 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0400.049 (0) Google Drive: quota usage: used=385.9 MB, total=15360 MB, available=14974.1 MB
+0400.116 (0) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+0460.669 (0) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0461.201 (0) Google Drive: quota usage: used=385.9 MB, total=15360 MB, available=14974.1 MB
+0461.353 (0) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+0523.271 (0) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0524.152 (0) Google Drive: quota usage: used=385.9 MB, total=15360 MB, available=14974.1 MB
+0524.373 (0) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+0527.642 (0) Googledrive chunked upload: 100 % uploaded
+0528.736 (0) Google Drive: OK: Archive backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz uploaded in 4.06 seconds
+0529.080 (0) Recording as successfully uploaded: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz
+0529.551 (0) Deleting local file: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: OK
+0530.102 (0) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0530.216 (0) Number of backup sets in history: 3; groups (db): 1
+0530.365 (0) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+0530.904 (0) This backup set is the backup set just made, so will not be deleted.
+0530.904 (0) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+0530.904 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0531.083 (0) Examining (for databases) backup set with group_id=0, nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+0531.083 (0) 1603441705: db: this set includes a database (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz); db count is now 2
+0531.083 (0) 1603441705: db: over retain limit (2); will delete this database
+0531.083 (0) Delete file: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz, service=googledrive
+0532.445 (0) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-db.gz: Deletion successful
+0532.835 (0) This backup set remains non-empty (f=1/d=0); will retain in history
+0533.014 (0) Number of backup sets in history: 3; groups (files): 1
+0533.291 (0) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+0533.291 (0) This backup set is the backup set just made, so will not be deleted.
+0533.999 (0) This backup set is the backup set just made, so will not be deleted.
+0534.136 (0) This backup set is the backup set just made, so will not be deleted.
+0534.137 (0) This backup set is the backup set just made, so will not be deleted.
+0534.139 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0534.400 (0) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+0534.548 (0) This backup set remains non-empty (f=1/d=1); will retain in history
+0534.649 (0) Examining (for files) backup set with nonce=5448fabc40fc, datestamp=1603441705 (Oct 23 2020 08:28:25)
+0534.649 (0) plugins: over retain limit (2); will delete this file entity
+0534.649 (0) themes: over retain limit (2); will delete this file entity
+0534.649 (0) uploads: over retain limit (2); will delete this file entity
+0534.649 (0) others: over retain limit (2); will delete this file entity
+0534.649 (0) Delete file: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip, service=googledrive
+0535.050 (0) Deleting local copy (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip)
+0535.314 (0) Delete file: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip, service=googledrive
+0535.841 (0) Deleting local copy (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip)
+0535.985 (0) Delete file: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip, service=googledrive
+0536.288 (0) Deleting local copy (backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip)
+0536.472 (0) Delete file: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip, service=googledrive
+0537.456 (0) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-others.zip: Deletion successful
+0537.749 (0) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-plugins.zip: Deletion failed: file was not found
+0537.970 (0) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-themes.zip: Deletion failed: file was not found
+0538.658 (0) Google Drive: backup_2020-10-23-0928_Art_amp_Pints_Online_5448fabc40fc-uploads.zip: Deletion failed: file was not found
+0540.203 (0) This backup set is now empty; will remove from history
+0540.656 (0) Corresponding log file (log.5448fabc40fc.txt) not found - must have already been deleted
+0541.025 (0) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0541.625 (0) Resume backup (ee8f6b8b91da, 0): finish run
+0542.225 (0) Decremented the semaphore (fd) by 1
+0542.496 (0) Semaphore (fd) unlocked
+0542.768 (0) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0543.851 (0) Rescheduling resumption 1: moving to 100 seconds from now (1615889492)
+0544.177 (0) The backup has not finished; a resumption is scheduled
+0645.463 (1) Opened log file at time: Tue, 16 Mar 2021 10:11:34 +0000 on http://localhost/TestWordPress/wordpress
+0645.563 (1) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+0645.680 (1) Free space on disk containing Updraft's temporary directory: 383434.4 MB
+0646.115 (1) Backup run: resumption=1, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (646s ago), job type=backup, previous check-in=539.5s
+0647.057 (1) Scheduling a resumption (2) after 600 seconds (1615890096) in case this run gets aborted
+0647.652 (1) Checking if we have a zip executable available
+0647.909 (1) Creation of backups of directories: already finished
+0648.020 (1) Saving backup status to database (elements: 8)
+0648.344 (1) Database dump (WordPress DB): Creation was completed already
+0648.878 (1) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0649.224 (1) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+0649.423 (1) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+0649.495 (1) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+0649.523 (1) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has not yet been successfully uploaded: will queue
+0649.546 (1) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has already been successfully uploaded
+0649.589 (1) Saving backup history. Total backup size: Unknown
+0649.721 (1) Requesting upload of the files that have not yet been successfully uploaded (4)
+0649.890 (1) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+0650.112 (1) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+0651.017 (1) Google Drive: quota usage: used=383.4 MB, total=15360 MB, available=14976.6 MB
+0651.235 (1) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+0651.352 (1) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: upload already began; attempting to resume from byte 1835007
+0711.765 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0711.988 (1) An error condition has occurred for the first time during this job
+0712.811 (1) Google Drive: quota usage: used=383.4 MB, total=15360 MB, available=14976.6 MB
+0712.875 (1) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+0716.064 (1) Googledrive chunked upload: 9 % uploaded (1048576)
+0776.932 (1) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0777.384 (1) Google Drive: quota usage: used=383.4 MB, total=15360 MB, available=14976.6 MB
+0777.554 (1) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+0838.962 (1) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0839.653 (1) Google Drive: quota usage: used=383.4 MB, total=15360 MB, available=14976.6 MB
+0840.321 (1) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+0901.783 (1) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+0901.951 (1) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+0902.013 (1) Number of backup sets in history: 2; groups (db): 1
+0902.073 (1) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+0902.106 (1) This backup set is the backup set just made, so will not be deleted.
+0902.106 (1) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+0902.106 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0902.157 (1) Number of backup sets in history: 2; groups (files): 1
+0902.201 (1) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+0902.201 (1) This backup set is the backup set just made, so will not be deleted.
+0902.262 (1) This backup set is the backup set just made, so will not be deleted.
+0902.262 (1) This backup set is the backup set just made, so will not be deleted.
+0902.263 (1) This backup set is the backup set just made, so will not be deleted.
+0902.263 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0902.312 (1) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+0902.312 (1) This backup set remains non-empty (f=1/d=1); will retain in history
+0902.313 (1) Retain: saving new backup history (sets now: 2) and finishing retain operation
+0902.662 (1) Resume backup (ee8f6b8b91da, 1): finish run
+0902.823 (1) There were errors in the uploads, so the 'resume' event is remaining scheduled
+0902.912 (1) The backup has not finished; a resumption is scheduled
+1248.066 (2) Opened log file at time: Tue, 16 Mar 2021 10:21:37 +0000 on http://localhost/TestWordPress/wordpress
+1248.111 (2) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+1248.346 (2) Free space on disk containing Updraft's temporary directory: 383250.2 MB
+1248.454 (2) Backup run: resumption=2, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (1248s ago), job type=backup, previous check-in=69.6s
+1248.609 (2) Scheduling a resumption (3) after 600 seconds (1615890697) in case this run gets aborted
+1248.852 (2) Checking if we have a zip executable available
+1248.899 (2) Creation of backups of directories: already finished
+1248.939 (2) Saving backup status to database (elements: 8)
+1249.040 (2) Database dump (WordPress DB): Creation was completed already
+1249.109 (2) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1249.335 (2) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1249.669 (2) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1249.769 (2) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1249.826 (2) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has not yet been successfully uploaded: will queue
+1249.877 (2) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has already been successfully uploaded
+1249.932 (2) Saving backup history. Total backup size: Unknown
+1250.021 (2) Requesting upload of the files that have not yet been successfully uploaded (4)
+1250.155 (2) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1250.191 (2) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+1252.460 (2) Google Drive: quota usage: used=383.4 MB, total=15360 MB, available=14976.6 MB
+1252.547 (2) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1252.691 (2) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: upload already began; attempting to resume from byte 2883583
+1255.477 (2) Googledrive chunked upload: 10.2 % uploaded (3932160)
+1315.937 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1315.991 (2) An error condition has occurred for the first time during this job
+1316.322 (2) Google Drive: quota usage: used=383.4 MB, total=15360 MB, available=14976.6 MB
+1316.459 (2) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1316.647 (2) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: upload already began; attempting to resume from byte 1835007
+1377.549 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1378.082 (2) Google Drive: quota usage: used=383.4 MB, total=15360 MB, available=14976.6 MB
+1378.152 (2) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1379.516 (2) Googledrive chunked upload: 23.4 % uploaded (1048576)
+1381.383 (2) Googledrive chunked upload: 46.7 % uploaded (2097152)
+1382.669 (2) Googledrive chunked upload: 70.1 % uploaded (3145728)
+1442.933 (2) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1443.853 (2) Google Drive: quota usage: used=383.4 MB, total=15360 MB, available=14976.6 MB
+1444.574 (2) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1445.884 (2) Googledrive chunked upload: 38.4 % uploaded (1048576)
+1506.897 (2) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1508.928 (2) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+1509.884 (2) Number of backup sets in history: 2; groups (db): 1
+1510.251 (2) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+1510.532 (2) This backup set is the backup set just made, so will not be deleted.
+1510.532 (2) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+1510.532 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1512.076 (2) Number of backup sets in history: 2; groups (files): 1
+1512.657 (2) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+1512.657 (2) This backup set is the backup set just made, so will not be deleted.
+1513.867 (2) This backup set is the backup set just made, so will not be deleted.
+1515.380 (2) This backup set is the backup set just made, so will not be deleted.
+1516.619 (2) This backup set is the backup set just made, so will not be deleted.
+1517.318 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1519.639 (2) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+1520.958 (2) This backup set remains non-empty (f=1/d=1); will retain in history
+1522.216 (2) Retain: saving new backup history (sets now: 2) and finishing retain operation
+1525.661 (2) Resume backup (ee8f6b8b91da, 2): finish run
+1526.206 (2) There were errors in the uploads, so the 'resume' event is remaining scheduled
+1527.692 (2) The backup has not finished; a resumption is scheduled
+1883.541 (3) Opened log file at time: Tue, 16 Mar 2021 10:32:12 +0000 on http://localhost/TestWordPress/wordpress
+1883.607 (3) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+1883.692 (3) Free space on disk containing Updraft's temporary directory: 382985.7 MB
+1883.869 (3) Backup run: resumption=3, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (1883s ago), job type=backup, previous check-in=197.7s
+1884.051 (3) Scheduling a resumption (4) after 600 seconds (1615891333) in case this run gets aborted
+1884.249 (3) Checking if we have a zip executable available
+1884.326 (3) Creation of backups of directories: already finished
+1884.666 (3) Saving backup status to database (elements: 8)
+1884.884 (3) Database dump (WordPress DB): Creation was completed already
+1884.957 (3) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+1885.099 (3) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+1885.129 (3) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+1885.185 (3) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has not yet been successfully uploaded: will queue
+1885.229 (3) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has not yet been successfully uploaded: will queue
+1885.270 (3) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has already been successfully uploaded
+1885.307 (3) Saving backup history. Total backup size: Unknown
+1885.385 (3) Requesting upload of the files that have not yet been successfully uploaded (4)
+1885.629 (3) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+1885.936 (3) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+1887.113 (3) Google Drive: quota usage: used=383.4 MB, total=15360 MB, available=14976.6 MB
+1887.162 (3) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1887.262 (3) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: upload already began; attempting to resume from byte 4718591
+1947.568 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+1947.615 (3) An error condition has occurred for the first time during this job
+1948.929 (3) Google Drive: quota usage: used=383.4 MB, total=15360 MB, available=14976.6 MB
+1948.960 (3) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+1949.154 (3) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: upload already began; attempting to resume from byte 2883583
+2009.349 (3) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2009.696 (3) Google Drive: quota usage: used=383.4 MB, total=15360 MB, available=14976.6 MB
+2009.754 (3) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+2009.896 (3) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: upload already began; attempting to resume from byte 3932159
+2012.107 (3) Googledrive chunked upload: 100 % uploaded (3932160)
+2012.688 (3) Google Drive: OK: Archive backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip uploaded in 2.87 seconds
+2012.795 (3) Recording as successfully uploaded: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip
+2012.926 (3) Deleting local file: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: OK
+2013.281 (3) Google Drive: quota usage: used=387.7 MB, total=15360 MB, available=14972.3 MB
+2014.000 (3) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+2015.297 (3) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: upload already began; attempting to resume from byte 1835007
+2018.942 (3) Googledrive chunked upload: 100 % uploaded (1835008)
+2020.410 (3) Google Drive: OK: Archive backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip uploaded in 5.26 seconds
+2020.502 (3) Recording as successfully uploaded: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip
+2021.033 (3) Deleting local file: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: OK
+2021.591 (3) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2021.719 (3) Number of backup sets in history: 2; groups (db): 1
+2021.880 (3) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+2021.961 (3) This backup set is the backup set just made, so will not be deleted.
+2021.962 (3) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+2021.962 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+2022.013 (3) Number of backup sets in history: 2; groups (files): 1
+2022.117 (3) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+2022.117 (3) This backup set is the backup set just made, so will not be deleted.
+2022.183 (3) This backup set is the backup set just made, so will not be deleted.
+2022.184 (3) This backup set is the backup set just made, so will not be deleted.
+2022.185 (3) This backup set is the backup set just made, so will not be deleted.
+2022.185 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+2022.235 (3) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+2022.235 (3) This backup set remains non-empty (f=1/d=1); will retain in history
+2022.236 (3) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2022.617 (3) Resume backup (ee8f6b8b91da, 3): finish run
+2022.829 (3) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2022.939 (3) The backup has not finished; a resumption is scheduled
+2488.354 (4) Opened log file at time: Tue, 16 Mar 2021 10:42:17 +0000 on http://localhost/TestWordPress/wordpress
+2488.537 (4) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+2488.677 (4) Free space on disk containing Updraft's temporary directory: 381904.5 MB
+2489.051 (4) Backup run: resumption=4, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (2489s ago), job type=backup, previous check-in=135s
+2489.169 (4) Scheduling a resumption (5) after 600 seconds (1615891938) in case this run gets aborted
+2489.384 (4) Checking if we have a zip executable available
+2489.470 (4) Creation of backups of directories: already finished
+2489.549 (4) Saving backup status to database (elements: 8)
+2489.914 (4) Database dump (WordPress DB): Creation was completed already
+2490.439 (4) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+2490.604 (4) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+2490.680 (4) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+2490.758 (4) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has already been successfully uploaded
+2491.338 (4) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has already been successfully uploaded
+2491.514 (4) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has already been successfully uploaded
+2491.970 (4) Saving backup history. Total backup size: Unknown
+2492.236 (4) Requesting upload of the files that have not yet been successfully uploaded (2)
+2492.747 (4) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+2493.039 (4) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+2494.235 (4) Google Drive: quota usage: used=390.3 MB, total=15360 MB, available=14969.7 MB
+2494.325 (4) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+2494.481 (4) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: upload already began; attempting to resume from byte 5767167
+2554.885 (4) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2554.967 (4) An error condition has occurred for the first time during this job
+2555.286 (4) Google Drive: quota usage: used=390.3 MB, total=15360 MB, available=14969.7 MB
+2555.331 (4) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+2555.440 (4) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: upload already began; attempting to resume from byte 3932159
+2615.962 (4) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+2616.161 (4) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+2616.218 (4) Number of backup sets in history: 2; groups (db): 1
+2616.395 (4) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+2616.473 (4) This backup set is the backup set just made, so will not be deleted.
+2616.473 (4) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+2616.474 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2616.517 (4) Number of backup sets in history: 2; groups (files): 1
+2616.572 (4) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+2616.572 (4) This backup set is the backup set just made, so will not be deleted.
+2616.605 (4) This backup set is the backup set just made, so will not be deleted.
+2616.606 (4) This backup set is the backup set just made, so will not be deleted.
+2616.606 (4) This backup set is the backup set just made, so will not be deleted.
+2616.606 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2616.650 (4) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+2616.651 (4) This backup set remains non-empty (f=1/d=1); will retain in history
+2616.651 (4) Retain: saving new backup history (sets now: 2) and finishing retain operation
+2616.801 (4) Resume backup (ee8f6b8b91da, 4): finish run
+2616.861 (4) There were errors in the uploads, so the 'resume' event is remaining scheduled
+2616.939 (4) The backup has not finished; a resumption is scheduled
+3162.455 (5) Opened log file at time: Tue, 16 Mar 2021 10:53:31 +0000 on http://localhost/TestWordPress/wordpress
+3162.506 (5) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+3162.551 (5) Free space on disk containing Updraft's temporary directory: 381720.4 MB
+3162.761 (5) Backup run: resumption=5, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (3162s ago), job type=backup
+3163.518 (5) Scheduling a resumption (6) after 600 seconds (1615892612) in case this run gets aborted
+3163.756 (5) Checking if we have a zip executable available
+3163.795 (5) Creation of backups of directories: already finished
+3163.865 (5) Saving backup status to database (elements: 8)
+3163.984 (5) Database dump (WordPress DB): Creation was completed already
+3164.453 (5) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+3164.596 (5) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+3164.663 (5) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+3164.730 (5) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has already been successfully uploaded
+3164.840 (5) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has already been successfully uploaded
+3164.872 (5) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has already been successfully uploaded
+3164.917 (5) Saving backup history. Total backup size: Unknown
+3164.995 (5) Requesting upload of the files that have not yet been successfully uploaded (2)
+3165.118 (5) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+3165.229 (5) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+3169.347 (5) Google Drive: quota usage: used=390.3 MB, total=15360 MB, available=14969.7 MB
+3169.396 (5) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+3169.547 (5) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: upload already began; attempting to resume from byte 6815743
+3230.036 (5) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+3230.086 (5) An error condition has occurred for the first time during this job
+3230.408 (5) Google Drive: quota usage: used=390.3 MB, total=15360 MB, available=14969.7 MB
+3230.441 (5) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+3230.536 (5) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: upload already began; attempting to resume from byte 4718591
+3231.720 (5) Googledrive chunked upload: 49.5 % uploaded (5767168)
+3292.011 (5) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+3293.721 (5) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+3293.930 (5) Number of backup sets in history: 2; groups (db): 1
+3294.108 (5) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+3294.265 (5) This backup set is the backup set just made, so will not be deleted.
+3294.266 (5) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+3294.266 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3294.442 (5) Number of backup sets in history: 2; groups (files): 1
+3294.547 (5) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+3294.547 (5) This backup set is the backup set just made, so will not be deleted.
+3294.732 (5) This backup set is the backup set just made, so will not be deleted.
+3294.732 (5) This backup set is the backup set just made, so will not be deleted.
+3294.733 (5) This backup set is the backup set just made, so will not be deleted.
+3294.733 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3294.921 (5) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+3294.922 (5) This backup set remains non-empty (f=1/d=1); will retain in history
+3294.922 (5) Retain: saving new backup history (sets now: 2) and finishing retain operation
+3295.677 (5) Resume backup (ee8f6b8b91da, 5): finish run
+3295.774 (5) There were errors in the uploads, so the 'resume' event is remaining scheduled
+3295.901 (5) The backup has not finished; a resumption is scheduled
+11436.407 (6) Opened log file at time: Tue, 16 Mar 2021 13:11:25 +0000 on http://localhost/TestWordPress/wordpress
+11436.813 (6) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+11439.166 (6) Free space on disk containing Updraft's temporary directory: 381765 MB
+11440.844 (6) Backup run: resumption=6, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (11440s ago), job type=backup, previous check-in=69.1s
+11441.340 (6) Long time past since expected resumption time: approx expected=1615892680.5, now=1615900285.4, diff=7604.9
+11442.077 (6) [Warning] Your website is visited infrequently and UpdraftPlus is not getting the resources it hoped for; please read this page: https://updraftplus.com/faqs/why-am-i-getting-warnings-about-my-site-not-having-enough-visitors/
+11442.962 (6) Scheduling a resumption (7) after 600 seconds (1615900891) in case this run gets aborted
+11443.962 (6) Checking if we have a zip executable available
+11444.640 (6) Creation of backups of directories: already finished
+11444.941 (6) Saving backup status to database (elements: 8)
+11445.355 (6) Database dump (WordPress DB): Creation was completed already
+11445.763 (6) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+11446.090 (6) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+11446.222 (6) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+11446.351 (6) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has already been successfully uploaded
+11446.533 (6) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has already been successfully uploaded
+11447.011 (6) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has already been successfully uploaded
+11447.640 (6) Saving backup history. Total backup size: Unknown
+11448.600 (6) Requesting upload of the files that have not yet been successfully uploaded (2)
+11449.378 (6) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+11449.467 (6) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+11452.252 (6) Google Drive: quota usage: used=390.3 MB, total=15360 MB, available=14969.7 MB
+11452.329 (6) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+11452.635 (6) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: upload already began; attempting to resume from byte 7864319
+11513.162 (6) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+11513.253 (6) An error condition has occurred for the first time during this job
+11513.579 (6) Google Drive: quota usage: used=390.3 MB, total=15360 MB, available=14969.7 MB
+11513.608 (6) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+11513.696 (6) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: upload already began; attempting to resume from byte 6553599
+11514.692 (6) Googledrive chunked upload: 65.3 % uploaded (7602176)
+11574.965 (6) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+11575.070 (6) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+11575.122 (6) Number of backup sets in history: 2; groups (db): 1
+11575.176 (6) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+11575.209 (6) This backup set is the backup set just made, so will not be deleted.
+11575.209 (6) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+11575.209 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+11575.243 (6) Number of backup sets in history: 2; groups (files): 1
+11575.276 (6) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+11575.276 (6) This backup set is the backup set just made, so will not be deleted.
+11575.310 (6) This backup set is the backup set just made, so will not be deleted.
+11575.310 (6) This backup set is the backup set just made, so will not be deleted.
+11575.311 (6) This backup set is the backup set just made, so will not be deleted.
+11575.311 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+11575.343 (6) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+11575.343 (6) This backup set remains non-empty (f=1/d=1); will retain in history
+11575.343 (6) Retain: saving new backup history (sets now: 2) and finishing retain operation
+11575.431 (6) Resume backup (ee8f6b8b91da, 6): finish run
+11575.509 (6) There were errors in the uploads, so the 'resume' event is remaining scheduled
+11575.598 (6) The backup has not finished; a resumption is scheduled
+12044.975 (7) Opened log file at time: Tue, 16 Mar 2021 13:21:33 +0000 on http://localhost/TestWordPress/wordpress
+12045.119 (7) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+12045.173 (7) Free space on disk containing Updraft's temporary directory: 381666.9 MB
+12045.273 (7) Backup run: resumption=7, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (12045s ago), job type=backup, previous check-in=78.1s
+12045.362 (7) Scheduling a resumption (8) after 600 seconds (1615901494) in case this run gets aborted
+12045.524 (7) Checking if we have a zip executable available
+12045.576 (7) Creation of backups of directories: already finished
+12045.618 (7) Saving backup status to database (elements: 8)
+12045.725 (7) Database dump (WordPress DB): Creation was completed already
+12045.775 (7) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+12045.863 (7) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+12045.906 (7) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+12045.929 (7) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has already been successfully uploaded
+12045.962 (7) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has already been successfully uploaded
+12045.985 (7) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has already been successfully uploaded
+12046.029 (7) Saving backup history. Total backup size: Unknown
+12046.151 (7) Requesting upload of the files that have not yet been successfully uploaded (2)
+12046.507 (7) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+12046.584 (7) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+12048.118 (7) Google Drive: quota usage: used=390.3 MB, total=15360 MB, available=14969.7 MB
+12048.162 (7) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+12048.357 (7) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: upload already began; attempting to resume from byte 8650751
+12108.681 (7) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+12108.718 (7) An error condition has occurred for the first time during this job
+12109.197 (7) Google Drive: quota usage: used=390.3 MB, total=15360 MB, available=14969.7 MB
+12109.229 (7) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+12109.409 (7) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: upload already began; attempting to resume from byte 8388607
+12110.441 (7) Googledrive chunked upload: 81 % uploaded (9437184)
+12111.393 (7) Googledrive chunked upload: 90 % uploaded (10485760)
+12171.544 (7) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+12171.609 (7) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+12171.631 (7) Number of backup sets in history: 2; groups (db): 1
+12171.664 (7) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+12171.697 (7) This backup set is the backup set just made, so will not be deleted.
+12171.697 (7) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+12171.697 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+12171.731 (7) Number of backup sets in history: 2; groups (files): 1
+12171.775 (7) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+12171.775 (7) This backup set is the backup set just made, so will not be deleted.
+12171.810 (7) This backup set is the backup set just made, so will not be deleted.
+12171.811 (7) This backup set is the backup set just made, so will not be deleted.
+12171.811 (7) This backup set is the backup set just made, so will not be deleted.
+12171.812 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+12171.842 (7) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+12171.842 (7) This backup set remains non-empty (f=1/d=1); will retain in history
+12171.843 (7) Retain: saving new backup history (sets now: 2) and finishing retain operation
+12171.908 (7) Resume backup (ee8f6b8b91da, 7): finish run
+12171.994 (7) There were errors in the uploads, so the 'resume' event is remaining scheduled
+12172.086 (7) The backup has not finished; a resumption is scheduled
+12776.164 (8) Opened log file at time: Tue, 16 Mar 2021 13:33:45 +0000 on http://localhost/TestWordPress/wordpress
+12776.286 (8) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+12776.408 (8) Free space on disk containing Updraft's temporary directory: 381674.8 MB
+12776.743 (8) Backup run: resumption=8, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (12776s ago), job type=backup, previous check-in=66.4s
+12777.050 (8) Time passed on previous resumptions: 0:539.5 1:69.6 2:197.7 3:135 4:? 5:69.1 6:78.1 7:66.4  (known: 7, max: 540)
+12777.119 (8) Based on the available data, we are bringing the resumption interval down to: 592 seconds
+12777.277 (8) Scheduling a resumption (9) after 592 seconds (1615902218) in case this run gets aborted
+12777.483 (8) Checking if we have a zip executable available
+12777.643 (8) Creation of backups of directories: already finished
+12777.688 (8) Saving backup status to database (elements: 8)
+12777.879 (8) Database dump (WordPress DB): Creation was completed already
+12778.087 (8) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+12778.131 (8) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+12778.164 (8) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has not yet been successfully uploaded: will queue
+12778.186 (8) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has already been successfully uploaded
+12778.209 (8) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has already been successfully uploaded
+12778.230 (8) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has already been successfully uploaded
+12778.253 (8) Saving backup history. Total backup size: Unknown
+12778.298 (8) Requesting upload of the files that have not yet been successfully uploaded (2)
+12778.342 (8) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+12778.364 (8) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+12779.433 (8) Google Drive: quota usage: used=390.3 MB, total=15360 MB, available=14969.7 MB
+12779.475 (8) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+12779.616 (8) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: upload already began; attempting to resume from byte 9437183
+12780.500 (8) Googledrive chunked upload: 27.1 % uploaded (10485760)
+12840.638 (8) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+12840.708 (8) An error condition has occurred for the first time during this job
+12841.021 (8) Google Drive: quota usage: used=390.3 MB, total=15360 MB, available=14969.7 MB
+12841.099 (8) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+12841.309 (8) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: upload already began; attempting to resume from byte 11272191
+12842.985 (8) Googledrive chunked upload: 100 % uploaded (11272192)
+12843.701 (8) Google Drive: OK: Archive backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip uploaded in 2.49 seconds
+12843.796 (8) Recording as successfully uploaded: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip
+12843.988 (8) Deleting local file: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: OK
+12844.145 (8) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+12844.202 (8) Number of backup sets in history: 2; groups (db): 1
+12844.517 (8) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+12844.587 (8) This backup set is the backup set just made, so will not be deleted.
+12844.588 (8) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+12844.588 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+12844.621 (8) Number of backup sets in history: 2; groups (files): 1
+12844.910 (8) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+12844.910 (8) This backup set is the backup set just made, so will not be deleted.
+12844.991 (8) This backup set is the backup set just made, so will not be deleted.
+12845.043 (8) This backup set is the backup set just made, so will not be deleted.
+12845.044 (8) This backup set is the backup set just made, so will not be deleted.
+12845.044 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+12845.100 (8) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+12845.100 (8) This backup set remains non-empty (f=1/d=1); will retain in history
+12845.101 (8) Retain: saving new backup history (sets now: 2) and finishing retain operation
+12845.191 (8) Resume backup (ee8f6b8b91da, 8): finish run
+12845.288 (8) There were errors in the uploads, so the 'resume' event is remaining scheduled
+12845.443 (8) The backup has not finished; a resumption is scheduled
+13373.453 (9) Opened log file at time: Tue, 16 Mar 2021 13:43:42 +0000 on http://localhost/TestWordPress/wordpress
+13373.518 (9) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+13373.562 (9) Free space on disk containing Updraft's temporary directory: 381682.2 MB
+13373.673 (9) Backup run: resumption=9, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (13373s ago), job type=backup, previous check-in=66.7s
+13373.784 (9) Scheduling a resumption (10) after 592 seconds (1615902814) in case this run gets aborted
+13373.888 (9) Creation of backups of directories: already finished
+13373.947 (9) Saving backup status to database (elements: 8)
+13374.079 (9) Database dump (WordPress DB): Creation was completed already
+13374.369 (9) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+13374.463 (9) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+13374.523 (9) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has already been successfully uploaded
+13374.578 (9) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has already been successfully uploaded
+13374.629 (9) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has already been successfully uploaded
+13374.684 (9) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has already been successfully uploaded
+13374.740 (9) Saving backup history. Total backup size: Unknown
+13374.851 (9) Requesting upload of the files that have not yet been successfully uploaded (1)
+13374.951 (9) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+13374.990 (9) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+13375.998 (9) Google Drive: quota usage: used=401.4 MB, total=15360 MB, available=14958.6 MB
+13376.140 (9) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+13376.321 (9) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: upload already began; attempting to resume from byte 11272191
+13377.250 (9) Googledrive chunked upload: 31.9 % uploaded (12320768)
+13437.403 (9) Google Drive: Upload error: Operation timed out after 59999 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+13437.446 (9) An error condition has occurred for the first time during this job
+13437.513 (9) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+13437.548 (9) Number of backup sets in history: 2; groups (db): 1
+13437.580 (9) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+13437.613 (9) This backup set is the backup set just made, so will not be deleted.
+13437.614 (9) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+13437.614 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+13437.657 (9) Number of backup sets in history: 2; groups (files): 1
+13437.691 (9) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+13437.691 (9) This backup set is the backup set just made, so will not be deleted.
+13437.724 (9) This backup set is the backup set just made, so will not be deleted.
+13437.724 (9) This backup set is the backup set just made, so will not be deleted.
+13437.725 (9) This backup set is the backup set just made, so will not be deleted.
+13437.725 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+13437.758 (9) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+13437.758 (9) This backup set remains non-empty (f=1/d=1); will retain in history
+13437.758 (9) Retain: saving new backup history (sets now: 2) and finishing retain operation
+13437.853 (9) Resume backup (ee8f6b8b91da, 9): finish run
+13437.897 (9) There were errors in the uploads, so the 'resume' event is remaining scheduled
+13438.009 (9) The backup has not finished; a resumption is scheduled
+13969.770 (10) Opened log file at time: Tue, 16 Mar 2021 13:53:38 +0000 on http://localhost/TestWordPress/wordpress
+13969.831 (10) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+13969.898 (10) Free space on disk containing Updraft's temporary directory: 381029.3 MB
+13970.015 (10) Backup run: resumption=10, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (13970s ago), job type=backup, previous check-in=3.7s
+13970.175 (10) Scheduling a resumption (11) after 592 seconds (1615903411) in case this run gets aborted
+13970.478 (10) Creation of backups of directories: already finished
+13970.635 (10) Saving backup status to database (elements: 8)
+13970.775 (10) Database dump (WordPress DB): Creation was completed already
+13970.835 (10) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+13970.924 (10) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+13970.986 (10) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has already been successfully uploaded
+13971.041 (10) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has already been successfully uploaded
+13971.101 (10) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has already been successfully uploaded
+13971.163 (10) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has already been successfully uploaded
+13971.230 (10) Saving backup history. Total backup size: Unknown
+13971.342 (10) Requesting upload of the files that have not yet been successfully uploaded (1)
+13971.668 (10) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+13971.801 (10) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+13973.037 (10) Google Drive: quota usage: used=401.4 MB, total=15360 MB, available=14958.6 MB
+13973.090 (10) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+13973.231 (10) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: upload already began; attempting to resume from byte 13369343
+14033.362 (10) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+14033.402 (10) An error condition has occurred for the first time during this job
+14033.458 (10) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+14033.494 (10) Number of backup sets in history: 2; groups (db): 1
+14033.536 (10) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+14033.570 (10) This backup set is the backup set just made, so will not be deleted.
+14033.570 (10) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+14033.570 (10) This backup set remains non-empty (f=1/d=1); will retain in history
+14033.615 (10) Number of backup sets in history: 2; groups (files): 1
+14033.664 (10) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+14033.664 (10) This backup set is the backup set just made, so will not be deleted.
+14033.702 (10) This backup set is the backup set just made, so will not be deleted.
+14033.702 (10) This backup set is the backup set just made, so will not be deleted.
+14033.702 (10) This backup set is the backup set just made, so will not be deleted.
+14033.702 (10) This backup set remains non-empty (f=1/d=1); will retain in history
+14033.736 (10) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+14033.736 (10) This backup set remains non-empty (f=1/d=1); will retain in history
+14033.736 (10) Retain: saving new backup history (sets now: 2) and finishing retain operation
+14033.803 (10) Resume backup (ee8f6b8b91da, 10): finish run
+14033.835 (10) There were errors in the uploads, so the 'resume' event is remaining scheduled
+14033.902 (10) The backup has not finished; a resumption is scheduled
+14565.652 (11) Opened log file at time: Tue, 16 Mar 2021 14:03:34 +0000 on http://localhost/TestWordPress/wordpress
+14565.669 (11) UpdraftPlus WordPress backup plugin (https://updraftplus.com): 1.16.29 WP: 5.7 PHP: 7.4.10 (apache2handler, Windows NT DESKTOP-U6AP6EQ 10.0 build 19041 (Windows 10) AMD64) MySQL: 10.4.14-MariaDB WPLANG: en_GB Server: Apache/2.4.46 (Win64) OpenSSL/1.1.1g PHP/7.4.10 safe_mode: 0 max_execution_time: 900 memory_limit: 512M (used: 57.7M | 6M) multisite: N openssl: OpenSSL 1.1.1g  21 Apr 2020 mcrypt: N LANG:  ZipArchive::addFile: Y
+14565.691 (11) Free space on disk containing Updraft's temporary directory: 381030 MB
+14565.735 (11) Backup run: resumption=11, nonce=ee8f6b8b91da, file_nonce=ee8f6b8b91da begun at=1615888849 (14565s ago), job type=backup
+14565.802 (11) The current run is resumption number 11, and there was nothing useful done on the last run (last useful run: 9) - will not schedule a further attempt until we see something useful happening this time
+14565.846 (11) Scheduling a resumption (12) after 592 seconds (1615904006); but the job will then be aborted unless something happens this time
+14565.937 (11) Creation of backups of directories: already finished
+14565.969 (11) Saving backup status to database (elements: 8)
+14566.024 (11) Database dump (WordPress DB): Creation was completed already
+14566.057 (11) SQL compatibility mode is: NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+14566.102 (11) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: plugins: This file has not yet been successfully uploaded: will queue
+14566.135 (11) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-themes.zip: themes: This file has already been successfully uploaded
+14566.157 (11) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-uploads.zip: uploads: This file has already been successfully uploaded
+14566.180 (11) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-others.zip: others: This file has already been successfully uploaded
+14566.202 (11) backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-db.gz: db: This file has already been successfully uploaded
+14566.224 (11) Saving backup history. Total backup size: Unknown
+14566.269 (11) Requesting upload of the files that have not yet been successfully uploaded (1)
+14566.313 (11) Cloud backup selection (1/1): googledrive with instance (1/1) (last)
+14566.335 (11) Beginning dispatch of backup to remote (googledrive) (instance identifier s-7b1d49609f0a979af1a79656c01d5950)
+14567.421 (11) Google Drive: quota usage: used=401.4 MB, total=15360 MB, available=14958.6 MB
+14567.479 (11) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: Attempting to upload to Google Drive (into folder id: 1s-Rj2UDyDWDEU9o7HThh9zxA1kAh3Rv9)
+14567.643 (11) Google Drive: backup_2021-03-16-1000_Art_amp_Pints_Online_ee8f6b8b91da-plugins.zip: upload already began; attempting to resume from byte 14417919
+14627.862 (11) Google Drive: Upload error: Operation timed out after 60000 milliseconds with 0 bytes received (line: 117, file: C:\xampp\htdocs\TestWordPress\wordpress\wp-content\plugins\updraftplus\includes\Google\IO\Curl.php)
+14627.892 (11) An error condition has occurred for the first time during this job
+14627.936 (11) Retain: beginning examination of existing backup sets; user setting: retain_files=2, retain_db=2
+14627.958 (11) Number of backup sets in history: 2; groups (db): 1
+14627.981 (11) Examining (for databases) backup set with group_id=0, nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+14628.013 (11) This backup set is the backup set just made, so will not be deleted.
+14628.013 (11) Examining (for databases) backup set with group_id=0, nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+14628.013 (11) This backup set remains non-empty (f=1/d=1); will retain in history
+14628.036 (11) Number of backup sets in history: 2; groups (files): 1
+14628.058 (11) Examining (for files) backup set with nonce=ee8f6b8b91da, datestamp=1615888849 (Mar 16 2021 10:00:49)
+14628.058 (11) This backup set is the backup set just made, so will not be deleted.
+14628.081 (11) This backup set is the backup set just made, so will not be deleted.
+14628.081 (11) This backup set is the backup set just made, so will not be deleted.
+14628.081 (11) This backup set is the backup set just made, so will not be deleted.
+14628.081 (11) This backup set remains non-empty (f=1/d=1); will retain in history
+14628.102 (11) Examining (for files) backup set with nonce=74b0151e95ea, datestamp=1615887400 (Mar 16 2021 09:36:40)
+14628.102 (11) This backup set remains non-empty (f=1/d=1); will retain in history
+14628.103 (11) Retain: saving new backup history (sets now: 2) and finishing retain operation
+14628.147 (11) Resume backup (ee8f6b8b91da, 11): finish run
+14628.170 (11) The resumption is being cancelled, as it was only scheduled to enable error reporting, which can be performed now
+14628.214 (11) Fetching RSS news feed
+14629.236 (11) Fetched RSS news feed; result is a: SimplePie
+14629.348 (11) Sending email ('Files and database (Full backup)') report (attachments: 1, size: 114 KB) to: kevhy...
+14629.495 (11) The backup attempt has finished, apparently unsuccessfully

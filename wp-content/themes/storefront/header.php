@@ -57,6 +57,16 @@
 
 	</header><!-- #masthead -->
 
+	<?php 
+		function scaleImage($imagePath)
+		{
+			$imagick = new \Imagick(realpath($imagePath));
+			$imagick->scaleImage(150, 150, true);
+			header("Content-Type: image/jpg");
+			echo $imagick->getImageBlob();
+		}
+	?>
+
 	<?php
 	/**
 	 * Functions hooked in to storefront_before_content

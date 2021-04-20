@@ -784,9 +784,9 @@ body {
     color: #333437; }
   .site-footer a {
     color: #2c2d33;
-    text-decoration: underline; }
+    text-decoration: none; }
     .site-footer a:hover {
-      text-decoration: none; }
+      text-decoration: underline; }
     .site-footer a.button, .site-footer a.components-button:not(.is-link), .site-footer a.wp-block-button__link {
       text-decoration: none; }
 
@@ -2989,6 +2989,8 @@ button.menu-toggle {
       width: 256px;
       height: 63px;
       margin-right: 250px;
+      top: 26%;
+      position: relative;
     }
 
     .mainInfo {
@@ -3048,7 +3050,9 @@ button.menu-toggle {
     }
 
     li.product.type-product.post-165.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple{
-      right: 10px;
+      right: -95px;
+      width: 258px;
+      height: 333px;
     }
 
 
@@ -3070,7 +3074,8 @@ button.menu-toggle {
 
     li.product.type-product.post-170.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
       top: -21px;
-      margin-left: -15%;
+      margin-left: 5%;
+      width: 269px;
     }
 
     li.product.type-product.post-170.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
@@ -3092,8 +3097,9 @@ button.menu-toggle {
     li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
       float: right;
       position: relative;
-      right: 32%;
+      right: 37.5%;
       bottom: 2.5%;
+      width: 249px;
     }
 
     li.product.type-product.post-174.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
@@ -3114,9 +3120,10 @@ button.menu-toggle {
 
 
     li.product.type-product.post-181.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      margin-top: -28.5%;
+      margin-top: -29.5%;
       float: right;
-      margin-right: 12%;
+      margin-right: 19%;
+      width: 239px;
     }
 
     li.product.type-product.post-181.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3138,7 +3145,8 @@ button.menu-toggle {
     li.product.type-product.post-183.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
       margin-top: -10px;
       float: left;
-      margin-left: -20px;
+      margin-left: 89px;
+      width: 255px;
     }
 
     li.product.type-product.post-183.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3159,7 +3167,7 @@ button.menu-toggle {
 
     li.product.type-product.post-187.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
       margin-top: 6px;
-      margin-left: -14%;
+      width: 265px;
     }
 
     li.product.type-product.post-187.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2 {
@@ -3182,7 +3190,8 @@ button.menu-toggle {
       margin-top: -463px;
       float: right;
       position: relative;
-      right: 26%;
+      right: 32%;
+      width: 255px;
     }
 
     li.product.type-product.post-196.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3204,8 +3213,9 @@ button.menu-toggle {
     li.product.type-product.post-198.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
       float: right;
       position: relative;
-      top: -34.7%;
-      right: 8%;
+      top: -35%;
+      right: 16%;
+      width: 222px;
     }
 
     li.product.type-product.post-198.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3226,7 +3236,9 @@ button.menu-toggle {
 
     li.product.type-product.post-200.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
       margin-top: 66px;
+      left: 6%;
       float: left;
+      width: 274px;
     }
 
     li.product.type-product.post-200.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3246,8 +3258,9 @@ button.menu-toggle {
     }
 
     li.product.type-product.post-202.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      margin-top: -29.5%;
-      margin-left: 20.5%;
+      margin-top: -30%;
+      margin-left: 26.5%;
+      width: 268px;
     }
 
     li.product.type-product.post-202.status-publish.first.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3267,10 +3280,11 @@ button.menu-toggle {
     }
 
     li.product.type-product.post-204.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      margin-top: -28.5%;
+      margin-top: -29%;
       float: right;
       position: relative;
-      right: 26%;
+      right: 32%;
+      width: 255px;
     }
 
     li.product.type-product.post-204.status-publish.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3292,10 +3306,10 @@ button.menu-toggle {
 
 
     li.product.type-product.post-206.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple {
-      margin-top: -29.1%;
+      margin-top: -30%;
       float: right;
       position: relative;
-      left: 24%;
+      width: 217px;
     }
 
     li.product.type-product.post-206.status-publish.last.instock.product_cat-new-prints.has-post-thumbnail.shipping-taxable.purchasable.product-type-simple h2{
@@ -3376,7 +3390,7 @@ button.menu-toggle {
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px 18px #888888;
-    display: block;
+    display: none;
   }
 
   #reviews .comment-form-rating label {
